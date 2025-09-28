@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Agricultural theme design system with fresh greens and earth tones. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Agricultural color palette */
+    --background: 0 0% 99%;
+    --foreground: 125 50% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 125 50% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 125 50% 8%;
+
+    /* Primary green - fresh agricultural green */
+    --primary: 122 39% 49%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 122 39% 60%;
+    --primary-dark: 122 39% 35%;
+
+    /* Secondary earth tones */
+    --secondary: 120 20% 96%;
+    --secondary-foreground: 125 50% 8%;
+
+    --muted: 120 10% 95%;
+    --muted-foreground: 125 20% 45%;
+
+    /* Accent warm green */
+    --accent: 85 60% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 120 20% 85%;
+    --input: 120 20% 85%;
+    --ring: 122 39% 49%;
+
+    /* Orange CTA color */
+    --orange: 25 95% 53%;
+    --orange-foreground: 0 0% 100%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-hero: linear-gradient(135deg, hsl(122 60% 95%), hsl(85 40% 90%));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(120 20% 98%));
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 125 25% 8%;
+    --foreground: 120 20% 95%;
+
+    --card: 125 20% 10%;
+    --card-foreground: 120 20% 95%;
+
+    --popover: 125 20% 10%;
+    --popover-foreground: 120 20% 95%;
+
+    --primary: 122 39% 60%;
+    --primary-foreground: 125 25% 8%;
+
+    --secondary: 125 15% 15%;
+    --secondary-foreground: 120 20% 95%;
+
+    --muted: 125 15% 15%;
+    --muted-foreground: 120 15% 65%;
+
+    --accent: 85 60% 60%;
+    --accent-foreground: 125 25% 8%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 120 20% 95%;
+
+    --border: 125 15% 20%;
+    --input: 125 15% 20%;
+    --ring: 122 39% 60%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
