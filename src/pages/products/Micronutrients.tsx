@@ -3,6 +3,7 @@ import { Footer } from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import agrominGold from '@/assets/agromin-gold.png';
+import { Link } from 'react-router-dom';
 
 const Micronutrients = () => {
   const products = [
@@ -111,7 +112,7 @@ const Micronutrients = () => {
             </p>
             <a href="tel:1234567890">
               <Button size="lg" className="bg-orange hover:bg-orange/90 text-orange-foreground">
-                Contact Technical Team
+                <Link to="/contact-us" className="block text-background/80 hover:text-background transition-colors">Contact  Technical Team</Link>
               </Button>
             </a>
           </div>

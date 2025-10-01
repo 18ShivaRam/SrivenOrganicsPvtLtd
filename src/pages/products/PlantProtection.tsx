@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import plantomycin from '@/assets/plantomycin.png';
 import haasil from '@/assets/haasil.png';
+import { Link } from 'react-router-dom';
 
 const PlantProtection = () => {
   const products = [
@@ -132,7 +133,7 @@ const PlantProtection = () => {
             </p>
             <a href="tel:1234567890">
               <Button size="lg" className="bg-orange hover:bg-orange/90 text-orange-foreground">
-                Get Protection Program
+                <Link to="/contact-us" className="block text-background/80 hover:text-background transition-colors">Get Protection Program</Link>
               </Button>
             </a>
           </div>

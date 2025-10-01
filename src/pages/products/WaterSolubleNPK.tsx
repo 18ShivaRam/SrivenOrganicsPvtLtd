@@ -2,6 +2,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const WaterSolubleNPK = () => {
   const products = [
@@ -136,7 +137,7 @@ const WaterSolubleNPK = () => {
             </p>
             <a href="tel:1234567890">
               <Button size="lg" className="bg-orange hover:bg-orange/90 text-orange-foreground">
-                Get Fertigation Program
+                 <Link to="/contact-us" className="block text-background/80 hover:text-background transition-colors">Get Fertigation Program</Link>
               </Button>
             </a>
           </div>

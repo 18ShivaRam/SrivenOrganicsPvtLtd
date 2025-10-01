@@ -178,7 +178,7 @@ const ContactUs = () => {
                       <h3 className="font-semibold text-foreground mb-2">Head Office</h3>
                       <p className="text-muted-foreground">
                         Sriven Organics Limited<br />
-                        Flat no 502, Classic Arcade, Plot no.492, Road No. 3/2, Mathrusree Nagar, Hafeezpet, Hyderabad, Telangana 500049, India.
+                        Flat no 502, Classic Arcade, Plot no.492, Road No. 3/2, Mathrusree Nagar, Hafeezpet, Hyderabad, Telangana 500049
                       </p>
                     </div>
                   </div>
@@ -194,7 +194,7 @@ const ContactUs = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-2">Phone</h3>
                       <p className="text-muted-foreground">
-                        +91-22-XXXX-XXXX<br />
+                        +91-9000329696<br />
                         +91-22-XXXX-XXXX
                       </p>
                     </div>
@@ -211,8 +211,8 @@ const ContactUs = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-2">Email</h3>
                       <p className="text-muted-foreground">
-                      srivenorganicspvtltd@gmail.com<br />
-                      support@srivenorganics.com
+                        srivenorganicspvtltd@gmail.com<br />
+                        support@srivenorganics.com
                       </p>
                     </div>
                   </div>

@@ -3,7 +3,7 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { useNavigate } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
 const allCrops = [
   {
     id: 1,
@@ -256,7 +256,7 @@ const Crops = () => {
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground"
             >
-              Contact Our Experts
+              <Link to="/contact-us" className="block text-background/80 hover:text-background transition-colors">Contact Our Experts</Link>
             </Button>
           </a>
         </div>
