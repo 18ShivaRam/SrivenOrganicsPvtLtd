@@ -15,7 +15,7 @@ const crops = [
   {
     name: 'Sugarcane',
     slug: 'sugarcane',
-    image:'public\crops\sugarcane\sugarcane.jpg'
+    image:'public/crops/sugarcane/sugarcane.jpg',
     // image: 'src/assets/crops/sugarcane/sugarcane.jpg',
   },
   {
