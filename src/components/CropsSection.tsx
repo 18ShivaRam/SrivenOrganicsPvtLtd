@@ -21,42 +21,42 @@ const crops = [
   {
     name: 'Grape',
     slug: 'grape',
-    image: 'src/assets/crops/grape/grape.jpg',
+    image: '/crops/grape/grape.jpg',
   },
   {
     name: 'Coffee',
     slug: 'coffee',
-    image: 'src/assets/crops/coffee/coffee.jpg',
+    image: '/crops/coffee/coffee.jpg',
   },
   {
     name: 'Cotton',
     slug: 'cotton',
-    image: 'src/assets/crops/cotton/cotton.jpg',
+    image: '/crops/cotton/cotton.jpg',
   },
   {
     name: 'Pomegranate',
     slug: 'pomegranate',
-    image: 'src/assets/crops/pomegranate/pomegranate.jpg',
+    image: '/crops/pomegranate/pomegranate.jpg',
   },
   {
     name: 'Mango',
     slug: 'mango',
-    image: 'src/assets/crops/mango/mango.jpg',
+    image: '/crops/mango/mango.jpg',  
   },
   {
     name: 'Banana',
     slug: 'banana',
-    image: 'src/assets/crops/banana/banana.jpg',
+    image: '/crops/banana/banana.jpg',
   },
   {
     name: 'Rose',
     slug: 'rose',
-    image: 'src/assets/crops/rose/rose.jpg',
+    image: '/crops/rose/rose.jpg',
   },
   {
     name: 'Turmeric',
     slug: 'turmeric',
-    image: 'src/assets/crops/turmeric/turmeric.jpg',
+    image: '/crops/turmeric/turmeric.jpg',
   },
 ];
 
