@@ -194,8 +194,8 @@ const ContactUs = () => {
                     <div>
                       <h3 className="font-semibold text-foreground mb-2">Phone</h3>
                       <p className="text-muted-foreground">
-                        +91-9000329696<br />
-                        +91-22-XXXX-XXXX
+                        +91 9392785600<br />
+                        
                       </p>
                     </div>
                   </div>
@@ -212,7 +212,7 @@ const ContactUs = () => {
                       <h3 className="font-semibold text-foreground mb-2">Email</h3>
                       <p className="text-muted-foreground">
                         srivenorganicspvtltd@gmail.com<br />
-                        support@srivenorganics.com
+                        {/* support@srivenorganics.com */}
                       </p>
                     </div>
                   </div>
