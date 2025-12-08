@@ -12,7 +12,7 @@ const Equipment = () => {
       link: "/agriculture-drones"
     },
     {
-      name: "Aries Electronic Soil Testing Kit",
+      name: "Sriven Organics Electronic Soil Testing Kit",
       description: "Comprehensive electronic soil analysis equipment for accurate nutrient management and soil health assessment.",
       image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop",
       link: "/soil-testing-kits"
@@ -27,7 +27,7 @@ const Equipment = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              ARIES AGRO AGRICULTURAL EQUIPMENT
+              SRIVEN ORGANICS AGRICULTURAL EQUIPMENT
             </h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Advanced agricultural equipment and technology solutions to support modern farming practices and maximize productivity.

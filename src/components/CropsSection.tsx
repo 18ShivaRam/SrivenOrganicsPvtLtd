@@ -15,47 +15,47 @@ const crops = [
   {
     name: 'Sugarcane',
     slug: 'sugarcane',
-    image: 'https://www.ariesagro.com/wp-content/uploads/2022/11/sugarcane1.png',
+    image: 'src/assets/crops/sugarcane/sugarcane.jpg',
   },
   {
     name: 'Grape',
     slug: 'grape',
-    image: 'https://www.ariesagro.com/wp-content/uploads/2022/11/graps.png',
+    image: 'src/assets/crops/grape/grape.jpg',
   },
   {
     name: 'Coffee',
     slug: 'coffee',
-    image: 'https://www.ariesagro.com/wp-content/uploads/2022/11/Group-1000005293.png',
+    image: 'src/assets/crops/coffee/coffee.jpg',
   },
   {
     name: 'Cotton',
     slug: 'cotton',
-    image: 'https://www.ariesagro.com/wp-content/uploads/2022/11/cotton1.png',
+    image: 'src/assets/crops/cotton/cotton.jpg',
   },
   {
     name: 'Pomegranate',
     slug: 'pomegranate',
-    image: 'https://images.unsplash.com/photo-1580910051429-72c7668ff72b?w=600&h=400&fit=crop',
+    image: 'src/assets/crops/pomegranate/pomegranate.jpg',
   },
   {
     name: 'Mango',
     slug: 'mango',
-    image: 'https://www.ariesagro.com/wp-content/uploads/2022/12/nitrogene-3.jpg',
+    image: 'src/assets/crops/mango/mango.jpg',
   },
   {
     name: 'Banana',
     slug: 'banana',
-    image: 'https://www.ariesagro.com/wp-content/uploads/2022/12/zinc-1.jpg',
+    image: 'src/assets/crops/banana/banana.jpg',
   },
   {
     name: 'Rose',
     slug: 'rose',
-    image: 'https://www.ariesagro.com/wp-content/uploads/2022/12/nit-1.jpg',
+    image: 'src/assets/crops/rose/rose.jpg',
   },
   {
     name: 'Turmeric',
     slug: 'turmeric',
-    image: 'https://www.ariesagro.com/wp-content/uploads/2022/12/nitro-3.jpg',
+    image: 'src/assets/crops/turmeric/turmeric.jpg',
   },
 ];
 

@@ -9,168 +9,168 @@ const allCrops = [
     id: 1,
     name: "Sugarcane",
     slug: "sugarcane",
-    image: "https://ariesagro.com/wp-content/uploads/2022/11/sugarcane1.png",
+    image: "src/assets/crops/sugarcane/sugarcane.jpg",
     description: "Comprehensive nutrition solutions for optimal sugarcane growth and yield enhancement."
   },
   {
     id: 2,
     name: "Grape",
     slug: "grape", 
-    image: "https://ariesagro.com/wp-content/uploads/2022/11/graps.png",
+    image: "src/assets/crops/grape/grape.jpg",
     description: "Specialized fertilizers and micronutrients for premium grape production."
   },
   {
     id: 3,
     name: "Coffee",
     slug: "coffee",
-    image: "https://ariesagro.com/wp-content/uploads/2022/11/Group-1000005293.png",
+    image: "src/assets/crops/coffee/coffee.jpg",
     description: "Complete nutrition program for coffee plantations and sustainable farming."
   },
   {
     id: 4,
     name: "Cotton",
     slug: "cotton",
-    image: "https://ariesagro.com/wp-content/uploads/2022/11/cotton1.png",
+    image: "src/assets/crops/cotton/cotton.jpeg",
     description: "Advanced crop nutrition solutions for high-quality cotton production."
   },
   {
     id: 5,
     name: "Banana",
     slug: "banana",
-    image: "https://ariesagro.com/wp-content/uploads/2022/11/banana1.png",
+    image: "src/assets/crops/banana/banana.jpg",
     description: "Tailored nutrition for healthy banana growth and improved fruit quality."
   },
   {
     id: 6,
     name: "Mango",
     slug: "mango",
-    image: "https://ariesagro.com/wp-content/uploads/2022/11/mango1.png",
+    image: "src/assets/crops/mango/mango.jpg",
     description: "Specialized fertilizer programs for mango orchards and fruit development."
   },
   {
     id: 7,
     name: "Tomato",
     slug: "tomato",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/tomato-1.jpg",
+    image: "src/assets/crops/tomato/tomato.jpg",
     description: "Advanced nutrition for healthy tomato fruit development and disease resistance."
   },
   {
     id: 8,
     name: "Wheat",
     slug: "wheat",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/wheat-1.jpg",
+    image: "src/assets/crops/wheat/wheat.jpg",
     description: "Complete nutrition for high-quality wheat grain production and protein content."
   },
   {
     id: 9,
     name: "Paddy",
     slug: "paddy",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/paddy-1.jpg",
+    image: "src/assets/crops/paddy/paddy.jpg",
     description: "Specialized nutrients for healthy rice grain production and tillering."
   },
   {
     id: 10,
     name: "Chilli",
     slug: "chilli",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/chilli-1.jpg",
+    image: "src/assets/crops/chilli/chilli.jpg",
     description: "Premium nutrition for spicy and quality chilli production with enhanced pungency."
   },
   {
     id: 11,
     name: "Cashew Nut",
     slug: "cashew-nut",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/cashew-1.jpg",
+    image: "src/assets/crops/cashew-nut/cashew-nut.jpeg",
     description: "Specialized nutrients for quality cashew nut development and tree health."
   },
   {
     id: 12,
     name: "Pomegranate",
     slug: "pomegranate",
-    image: "https://ariesagro.com/wp-content/uploads/2022/11/pomegranate1.png",
+    image: "src/assets/crops/pomegranate/pomegranate.jpg",
     description: "Complete nutrition solutions for pomegranate cultivation and yield optimization."
   },
   {
     id: 13,
     name: "Rose",
     slug: "rose",
-    image: "https://ariesagro.com/wp-content/uploads/2022/11/rose1.png",
+    image: "src/assets/crops/rose/rose.jpg",
     description: "Premium fertilizers for rose cultivation and flower quality enhancement."
   },
   {
     id: 14,
     name: "Turmeric",
     slug: "turmeric",
-    image: "https://ariesagro.com/wp-content/uploads/2022/11/turmeric1.png",
+    image: "src/assets/crops/turmeric/turmeric.jpeg",
     description: "Organic nutrition solutions for turmeric farming and curcumin content."
   },
   {
     id: 15,
     name: "Potato",
     slug: "potato",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/potato-1.jpg",
+    image: "src/assets/crops/potato/potato.jpg",
     description: "Balanced nutrition for healthy potato tuber development and storage quality."
   },
   {
     id: 16,
     name: "Cauliflower",
     slug: "cauliflower",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/cauliflower-1.jpg",
+    image: "src/assets/crops/cauliflower/cauliflower.jpeg",
     description: "Premium nutrition for quality cauliflower curd development and disease resistance."
   },
   {
     id: 17,
     name: "Citrus",
     slug: "citrus",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/citrus-1.jpg",
+    image: "src/assets/crops/citrus/citrus.jpg",
     description: "Complete citrus care solutions for healthy trees and premium quality fruits."
   },
   {
     id: 18,
     name: "Maize",
     slug: "maize",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/maize-1.jpg",
+    image: "src/assets/crops/maize/maize.jpeg",
     description: "Comprehensive maize nutrition for maximum yield and grain quality."
   },
   {
     id: 19,
     name: "Onion",
     slug: "onion",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/onion-1.jpg",
+    image: "src/assets/crops/onion/onion.jpg",
     description: "Complete onion cultivation solutions for uniform bulbs with excellent storage quality."
   },
   {
     id: 20,
     name: "Ginger",
     slug: "ginger",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/ginger-1.jpg",
+    image: "src/assets/crops/ginger/ginger.jpg",
     description: "Specialized ginger cultivation solutions for premium quality rhizomes."
   },
   {
     id: 21,
     name: "Watermelon",
     slug: "watermelon",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/watermelon-1.jpg",
+    image: "src/assets/crops/watermelon/watermelon.jpeg",
     description: "Complete watermelon cultivation solutions for sweet, juicy fruits."
   },
   {
     id: 22,
     name: "Groundnut",
     slug: "groundnut",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/groundnut-1.jpg",
+    image: "src/assets/crops/groundnut/groundnut.jpg",
     description: "Comprehensive groundnut cultivation solutions for high-quality pods with excellent oil content."
   },
   {
     id: 23,
     name: "Cocoa",
     slug: "cocoa",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/cocoa-1.jpg",
+    image: "src/assets/crops/cocoa/cocoa.jpg",
     description: "Specialized cocoa cultivation solutions for premium chocolate production."
   },
   {
     id: 24,
     name: "Papaya",
     slug: "papaya",
-    image: "https://ariesagro.com/wp-content/uploads/2022/12/papaya-1.jpg",
+    image: "src/assets/crops/papaya/papaya.jpeg",
     description: "Complete papaya cultivation solutions for sweet, nutritious fruits."
   }
 ];
