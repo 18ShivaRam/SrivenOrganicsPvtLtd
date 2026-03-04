@@ -5,12 +5,12 @@ import { Button } from '@/components/ui/button';
 import aboutCompany from '@/assets/about-company.jpg';
 const AboutUs = () => {
   const milestones = [
-    { year: "1969", title: "Foundation", description: "Sriven Organics was founded with small team at humble beginnings" },
-    { year: "1975", title: "Agricultural Expansion", description: "Diversified into nutrients for plants with introduction of metal chelates" },
-    { year: "1985", title: "Manufacturing Growth", description: "Established first dedicated manufacturing facility" },
-    { year: "2000", title: "Innovation Focus", description: "Launched corporate R&D initiatives for sustainable agriculture" },
-    { year: "2010", title: "Digital Transformation", description: "Embraced technology to serve farmers better" },
-    { year: "2020", title: "Sustainable Future", description: "Committed to eco-friendly and organic agricultural solutions" }
+    { year: "2016", title: "Foundation", description: "Sriven Organics was founded with small team at humble beginnings" },
+    { year: "2018", title: "Agricultural Expansion", description: "Diversified into nutrients for plants with introduction of metal chelates" },
+    { year: "2020", title: "Manufacturing Growth", description: "Established first dedicated manufacturing facility" },
+    { year: "2021", title: "Innovation Focus", description: "Launched corporate R&D initiatives for sustainable agriculture" },
+    { year: "2022", title: "Digital Transformation", description: "Embraced technology to serve farmers better" },
+    { year: "2022", title: "Sustainable Future", description: "Committed to eco-friendly and organic agricultural solutions" }
   ];
 
   const awards = [
@@ -21,10 +21,10 @@ const AboutUs = () => {
   ];
 
   const stats = [
-    { number: "50+", label: "Years of Experience" },
+    { number: "10+", label: "Years of Experience" },
     { number: "1M+", label: "Farmers Served" },
-    { number: "100+", label: "Products" },
-    { number: "25+", label: "States Covered" }
+    { number: "150+", label: "Products" },
+    { number: "5+", label: "States Covered" }
   ];
 
   return (
@@ -69,11 +69,11 @@ const AboutUs = () => {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-muted-foreground mb-6">
-                Sriven Organics Ltd. was founded by Mr. Yempati Vijaya Bhaskar Reddy  and Mr. Samba Shiva Reddy in 2016. We are in the business of manufacturing of micronutrients and other customized nutritional products for plants and animals. We started our activity by manufacturing a small range of mineral feed additives for animals & birds and then diversified into mineral additives for agriculture use.
+                Sriven Organics Ltd. was founded by Mr. Yampati Vijaya Bhaskara Reddy  and Mr. Samba Siva Reddy in 2016. We are in the business of manufacturing of micronutrients and other customized nutritional products for plants and animals. We started our activity by manufacturing a small range of mineral feed additives for animals & birds and then diversified into mineral additives for agriculture use.
               </p>
               
               <p className="text-lg text-muted-foreground mb-6">
-                In 1975, we diversified into nutrients for plants. We conducted research on compounds that could deliver mineral nutrients to plants more efficiently. This research identified "Metal Chelates".
+                In 2016, we diversified into nutrients for plants. We conducted research on compounds that could deliver mineral nutrients to plants more efficiently. This research identified "Metal Chelates".
               </p>
               
          
@@ -140,25 +140,7 @@ const AboutUs = () => {
           </div>
 
           {/* Awards & Recognition */}
-          <div className="mb-20">
-            <h2 className="text-4xl font-bold text-foreground mb-12 text-center">Awards & Recognition</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {awards.map((award, index) => (
-                <Card key={index} className="text-center hover:shadow-lg transition-all duration-300">
-                  <CardContent className="p-6">
-                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                      </svg>
-                    </div>
-                    <h3 className="font-semibold text-foreground mb-2">{award.title}</h3>
-                    <p className="text-sm text-muted-foreground mb-1">{award.year}</p>
-                    <p className="text-xs text-muted-foreground">{award.org}</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
+         
 
           {/* Values */}
           <div className="mb-20">
