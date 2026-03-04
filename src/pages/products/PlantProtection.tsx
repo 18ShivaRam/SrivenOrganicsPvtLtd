@@ -2,26 +2,27 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import plantomycin from '@/assets/plantomycin.png';
+import agrominGold from '@/assets/agromin-gold.png';
+import Mycin from '@/assets/Mycin.png';
 import haasil from '@/assets/haasil.png';
 import { Link } from 'react-router-dom';
 
 const PlantProtection = () => {
   const products = [
     {
-      name: "Plantomycin",
+      name: "Mycin",
       description: "Broad spectrum antibiotic bactericide for control of bacterial diseases in plants.",
       targetPests: ["Bacterial blight", "Fire blight", "Soft rot"],
-      image: "/src/assets/bio-fungicide.jpg",
+      image: agrominGold,
       contents: "Streptomycin sulphate 9% + Tetracycline Hydrochloride 1%"
     },
-    {
-      name: "Haasil (Imidacloprid 17.8% SL)",
-      description: "New generation systemic insecticide of Neo-nicotinoid group with excellent residual activity.",
-      targetPests: ["Aphids", "Thrips", "Whiteflies", "Termites"],
-      image: "/src/assets/bio-fungicide.jpg",
-      contents: "Imidacloprid 17.8% SL"
-    }
+    // {
+    //   name: "Haasil (Imidacloprid 17.8% SL)",
+    //   description: "New generation systemic insecticide of Neo-nicotinoid group with excellent residual activity.",
+    //   targetPests: ["Aphids", "Thrips", "Whiteflies", "Termites"],
+    //   image: "/src/assets/bio-fungicide.jpg",
+    //   contents: "Imidacloprid 17.8% SL"
+    // }
   ];
 
   return (
@@ -32,10 +33,10 @@ const PlantProtection = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Plant Protection
+              Biostimulants 
             </h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Checkout a range of highly productive plant protection products that can be used for protecting complete farms and crops from all kinds of threats.
+              Checkout a range of highly productive Biostimulants  products that can be used for protecting complete farms and crops from all kinds of threats.
             </p>
           </div>
           
@@ -82,7 +83,7 @@ const PlantProtection = () => {
                 Integrated Pest Management
               </h3>
               <p className="text-muted-foreground mb-4">
-                Our plant protection products are designed to work as part of an integrated pest management (IPM) approach, combining biological, cultural, and chemical controls for sustainable crop protection.
+                Our Biostimulants  products are designed to work as part of an integrated pest management (IPM) approach, combining biological, cultural, and chemical controls for sustainable crop protection.
               </p>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center">
@@ -105,7 +106,7 @@ const PlantProtection = () => {
                 Application Guidelines
               </h3>
               <p className="text-muted-foreground mb-4">
-                Proper application timing and techniques are crucial for effective plant protection. Our products come with detailed application guidelines for optimal results.
+                Proper application timing and techniques are crucial for effective Biostimulants . Our products come with detailed application guidelines for optimal results.
               </p>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center">
@@ -129,7 +130,7 @@ const PlantProtection = () => {
               Need Customized Protection Program?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Our plant protection specialists can design customized IPM programs based on your specific crop requirements and local pest pressures.
+              Our Biostimulants  specialists can design customized IPM programs based on your specific crop requirements and local pest pressures.
             </p>
             <a href="tel:1234567890">
               <Button size="lg" className="bg-orange hover:bg-orange/90 text-orange-foreground">

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const OrganicProducts = () => {
   const products = [
     {
-      name: "Bio-Compost Enhancer",
+      name: "Venorga Bio-Compost",
       description: "Accelerates composting process and improves compost quality.",
       benefits: ["Faster decomposition", "Rich in beneficial microbes", "Improves soil structure"],
     },

@@ -8,42 +8,42 @@ import { Link } from 'react-router-dom';
 const Micronutrients = () => {
   const products = [
     {
-      name: "Agromin Gold",
+      name: "Vengrowmin Gold",
       description: "Micronutrient chelate liquid with high concentration of micronutrients along with chelating agent.",
       features: ["Provides essential nutrients to crops", "Increases crop growth", "Partially chelated micronutrients"],
       image: agrominGold,
       contents: "Zinc as Zn-EDTA 3%, Manganese as Mn-EDTA 1%, Molybdenum as Mo 0.1%, Copper as Cu-EDTA 1%, Boron as B 1%, Iron as Fe-EDTA 2%"
     },
     {
-      name: "Agromin SA (Soil Application)",
+      name: "Nutri 7 (Soil Application)",
       description: "Essential plant nutrients in ideal predetermined proportions to prevent micronutrient deficiency.",
       features: ["Zinc, Iron, Manganese, Copper, Boron, Molybdenum", "Prevents nutrient deficiency", "For soil application"],
       image: agrominGold,
       contents: "Zinc as Zn 5%, Iron as Fe 2%, Manganese as Mn 1%, Boron as B 1%, Copper as Cu 1%, Molybdenum as Mo 0.1%"
     },
     {
-      name: "Mn-CHEL",
+      name: "Nutri-Mn",
       description: "Fine light brown colored powder, water soluble, prevents interveinal chlorosis of leaves.",
       features: ["Induces resistance to pests and diseases", "Water soluble", "Prevents chlorosis"],
       image: agrominGold,
-      contents: "Mn-CHEL Powder: Mn as Mn EDTA 9%, Mn-CHEL Liquid: Mn as Mn EDTA 8%"
+      contents: "Nutri-Mn Powder: Mn as Mn EDTA 9%, Nutri-Mn Liquid: Mn as Mn EDTA 8%"
     },
     {
-      name: "Chelamag",
+      name: "Nutrimag",
       description: "Fine white powder, 100% water soluble, ensures complete and rapid absorption into the soil.",
       features: ["Increases oil content of crops", "100% water soluble", "Rapid soil absorption"],
-    image: "/src/assets/fertimax-hd.png",
+    image: agrominGold,
       contents: "Mg as Mg EDTA 6%"
     },
     {
-      name: "Zinc EDTA",
+      name: "Nutri Zinc EDTA",
       description: "Chelated zinc formulation for better absorption and utilization by plants.",
       features: ["Prevents zinc deficiency", "Better plant absorption", "Chelated formulation"],
       image: agrominGold,
       contents: "Zinc as Zn-EDTA 12%"
     },
     {
-      name: "Iron EDTA",
+      name: "Nutri Iron EDTA",
       description: "Chelated iron formulation to prevent iron chlorosis and improve plant health.",
       features: ["Prevents iron chlorosis", "Improves photosynthesis", "Quick absorption"],
       image: agrominGold,

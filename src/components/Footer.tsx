@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import logo from '@/assets/sriven-logo.png';
+// import logo from '@/assets/sriven-logo.png';
+import logo from '@/assets/sriven-logo.jpg';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 export const Footer = () => {
@@ -67,7 +68,7 @@ export const Footer = () => {
               <Link to="/products/micronutrients" className="block text-background/80 hover:text-background transition-colors">Micronutrients</Link>
               <Link to="/products/water-soluble-npk" className="block text-background/80 hover:text-background transition-colors">Water Soluble NPK</Link>
               <Link to="/products/organic-bio-products" className="block text-background/80 hover:text-background transition-colors">Organic Products</Link>
-              <Link to="/products/plant-protection" className="block text-background/80 hover:text-background transition-colors">Plant Protection</Link>
+              <Link to="/products/plant-protection" className="block text-background/80 hover:text-background transition-colors">Biostimulants </Link>
               <Link to="/products/urban-products" className="block text-background/80 hover:text-background transition-colors">Urban Products</Link>
             </div>
           </div>

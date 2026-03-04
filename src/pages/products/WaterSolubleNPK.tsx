@@ -7,37 +7,37 @@ import { Link } from 'react-router-dom';
 const WaterSolubleNPK = () => {
   const products = [
     {
-      name: "Fertimax 19:19:19",
+      name: "Vengrow 19:19:19",
       npk: "19:19:19",
       description: "Balanced NPK for all-purpose fertigation and foliar application.",
       application: "Suitable for all crops during vegetative growth stage",
     },
     {
-      name: "Fertimax 20:20:20",
+      name: "Vengrow 20:20:20",
       npk: "20:20:20",
       description: "High analysis balanced fertilizer for intensive farming.",
       application: "Ideal for greenhouse and hydroponic cultivation",
     },
     {
-      name: "Fertimax 13:0:45",
+      name: "Vengrow 13:0:45",
       npk: "13:0:45",
       description: "High potassium formula for fruit development and quality.",
       application: "Perfect for fruiting stage of crops",
     },
     {
-      name: "Fertimax 12:61:0",
+      name: "Vengrow 12:61:0",
       npk: "12:61:0",
       description: "High phosphorus for root development and flowering.",
       application: "Excellent for root establishment and flower initiation",
     },
     {
-      name: "Fertimax 30:10:10",
+      name: "Vengrow 30:10:10",
       npk: "30:10:10",
       description: "High nitrogen for vigorous vegetative growth.",
       application: "Ideal for leafy vegetables and early crop stages",
     },
     {
-      name: "Fertimax 15:15:15",
+      name: "Vengrow 15:15:15",
       npk: "15:15:15",
       description: "Balanced nutrition with micronutrients included.",
       application: "All-purpose fertilizer for diverse cropping systems",

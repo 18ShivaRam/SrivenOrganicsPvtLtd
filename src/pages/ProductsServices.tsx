@@ -10,7 +10,7 @@ const ProductsServices = () => {
       title: "Micronutrients",
       description: "Micronutrients consist of a fine blend of mineral elements comprising of Zinc (Zn), Copper (Cu), Manganese (Mn), Iron (Fe), Boron (B), Molybdenum (Mo).",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/micronutrients-1.jpg",
-      products: ["Agromin Gold", "Zinc EDTA", "Iron EDTA", "Boron EDTA", "Manganese EDTA"],
+      products: ["Vengrowmin Gold", "Nutri Zinc EDTA", "Nutri Iron EDTA", "Boron EDTA", "Manganese EDTA"],
       route: "/products/micronutrients"
     },
     {
@@ -21,10 +21,10 @@ const ProductsServices = () => {
       route: "/products/water-soluble-npk"
     },
     {
-      title: "Plant Protection",
-      description: "Checkout a range of highly productive plant protection products that can be used for protecting complete farms and crops from all kinds of threats.",
+      title: "Biostimulants ",
+      description: "Checkout a range of highly productive Biostimulants  products that can be used for protecting complete farms and crops from all kinds of threats.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/plant-protection-1.jpg",
-      products: ["Plantomycin", "Bio Fungicide", "Bacterial Control", "Neem Protectant"],
+      products: ["Mycin", "Bio Fungicide", "Bacterial Control", "Neem Protectant"],
       route: "/products/plant-protection"
     },
     {
@@ -42,7 +42,7 @@ const ProductsServices = () => {
       route: "/products/crop-specific"
     },
     {
-      title: "High Density Inputs",
+      title: "Liquid Fertilizers",
       description: "High-density farming boosts crop yields without increasing the space required for planting. The technique is highly effective in various farming systems.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/high-density-1.jpg",
       products: ["HD Fertilizers", "Concentrated NPK", "Nano Nutrients", "Precision Formulas"],
@@ -88,7 +88,7 @@ const ProductsServices = () => {
           {/* Stats Section */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
             <div className="text-center p-6 bg-primary/5 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">133</div>
+              <div className="text-3xl font-bold text-primary mb-2">150</div>
               <div className="text-sm text-muted-foreground">Brands</div>
             </div>
             <div className="text-center p-6 bg-primary/5 rounded-lg">
@@ -96,11 +96,11 @@ const ProductsServices = () => {
               <div className="text-sm text-muted-foreground">Farmers</div>
             </div>
             <div className="text-center p-6 bg-primary/5 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">10K</div>
+              <div className="text-3xl font-bold text-primary mb-2">1K</div>
               <div className="text-sm text-muted-foreground">Distributors</div>
             </div>
             <div className="text-center p-6 bg-primary/5 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">6</div>
+              <div className="text-3xl font-bold text-primary mb-2">03</div>  
               <div className="text-sm text-muted-foreground">Manufacturing Units</div>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Grape = () => {
       name: "Phosphorous Deficiency",
       symptoms: "The appearance of red dots on basal portion.",
       affect: "The appearance of red dots on basal portion.",
-      product: "Fertimax 12:61:00 5gm/lit",
+      product: "Vengrow 12:61:00 5gm/lit",
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Maintain longterm productivity",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/11/phos-10.jpg",

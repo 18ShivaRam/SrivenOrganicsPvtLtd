@@ -19,7 +19,7 @@ const Cauliflower = () => {
       name: "Phosphorous Deficiency",
       symptoms: "Purple discoloration of leaves, delayed curd initiation.",
       affect: "Poor root development and delayed curd formation.",
-      product: "Fertimax 12:61:00 5gm/lit, Fertimax 00:52:34 5-10gm/lit",
+      product: "Vengrow 12:61:00 5gm/lit, Fertimax 00:52:34 5-10gm/lit",
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Enhances root development and early curd initiation",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/11/phosphorus-1.jpg",

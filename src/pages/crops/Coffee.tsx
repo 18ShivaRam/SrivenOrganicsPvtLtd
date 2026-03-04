@@ -7,8 +7,8 @@ const Coffee = () => {
   const products = [
     "Magnesium Sulphate",
     "Potassium Sulphate",
-    "Iron EDTA",
-    "Zinc EDTA",
+    "Nutri Iron EDTA",
+    "NutriZinc EDTA",
     "Manganese Sulphate",
     "Boron EDTA",
   ];

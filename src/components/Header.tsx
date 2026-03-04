@@ -3,7 +3,8 @@ import { Button } from '@/components/ui/button';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import logo from '@/assets/sriven-logo.png';
+// import logo from '@/assets/sriven-logo.png';
+import logo from '@/assets/sriven-logo.jpg';
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -30,15 +31,15 @@ export const Header = () => {
               </Button>
               <div className="absolute top-full left-0 w-64 bg-white border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="p-2">
-                  <Link to="/products-services" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">All Products & Services</Link>
+                  {/* <Link to="/products-services" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">All Products & Services</Link> */}
                   <Link to="/micronutrients" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Micronutrients</Link>
                   <Link to="/water-soluble-npk" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Water Soluble NPK</Link>
                   <Link to="/organic-bio-products" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Organic/Bio Products</Link>
-                  <Link to="/plant-protection" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Plant Protection</Link>
+                  <Link to="/plant-protection" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Biostimulants </Link>
                   <Link to="/urban-products" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Urban Products</Link>
                   <Link to="/slow-release-fertilizers-pastilles" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Slow Release Fertilizers</Link>
                   <Link to="/crop-specific" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Crop Specific</Link>
-                  <Link to="/high-density-inputs" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">High Density Inputs</Link>
+                  <Link to="/high-density-inputs" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Liquid Fertilizers</Link>
                   <Link to="/hydromin-range" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Hydromin Range</Link>
                   <Link to="/fishery-animal-nutrition" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Aqua Culture & Animal Nutrition</Link>
                   <Link to="/other-products" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Other Products</Link>
@@ -119,15 +120,15 @@ export const Header = () => {
                   <ChevronDown className="h-4 w-4" />
                 </CollapsibleTrigger>
                 <CollapsibleContent className="ml-4 space-y-1">
-                  <Link to="/products-services"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">All Products & Services</Button></Link>
+                  {/* <Link to="/products-services"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">All Products & Services</Button></Link> */}
                   <Link to="/micronutrients"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Micronutrients</Button></Link>
                   <Link to="/water-soluble-npk"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Water Soluble NPK</Button></Link>
                   <Link to="/organic-bio-products"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Organic/Bio Products</Button></Link>
-                  <Link to="/plant-protection"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Plant Protection</Button></Link>
+                  <Link to="/plant-protection"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Biostimulants </Button></Link>
                   <Link to="/urban-products"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Urban Products</Button></Link>
                   <Link to="/slow-release-fertilizers-pastilles"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Slow Release Fertilizers</Button></Link>
                   <Link to="/crop-specific"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Crop Specific</Button></Link>
-                  <Link to="/high-density-inputs"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">High Density Inputs</Button></Link>
+                  <Link to="/high-density-inputs"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Liquid Fertilizers</Button></Link>
                   <Link to="/hydromin-range"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Hydromin Range</Button></Link>
                   <Link to="/fishery-animal-nutrition"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Aqua Culture & Animal Nutrition</Button></Link>
                   <Link to="/other-products"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Other Products</Button></Link>

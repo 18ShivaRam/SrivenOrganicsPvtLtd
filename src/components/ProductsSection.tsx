@@ -14,7 +14,7 @@ const productCategories = [
     url: "/crop-specific"
   },
   {
-    title: "High Density Inputs",
+    title: "Liquid Fertilizers",
     description: "High-density farming boosts crop yields without increasing the space required for planting. The technique is highly effective in Bamyan Province, where farmers grow vegetables between their fruit trees.",
     url: "/high-density-inputs"
   },
@@ -39,8 +39,8 @@ const productCategories = [
     url: "/other-products"
   },
   {
-    title: "Plant Protection",
-    description: "Checkout a range of highly productive plant protection products that can be used for protecting complete farms and crops from all kinds of threats.",
+    title: "Biostimulants ",
+    description: "Checkout a range of highly productive Biostimulants  products that can be used for protecting complete farms and crops from all kinds of threats.",
     url: "/plant-protection"
   },
   {

@@ -3,7 +3,7 @@ import { Award, Sprout, Truck, Factory } from 'lucide-react';
 const stats = [
   {
     icon: Award,
-    number: "133",
+    number: "150",
     label: "brands",
   },
   {
@@ -13,12 +13,12 @@ const stats = [
   },
   {
     icon: Truck,
-    number: "10K",
+    number: "1K",
     label: "Distributors",
   },
   {
     icon: Factory,
-    number: "06",
+    number: "03",
     label: "Manufacturing Units",
   },
 ];

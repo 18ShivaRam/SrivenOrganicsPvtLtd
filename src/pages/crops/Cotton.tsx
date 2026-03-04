@@ -19,7 +19,7 @@ const Cotton = () => {
       name: "Phosphorous Deficiency",
       symptoms: "Purple-red leaves.",
       affect: "Root growth is affected.",
-      product: "Fertimax 12:61:00 5gm/lit, Fertimax 00:52:34( 5-10gm/lit)",
+      product: "Vengrow 12:61:00 5gm/lit, Fertimax 00:52:34( 5-10gm/lit)",
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Root development, winter hardness",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/11/phosphorus-1.jpg",
