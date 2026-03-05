@@ -12,7 +12,7 @@ const slides = [
   {
     id: 1,
     title: "Providing World's best to India & India's best to the world.",
-    subtitle: "Sriven Organics Ltd was founded by Mr. Yempati Vijaya Bhaskar Reddy  and Mr. Samba Shiva Reddy in 2016.",
+    subtitle: "Sriven Organics Ltd was founded by Mr. Yampati Vijaya Bhaskara Reddy  and Mr. Samba Siva Reddy in 2016.",
     image: hero1,
   },
   {

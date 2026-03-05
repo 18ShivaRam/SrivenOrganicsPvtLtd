@@ -16,7 +16,7 @@ const CompanyOverview = () => {
             
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-muted-foreground mb-6">
-                Sriven Organics Ltd. was founded by Mr. Yempati Vijaya Bhaskar Reddy  and Mr. Samba Shiva Reddy in 2016. We are in the business of manufacturing of micronutrients and other customized nutritional products for plants and animals. We started our activity by manufacturing a small range of mineral feed additives for animals & birds and then diversified into mineral additives for agriculture use.
+                Sriven Organics Ltd. was founded by Mr. Yampati Vijaya Bhaskara Reddy  and Mr. Samba Siva Reddy in 2016. We are in the business of manufacturing of micronutrients and other customized nutritional products for plants and animals. We started our activity by manufacturing a small range of mineral feed additives for animals & birds and then diversified into mineral additives for agriculture use.
               </p>
               
               <p className="text-lg text-muted-foreground mb-6">
@@ -35,7 +35,7 @@ const CompanyOverview = () => {
               
               <h2 className="text-2xl font-bold text-foreground mb-4 mt-8">Key Milestones</h2>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                <li>1969: Company founded by Mr. Yempati Vijaya Bhaskar Reddy  and Mr. Samba Shiva Reddy</li>
+                <li>1969: Company founded by Mr. Yampati Vijaya Bhaskara Reddy  and Mr. Samba Siva Reddy</li>
                 <li>1975: Diversified into plant nutrients and introduced Metal Chelates</li>
                 <li>1986: Founded Indian Micro-Fertilizers Manufacturers Association (IMMA)</li>
                 <li>2020: Expanded product portfolio with innovative agricultural solutions</li>
