@@ -3,6 +3,7 @@ import { Footer } from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import agrominGold from '@/assets/agromin-gold.png';
 
 const OrganicProducts = () => {
   const products = [
@@ -10,31 +11,37 @@ const OrganicProducts = () => {
       name: "Venorga Bio-Compost",
       description: "Accelerates composting process and improves compost quality.",
       benefits: ["Faster decomposition", "Rich in beneficial microbes", "Improves soil structure"],
+      image: agrominGold,
     },
     {
       name: "Organic Growth Promoter",
       description: "Natural plant growth stimulant derived from seaweed extracts.",
       benefits: ["Enhanced root development", "Stress resistance", "Natural growth hormones"],
+      image: agrominGold,
     },
     {
       name: "Mycorrhizal Inoculant",
       description: "Beneficial fungi that form symbiotic relationships with plant roots.",
       benefits: ["Improved nutrient uptake", "Enhanced water absorption", "Disease resistance"],
+      image: agrominGold,
     },
     {
       name: "Organic Soil Conditioner",
       description: "Improves soil health and fertility naturally.",
       benefits: ["Better soil structure", "Increased water retention", "Enhanced microbial activity"],
+      image: agrominGold,
     },
     {
       name: "Natural Enzyme Complex",
       description: "Enzymatic formulation for better nutrient availability.",
       benefits: ["Improved nutrient release", "Enhanced soil biology", "Better root zone health"],
+      image: agrominGold,
     },
     {
       name: "Bio-Fertilizer Blend",
       description: "Combination of beneficial bacteria and organic nutrients.",
       benefits: ["Nitrogen fixation", "Phosphorus solubilization", "Growth promotion"],
+      image: agrominGold,
     },
   ];
 
@@ -57,6 +64,13 @@ const OrganicProducts = () => {
             {products.map((product, index) => (
               <Card key={index} className="h-full hover:shadow-lg transition-all duration-300">
                 <CardHeader>
+                  <div className="w-full h-48 mb-4 overflow-hidden rounded-lg bg-muted/10 flex items-center justify-center">
+                    <img 
+                      src={product.image} 
+                      alt={product.name}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
                   <CardTitle className="text-xl">{product.name}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex-1 flex flex-col">

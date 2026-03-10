@@ -39,7 +39,7 @@ export const Header = () => {
                   <Link to="/urban-products" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Urban Products</Link>
                   <Link to="/slow-release-fertilizers-pastilles" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Slow Release Fertilizers</Link>
                   <Link to="/crop-specific" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Crop Specific</Link>
-                  <Link to="/high-density-inputs" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Liquid Fertilizers</Link>
+                  <Link to="/liquid_fertilizers" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Liquid Fertilizers</Link>
                   <Link to="/hydromin-range" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Hydromin Range</Link>
                   <Link to="/fishery-animal-nutrition" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Aqua Culture & Animal Nutrition</Link>
                   <Link to="/other-products" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Other Products</Link>
@@ -128,7 +128,7 @@ export const Header = () => {
                   <Link to="/urban-products"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Urban Products</Button></Link>
                   <Link to="/slow-release-fertilizers-pastilles"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Slow Release Fertilizers</Button></Link>
                   <Link to="/crop-specific"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Crop Specific</Button></Link>
-                  <Link to="/high-density-inputs"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Liquid Fertilizers</Button></Link>
+                  <Link to="/liquid_fertilizers"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Liquid Fertilizers</Button></Link>
                   <Link to="/hydromin-range"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Hydromin Range</Button></Link>
                   <Link to="/fishery-animal-nutrition"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Aqua Culture & Animal Nutrition</Button></Link>
                   <Link to="/other-products"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Other Products</Button></Link>

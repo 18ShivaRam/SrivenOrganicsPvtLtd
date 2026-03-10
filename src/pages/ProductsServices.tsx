@@ -46,7 +46,7 @@ const ProductsServices = () => {
       description: "High-density farming boosts crop yields without increasing the space required for planting. The technique is highly effective in various farming systems.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/high-density-1.jpg",
       products: ["HD Fertilizers", "Concentrated NPK", "Nano Nutrients", "Precision Formulas"],
-      route: "/products/high-density-inputs"
+      route: "/products/liquid_fertilizers"
     },
     {
       title: "Aqua Culture & Animal Nutrition",

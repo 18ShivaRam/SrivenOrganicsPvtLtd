@@ -102,7 +102,7 @@ const App = () => (
           <Route path="/urban-products" element={<UrbanProducts />} />
           <Route path="/slow-release-fertilizers-pastilles" element={<SlowReleaseFertilizers />} />
           <Route path="/crop-specific" element={<CropSpecific />} />
-          <Route path="/high-density-inputs" element={<HighDensityInputs />} />
+          <Route path="/liquid_fertilizers" element={<HighDensityInputs />} />
           <Route path="/hydromin-range" element={<HydrominRange />} />
           <Route path="/fishery-animal-nutrition" element={<AquaCulture />} />
           <Route path="/other-products" element={<OtherProducts />} />
@@ -115,7 +115,7 @@ const App = () => (
           <Route path="/products/urban-products" element={<UrbanProducts />} />
           <Route path="/products/slow-release-fertilizers-pastilles" element={<SlowReleaseFertilizers />} />
           <Route path="/products/crop-specific" element={<CropSpecific />} />
-          <Route path="/products/high-density-inputs" element={<HighDensityInputs />} />
+          <Route path="/products/liquid_fertilizers" element={<HighDensityInputs />} />
           <Route path="/products/hydromin-range" element={<HydrominRange />} />
           <Route path="/products/aqua-culture" element={<AquaCulture />} />
           <Route path="/products/other-products" element={<OtherProducts />} />

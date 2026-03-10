@@ -16,7 +16,7 @@ const productCategories = [
   {
     title: "Liquid Fertilizers",
     description: "High-density farming boosts crop yields without increasing the space required for planting. The technique is highly effective in Bamyan Province, where farmers grow vegetables between their fruit trees.",
-    url: "/high-density-inputs"
+    url: "/liquid_fertilizers"
   },
   {
     title: "Hydromin Range",
