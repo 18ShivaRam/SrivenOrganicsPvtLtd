@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <img src={logo} alt="Sriven Organics" className="h-20 w-auto -mt-6 filter invert" />
+            <img src={logo} alt="Sriven Organics" className="block h-16 w-auto" />
             {/* <p className="text-background/80 mb-6">
               Leading agricultural solutions provider since 1969, serving farmers worldwide with innovative products and services.
             </p> */}
