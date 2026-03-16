@@ -31,7 +31,7 @@ const crops = [
   {
     name: 'Cotton',
     slug: 'cotton',
-    image: '/crops/cotton/cotton.jpg',
+    image: '/crops/cotton/cotton.jpeg',
   },
   {
     name: 'Pomegranate',
@@ -75,7 +75,7 @@ export const CropsSection = () => {
   }, [carouselApiRef.current]);
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-gradient-to-br from-primary/10 to-accent/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -89,7 +89,7 @@ export const CropsSection = () => {
 
         <div className="relative max-w-5xl mx-auto mb-12">
           <Carousel
-            opts={{ align: 'start', slidesToScroll: 1, dragFree: true, loop: true }}
+            opts={{ align: 'start', slidesToScroll: 2, dragFree: true, loop: true }}
             setApi={api => { carouselApiRef.current = api; }}
           >
             <CarouselPrevious />

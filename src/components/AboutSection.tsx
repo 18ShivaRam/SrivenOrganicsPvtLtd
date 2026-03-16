@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const AboutSection = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-gradient-to-br from-primary/10 to-accent/20">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>

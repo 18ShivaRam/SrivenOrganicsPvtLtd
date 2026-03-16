@@ -60,7 +60,7 @@ export const HeroCarousel = () => {
   };
 
   return (
-    <section className="relative h-[600px] overflow-hidden bg-gradient-to-br from-primary/5 to-accent/10">
+    <section className="relative h-[600px] overflow-hidden bg-gradient-to-br from-primary/10 to-accent/20">
       <div className="absolute inset-0">
         {slides.map((slide, index) => (
           <div

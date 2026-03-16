@@ -69,7 +69,7 @@ const CashewNut = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/20">
       <Header />
       
       {/* Hero Section */}

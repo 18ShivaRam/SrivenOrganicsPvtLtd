@@ -10,13 +10,13 @@ All colors MUST be HSL.
   :root {
     /* Agricultural color palette */
     --background: 0 0% 99%;
-    --foreground: 125 50% 8%;
+    --foreground: #000000;
 
     --card: 0 0% 100%;
-    --card-foreground: 125 50% 8%;
+    --card-foreground: var(--foreground);
 
     --popover: 0 0% 100%;
-    --popover-foreground: 125 50% 8%;
+    --popover-foreground: var(--foreground);
 
     /* Primary green - fresh agricultural green */
     --primary: 122 39% 49%;
@@ -26,10 +26,10 @@ All colors MUST be HSL.
 
     /* Secondary earth tones */
     --secondary: 120 20% 96%;
-    --secondary-foreground: 125 50% 8%;
+    --secondary-foreground: var(--foreground);
 
     --muted: 120 10% 95%;
-    --muted-foreground: 125 20% 45%;
+    --muted-foreground: #000000;
 
     /* Accent warm green */
     --accent: 85 60% 50%;
@@ -68,6 +68,8 @@ All colors MUST be HSL.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --heading: 217 85% 47%;
   }
 
   .dark {
@@ -106,6 +108,7 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    --heading: 217 91% 70%;
   }
 }
 
@@ -116,5 +119,9 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: hsl(var(--heading)) !important;
   }
 }
