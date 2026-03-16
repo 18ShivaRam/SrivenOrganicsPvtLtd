@@ -18,7 +18,7 @@ export const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
           <Link to="/">
-            <img src={logo} alt="Sriven Organics" className="block h-18  sm:h-16 md:h-24 w-auto" />
+            <img src={logo} alt="Sriven Organics" className="block h-[72px] sm:h-16 md:h-24 w-auto" />
           </Link>
           </div>
 

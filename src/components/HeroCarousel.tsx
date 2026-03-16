@@ -60,7 +60,7 @@ export const HeroCarousel = () => {
   };
 
   return (
-    <section className="relative h-[600px] overflow-hidden bg-gradient-to-br from-primary/10 to-accent/20">
+    <section className="relative h-[420px] md:h-[600px] overflow-hidden bg-gradient-to-br from-primary/10 to-accent/20">
       <div className="absolute inset-0">
         {slides.map((slide, index) => (
           <div
@@ -104,7 +104,7 @@ export const HeroCarousel = () => {
       <Button
         variant="outline"
         size="icon"
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/90 hover:bg-white"
+        className="hidden md:inline-flex absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/90 hover:bg-white"
         onClick={prevSlide}
       >
         <ChevronLeft className="h-6 w-6" />
@@ -112,7 +112,7 @@ export const HeroCarousel = () => {
       <Button
         variant="outline"
         size="icon"
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/90 hover:bg-white"
+        className="hidden md:inline-flex absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/90 hover:bg-white"
         onClick={nextSlide}
       >
         <ChevronRight className="h-6 w-6" />
