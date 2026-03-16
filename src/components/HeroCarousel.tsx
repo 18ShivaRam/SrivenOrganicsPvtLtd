@@ -82,9 +82,9 @@ export const HeroCarousel = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
         <div className="max-w-2xl">
-          <div className="text-sm font-medium text-primary mb-4 tracking-wider uppercase">
+          {/* <div className="text-sm font-medium text-primary mb-4 tracking-wider uppercase">
             Latest Project
-          </div>
+          </div> */}
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
             {slides[currentSlide].title}
           </h1>
