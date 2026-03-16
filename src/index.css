@@ -69,7 +69,9 @@ All colors MUST be HSL.
 
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    --heading: 217 85% 47%;
+    --heading: 202 100% 37%;
+    /* 202,100,37 */
+    /* 80,67,44 */
   }
 
   .dark {
