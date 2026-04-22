@@ -1,60 +1,84 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import agrominGold from '@/assets/agromin-gold.png';
 import { Link } from 'react-router-dom';
+import { ProductCard } from '@/components/ProductCard';
+import agrominGold from '@/assets/agromin-gold.jpg';
 
 const AquaCulture = () => {
   const products = [
     {
-      name: "Fish Feed Supplement",
-      description: "Mineral and vitamin supplement for balanced fish nutrition.",
+      name: "Nutri Fish Feed Supplement",
+      description: "Comprehensive mineral and vitamin supplement designed for balanced fish nutrition and optimal growth rates in various aquaculture systems.",
+      features: ["Highly bio-available minerals", "Essential vitamin complex", "Palatability enhancers"],
+      benefits: ["Faster weight gain", "Improved immunity", "Better feed conversion ratio"],
+      crops: "All types of freshwater and marine fish.",
+      dosage: "5-10 gm per kg of feed.",
+      packSize: "1kg, 5kg, 25kg",
       image: agrominGold,
     },
     {
-      name: "Pond Probiotic Blend",
-      description: "Improves water quality and reduces organic load in ponds.",
+      name: "Nutri Pond Probiotic Blend",
+      description: "Concentrated blend of beneficial bacteria that improves water quality and reduces organic load in aquaculture ponds naturally.",
+      features: ["Multi-strain bacteria", "Rapid organic matter breakdown", "Ammonia reduction technology"],
+      benefits: ["Clearer pond water", "Reduced disease incidence", "Better dissolved oxygen levels"],
+      crops: "Shrimp and Fish ponds.",
+      dosage: "500 gm to 1 kg per acre of pond area.",
+      packSize: "500gm, 1kg, 5kg",
       image: agrominGold,
     },
     {
-      name: "Animal Health Tonic",
-      description: "Supports immunity and growth in livestock and aquaculture.",
+      name: "Nutri Animal Health Tonic",
+      description: "Premium health and immunity booster designed to support overall vigor and disease resistance in livestock and aquaculture species.",
+      features: ["Herbal extracts enriched", "Instant energy source", "Immune stimulants"],
+      benefits: ["Reduced mortality rates", "Faster recovery from stress", "Improved overall health"],
+      crops: "Livestock (Cattle, Poultry) and Aquaculture.",
+      dosage: "10-20 ml per day for livestock, or as per feed for aqua.",
+      packSize: "500ml, 1L, 5L",
       image: agrominGold,
     },
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/20">
+    <div className="min-h-screen bg-background">
       <Header />
-      <main className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+      <main>
+        {/* Hero Section */}
+        <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src='src/assets/hero-2.jpg' 
+              alt="Aqua Culture Background"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
+          </div>
+          
+          <div className="container mx-auto px-4 relative z-10 text-center">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-lg">
               Aqua Culture & Animal Nutrition
             </h1>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Nutritional and organic products for aquaculture and animal health, supporting growth, immunity, and water quality.
+            <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md leading-relaxed">
+              Supporting growth, immunity, and water quality with premium nutritional and organic solutions.
             </p>
           </div>
+        </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="container mx-auto px-4 py-20">
+          <div className="space-y-16 mb-16">
             {products.map((product, index) => (
-              <Card key={index} className="h-full hover:shadow-lg transition-all duration-300">
-                <CardHeader>
-                  <div className="w-full h-48 mb-4 overflow-hidden rounded-lg bg-muted/10 flex items-center justify-center">
-                    <img 
-                      src={product.image} 
-                      alt={product.name}
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  <CardTitle className="text-xl">{product.name}</CardTitle>
-                </CardHeader>
-                <CardContent className="flex-1 flex flex-col">
-                  <p className="text-muted-foreground">{product.description}</p>
-                </CardContent>
-              </Card>
+              <ProductCard
+                key={index}
+                name={product.name}
+                description={product.description}
+                features={product.features}
+                benefits={product.benefits}
+                crops={product.crops}
+                dosage={product.dosage}
+                packSize={product.packSize}
+                image={product.image}
+                badge="AQUA RANGE"
+              />
             ))}
           </div>
 
@@ -65,11 +89,11 @@ const AquaCulture = () => {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Get programs for pond management, probiotics dosing, and nutritional balancing for aquaculture.
             </p>
-            <a href="tel:1234567890">
+            <Link to="/contact-us">
               <Button size="lg" className="bg-orange hover:bg-orange/90 text-orange-foreground">
-                <Link to="/contact-us" className="block text-background/80 hover:text-background transition-colors">Talk to Specialist</Link>
+                Talk to Specialist
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </main>

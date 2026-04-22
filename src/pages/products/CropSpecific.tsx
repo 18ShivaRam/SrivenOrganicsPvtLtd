@@ -1,65 +1,94 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import agrominGold from '@/assets/agromin-gold.png';
 import { Link } from 'react-router-dom';
+import { ProductCard } from '@/components/ProductCard';
+import agrominGold from '@/assets/agromin-gold.jpg';
 
 const CropSpecific = () => {
   const products = [
     {
       name: "Banana Special",
-      description: "Tailored nutrient blend to boost banana yield and fruit quality.",
+      description: "Tailored nutrient blend designed to meet the high potassium and micronutrient demands of banana plants for maximum yield and premium fruit quality.",
+      features: ["High Potassium content", "Enriched with Boron and Zinc", "Quick absorption formula"],
+      benefits: ["Bigger and heavier bunches", "Uniform fruit ripening", "Better resistance to wilt"],
+      crops: "All varieties of Banana.",
+      dosage: "5-10 gm per plant or 50 kg per acre.",
+      packSize: "5kg, 10kg, 25kg",
       image: agrominGold,
     },
     {
       name: "Cotton Special",
-      description: "Optimized for boll formation and fiber quality enhancement.",
+      description: "Optimized nutrient formulation for cotton crops to enhance boll formation, reduce boll dropping, and improve fiber quality.",
+      features: ["Balanced NPK + Mg", "Supports boll development", "Reduces red leaf disease"],
+      benefits: ["Increased boll weight", "Higher ginning percentage", "Uniform boll opening"],
+      crops: "Hybrid and BT Cotton varieties.",
+      dosage: "5-10 kg per acre.",
+      packSize: "5kg, 10kg, 25kg",
       image: agrominGold,
     },
     {
       name: "Grape Special",
-      description: "Formulated for berry size, sweetness, and uniform ripening.",
+      description: "Premium formulation designed specifically for vineyards to improve berry size, sweetness, and uniform ripening across the bunch.",
+      features: ["Potassium and Magnesium rich", "Trace element enriched", "No-residue formula"],
+      benefits: ["Enhanced berry crunch and size", "Improved sugar content (Brix)", "Longer shelf life for export"],
+      crops: "Table grapes and Wine grapes.",
+      dosage: "3-5 kg per acre through fertigation.",
+      packSize: "1kg, 5kg, 10kg",
       image: agrominGold,
     },
     {
       name: "Mango Special",
-      description: "Supports flowering, fruit set, and flavor development.",
+      description: "Comprehensive nutritional support for mango orchards, promoting healthy flowering, better fruit set, and superior flavor development.",
+      features: ["Rich in Calcium and Boron", "Supports carbohydrate transport", "Balanced micro-elements"],
+      benefits: ["Reduces fruit drop", "Improved fruit color and aroma", "Steady orchard health"],
+      crops: "All varieties of Mango.",
+      dosage: "50-100 gm per tree based on age.",
+      packSize: "1kg, 5kg, 10kg",
       image: agrominGold,
     },
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/20">
+    <div className="min-h-screen bg-background">
       <Header />
-      <main className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Crop Specific
+      <main>
+        {/* Hero Section */}
+        <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src='src/assets/hero-2.jpg' 
+              alt="Crop Specific Background"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
+          </div>
+          
+          <div className="container mx-auto px-4 relative z-10 text-center">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-lg">
+              Crop Specific Solutions
             </h1>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Browse crop-specific products formulated to address the unique nutritional demands and growth stages of individual crops.
+            <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md leading-relaxed">
+              Tailored nutrient blends formulated to address the unique nutritional demands of individual crops.
             </p>
           </div>
+        </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="container mx-auto px-4 py-20">
+          <div className="space-y-16 mb-16">
             {products.map((product, index) => (
-              <Card key={index} className="h-full hover:shadow-lg transition-all duration-300">
-                <CardHeader>
-                  <div className="w-full h-48 mb-4 overflow-hidden rounded-lg bg-muted/10 flex items-center justify-center">
-                    <img 
-                      src={product.image} 
-                      alt={product.name}
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  <CardTitle className="text-xl">{product.name}</CardTitle>
-                </CardHeader>
-                <CardContent className="flex-1 flex flex-col">
-                  <p className="text-muted-foreground">{product.description}</p>
-                </CardContent>
-              </Card>
+              <ProductCard
+                key={index}
+                name={product.name}
+                description={product.description}
+                features={product.features}
+                benefits={product.benefits}
+                crops={product.crops}
+                dosage={product.dosage}
+                packSize={product.packSize}
+                image={product.image}
+                badge="CROP SPECIFIC"
+              />
             ))}
           </div>
 
@@ -70,11 +99,11 @@ const CropSpecific = () => {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Get crop-wise nutrition schedules that align with local soils and climate.
             </p>
-            <a href="tel:1234567890">
+            <Link to="/contact-us">
               <Button size="lg" className="bg-orange hover:bg-orange/90 text-orange-foreground">
-                <Link to="/contact-us" className="block text-background/80 hover:text-background transition-colors">Get Crop Program</Link>
+                Get Crop Program
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </main>

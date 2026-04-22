@@ -4,7 +4,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/component
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 // import logo from '@/assets/sriven-logo.png';
-import logo from '@/assets/sriven-logo.jpg';
+import logo from '@/assets/sriven-logo.png';
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,14 +12,18 @@ export const Header = () => {
   const [mobileCropsOpen, setMobileCropsOpen] = useState(false);
 
   return (
-    <header className="bg-background border-b border-border sticky top-0 z-50">
-      <div className="container mx-auto px-0 pb-0 -mb-3">
-        <div className="flex items-center justify-between">
+    <header className="bg-white border-b border-border sticky top-0 z-50 shadow-sm">
+      <div className="w-full px-2 lg:px-16">
+        <div className="flex items-center justify-between h-24 md:h-28 lg:h-26">
           {/* Logo */}
-          <div className="flex items-center">
-          <Link to="/">
-            <img src={logo} alt="Sriven Organics" className="block h-[72px] sm:h-16 md:h-24 w-auto" />
-          </Link>
+          <div className="flex items-center py-2 -ml-1 lg:-ml-2">
+            <Link to="/" className="transition-transform duration-300 hover:scale-105">
+              <img 
+                src={logo} 
+                alt="Sriven Organics" 
+                className="h-20 md:h-28 lg:h-36 w-auto object-contain drop-shadow-lg" 
+              />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}

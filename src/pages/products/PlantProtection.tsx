@@ -1,128 +1,79 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import agrominGold from '@/assets/agromin-gold.png';
-import Mycin from '@/assets/Mycin.png';
-import haasil from '@/assets/haasil.png';
 import { Link } from 'react-router-dom';
+import { ProductCard } from '@/components/ProductCard';
+import agrominGold from '@/assets/agromin-gold.jpg';
 
 const PlantProtection = () => {
   const products = [
     {
-      name: "Mycin",
-      description: "Broad spectrum antibiotic bactericide for control of bacterial diseases in plants.",
-      targetPests: ["Bacterial blight", "Fire blight", "Soft rot"],
+      name: "Nutri Mycin",
+      description: "Broad spectrum antibiotic bactericide specifically formulated for the effective control of various bacterial diseases in a wide range of plants.",
+      features: ["Dual antibiotic action", "Systemic movement in plants", "Rapid absorption"],
+      benefits: ["Controls tough bacterial blights", "Reduces crop loss from rot", "Long-lasting protection"],
+      crops: "Paddy, Chilli, Tomato, Citrus, and Pomegranate.",
+      dosage: "1-2 gm per 10 liters of water.",
+      packSize: "6gm, 12gm, 50gm, 100gm",
       image: agrominGold,
       contents: "Streptomycin sulphate 9% + Tetracycline Hydrochloride 1%"
     },
-    // {
-    //   name: "Haasil (Imidacloprid 17.8% SL)",
-    //   description: "New generation systemic insecticide of Neo-nicotinoid group with excellent residual activity.",
-    //   targetPests: ["Aphids", "Thrips", "Whiteflies", "Termites"],
-    //   image: "/src/assets/bio-fungicide.jpg",
-    //   contents: "Imidacloprid 17.8% SL"
-    // }
+    {
+      name: "Nutri Haasil",
+      description: "New generation systemic insecticide of Neo-nicotinoid group with excellent residual activity and translaminar action for superior pest control.",
+      features: ["Systemic and translaminar action", "Low dosage requirement", "Safe for environment"],
+      benefits: ["Effective against sucking pests", "Protects new growth", "Long duration control"],
+      crops: "Cotton, Paddy, Chilli, and Vegetables.",
+      dosage: "0.5 - 1 ml per liter of water.",
+      packSize: "100ml, 250ml, 500ml, 1L",
+      image: agrominGold,
+      contents: "Imidacloprid 17.8% SL"
+    }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/20">
+    <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Biostimulants 
+      <main>
+        {/* Hero Section */}
+        <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src='src/assets/hero-2.jpg' 
+              alt="Plant Protection Background"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
+          </div>
+          
+          <div className="container mx-auto px-4 relative z-10 text-center">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-lg">
+              Plant Protection
             </h1>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Checkout a range of highly productive Biostimulants  products that can be used for protecting complete farms and crops from all kinds of threats.
+            <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md leading-relaxed">
+              Highly productive plant protection solutions for complete farm and crop safety against pests and diseases.
             </p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        </section>
+
+        <div className="container mx-auto px-4 py-20">
+          <div className="space-y-16 mb-16">
             {products.map((product, index) => (
-              <Card key={index} className="h-full hover:shadow-lg transition-all duration-300">
-                <CardHeader>
-                  <div className="w-full h-48 mb-4 overflow-hidden rounded-lg">
-                    <img 
-                      src={product.image} 
-                      alt={product.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <CardTitle className="text-xl">{product.name}</CardTitle>
-                </CardHeader>
-                <CardContent className="flex-1 flex flex-col">
-                  <p className="text-muted-foreground mb-4">{product.description}</p>
-                  
-                  <div className="mb-4">
-                    <h4 className="font-semibold text-foreground mb-2">Contents:</h4>
-                    <p className="text-sm text-muted-foreground mb-3">{product.contents}</p>
-                  </div>
-                  
-                  <div className="mb-6">
-                    <h4 className="font-semibold text-foreground mb-3">Target Issues:</h4>
-                    <ul className="space-y-2">
-                      {product.targetPests.map((pest, pestIndex) => (
-                        <li key={pestIndex} className="flex items-center text-sm text-muted-foreground">
-                          <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                          {pest}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </CardContent>
-              </Card>
+              <ProductCard
+                key={index}
+                name={product.name}
+                description={product.description}
+                features={product.features}
+                benefits={product.benefits}
+                crops={product.crops}
+                dosage={product.dosage}
+                packSize={product.packSize}
+                image={product.image}
+                contents={product.contents}
+                badge="CROP PROTECTION"
+              />
             ))}
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <Card className="p-8">
-              <h3 className="text-2xl font-bold text-foreground mb-4">
-                Integrated Pest Management
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Our Biostimulants  products are designed to work as part of an integrated pest management (IPM) approach, combining biological, cultural, and chemical controls for sustainable crop protection.
-              </p>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  Environmentally friendly formulations
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  Resistance management strategies
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  Beneficial insect conservation
-                </li>
-              </ul>
-            </Card>
-            
-            <Card className="p-8">
-              <h3 className="text-2xl font-bold text-foreground mb-4">
-                Application Guidelines
-              </h3>
-              <p className="text-muted-foreground mb-4">
-                Proper application timing and techniques are crucial for effective Biostimulants . Our products come with detailed application guidelines for optimal results.
-              </p>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  Pre-harvest interval guidelines
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  Weather-based application timing
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  Equipment calibration support
-                </li>
-              </ul>
-            </Card>
           </div>
           
           <div className="bg-gradient-to-br from-primary/5 to-accent/10 rounded-2xl p-12 text-center">
@@ -130,13 +81,13 @@ const PlantProtection = () => {
               Need Customized Protection Program?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Our Biostimulants  specialists can design customized IPM programs based on your specific crop requirements and local pest pressures.
+              Our plant protection specialists can design customized IPM programs based on your specific crop requirements and local pest pressures.
             </p>
-            <a href="tel:1234567890">
+            <Link to="/contact-us">
               <Button size="lg" className="bg-orange hover:bg-orange/90 text-orange-foreground">
-                <Link to="/contact-us" className="block text-background/80 hover:text-background transition-colors">Get Protection Program</Link>
+                Get Protection Program
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </main>

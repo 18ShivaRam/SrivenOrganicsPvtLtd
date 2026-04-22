@@ -1,5 +1,6 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -12,7 +13,7 @@ const Grape = () => {
       product: "Macrofert 20:20:20 5gm/lit",
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Helps in vegetative growth, formation of amino acids",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/nito.jpg",
+      image: "/src/assets/crops/grape/nitro.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -22,7 +23,7 @@ const Grape = () => {
       product: "Vengrow 12:61:00 5gm/lit",
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Maintain longterm productivity",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/phos-10.jpg",
+      image: "/src/assets/crops/grape/phos.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -32,7 +33,7 @@ const Grape = () => {
       product: "Fertimax13:00:45( 5-10gm/lit)",
       soilDrip: "Plantex 13:00:45 3kg/acre(drip)",
       benefit: "Ensures good, strong fruit set and increase sugar content in grape",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/pot-1.jpg",
+      image: "/src/assets/crops/grape/pota.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -42,7 +43,7 @@ const Grape = () => {
       product: "Aquacal-3-4ml/lit, combical-3-5gm/lit, horticab 2-3ml/lit",
       soilDrip: "combical 3 kg/acre or Plantex CN 3kg/acre",
       benefit: "Boosts new leaf and bud growth, ensures strong skin and minimise fruit disorder and diseases",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/cal-7.jpg",
+      image: "/src/assets/crops/grape/calc.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -62,7 +63,7 @@ const Grape = () => {
       product: "Primasulf 3-4ml/lit, fertisol 5gm/lit",
       soilDrip: "ferromag 3kg/1acre or fertisol 3kg/1acre",
       benefit: "Maximise photosynthetic activity, minimises diseases",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/sul-10.jpg",
+      image: "/src/assets/crops/grape/sulp.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -72,7 +73,7 @@ const Grape = () => {
       product: "Boron 20 1gm/lit, Potabor super-2-3gm/lit",
       soilDrip: "Boron -20 1 kg/acre",
       benefit: "Ensures good shoot growth and strong fruit set, improve berry shape and size",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/boron-10.jpg",
+      image: "/src/assets/crops/grape/boro.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -82,7 +83,7 @@ const Grape = () => {
       product: "Chelamin plus1.5gm/lit or chelamin gold 0.5gm/lit",
       soilDrip: "Chelamin gold 0.5kg/acre",
       benefit: "Increases sucrose content in grapes and formation of healthy berries.",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/zinc-14.jpg",
+      image: "/src/assets/crops/grape/zinc.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -92,55 +93,86 @@ const Grape = () => {
       product: "Chelafer1.5gm/lit, agrofer-1.5gm/lit",
       soilDrip: "Ferromag 5kg/acre, Ferromix-5kg/acre",
       benefit: "Strengthening leaf development and vine productivity",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/iron-17.jpg",
+      image: "/src/assets/crops/grape/iron.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/20">
+    <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Grape
-            </h1>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Comprehensive grape nutrition solutions for superior fruit quality and yield.
-            </p>
-          </div>
+      {/* Hero Section */}
+      <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/crops/grape/grape.jpg" 
+            alt="Grape Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]" />
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10 text-center">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-lg">
+            Grape Nutrition Solutions
+          </h1>
+          <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md">
+            Complete grape nutrition solutions for healthy development and premium quality.
+          </p>
+        </div>
+      </section>
 
+      <section className="py-16 bg-gradient-to-b from-primary/5 to-transparent">
+        <div className="container mx-auto px-4">
           {/* Featured Product */}
-          <div className="mb-16">
-            <Card className="p-8 text-center">
-              <h2 className="text-3xl font-bold text-foreground mb-4">Grapemin</h2>
-              <p className="text-lg text-muted-foreground mb-6">
-                Specifically designed for higher yield of Grapes considering its micronutrients requirement
-              </p>
-              <div className="w-48 h-48 mx-auto mb-6">
-                <img 
-                  src="/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png" 
-                  alt="Grapemin"
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="bg-muted/20 rounded-lg p-4 mb-6">
-                <h3 className="font-semibold mb-2">Contents:</h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
-                  <div>Iron as Fe = 3.5%</div>
-                  <div>Manganese as Mn = 6%</div>
-                  <div>Zinc as Zn = 4%</div>
-                  <div>Copper as Cu = 1%</div>
-                  <div>Boron as B = 1.5%</div>
-                  <div>Potassium as K2O = 5%</div>
-                  <div>Sulphur as S = 12%</div>
+          <div className="mb-20">
+            <Card className="overflow-hidden border-none shadow-2xl bg-white/80 backdrop-blur-md">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+                <div className="p-8 lg:p-12 flex flex-col bg-gradient-to-br from-primary/10 to-transparent">
+                  <h2 className="text-4xl font-extrabold text-primary mb-6">Majorsol Grape</h2>
+                  <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                    Majorsol grape provides balanced nutrition with high potassium content for healthy growth, 
+                    enhanced development, and superior quality.
+                  </p>
+                  
+                  <div className="bg-white/60 rounded-2xl p-6 shadow-inner border border-primary/10 mb-8">
+                    <h3 className="text-sm font-bold text-primary uppercase tracking-widest mb-4 flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary" />
+                      Nutrient Contents:
+                    </h3>
+                    <div className="grid grid-cols-2 gap-x-6 gap-y-3 text-sm font-semibold text-muted-foreground">
+ <div className="flex justify-between border-b border-primary/5 pb-1"><span>Nitrogen (N)</span> <span className="text-primary">12.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Phosphorus (P2O5)</span> <span className="text-primary">16.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Potassium (K2O)</span> <span className="text-primary">32.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Magnesium (Mg)</span> <span className="text-primary">2.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Zinc (Zn)</span> <span className="text-primary">2.5%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Iron (Fe)</span> <span className="text-primary">1.5%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Manganese (Mn)</span> <span className="text-primary">1.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Copper (Cu)</span> <span className="text-primary">1.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Sulphur (S)</span> <span className="text-primary">8.0%</span></div>
+
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center gap-3 mt-4">
+                    <span className="text-sm font-bold text-primary uppercase tracking-widest">Pack Size:</span>
+                    <div className="flex gap-2">
+                      <span className="px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full text-primary font-bold text-sm">5kg</span>
+                      <span className="px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full text-primary font-bold text-sm">10kg</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
+                  <div className="absolute inset-0 bg-primary/5" />
+                  <img 
+                    src="/src/assets/fertimax-hd.jpg" 
+                    alt="Majorsol Grape"
+                    className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
+                  />
                 </div>
               </div>
-              <Button size="lg" className="bg-primary hover:bg-primary-dark">
-                Read More
-              </Button>
             </Card>
           </div>
           
@@ -151,54 +183,7 @@ const Grape = () => {
             </h2>
             <div className="space-y-8">
               {deficiencies.map((deficiency, index) => (
-                <Card key={index} className="overflow-hidden">
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8">
-                    <div>
-                      <img 
-                        src={deficiency.image} 
-                        alt={deficiency.name}
-                        className="w-full h-64 object-cover rounded-lg mb-4"
-                      />
-                      <h3 className="text-xl font-bold text-foreground mb-4">{deficiency.name}</h3>
-                      <div className="space-y-3">
-                        <div>
-                          <strong className="text-foreground">Symptoms:</strong>
-                          <p className="text-muted-foreground">{deficiency.symptoms}</p>
-                        </div>
-                        <div>
-                          <strong className="text-foreground">Affect:</strong>
-                          <p className="text-muted-foreground">{deficiency.affect}</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div className="w-32 h-32 mx-auto mb-4">
-                        <img 
-                          src={deficiency.productImage} 
-                          alt="Product"
-                          className="w-full h-full object-contain"
-                        />
-                      </div>
-                      <div className="space-y-3">
-                        <div>
-                          <strong className="text-foreground">Product:</strong>
-                          <p className="text-muted-foreground">{deficiency.product}</p>
-                        </div>
-                        <div>
-                          <strong className="text-foreground">Soil/Drip:</strong>
-                          <p className="text-muted-foreground">{deficiency.soilDrip}</p>
-                        </div>
-                        <div>
-                          <strong className="text-foreground">Benefit:</strong>
-                          <p className="text-muted-foreground">{deficiency.benefit}</p>
-                        </div>
-                      </div>
-                      <Button variant="outline" className="w-full mt-4">
-                        Get Solution
-                      </Button>
-                    </div>
-                  </div>
-                </Card>
+                <DeficiencyCard key={index} {...deficiency} />
               ))}
             </div>
           </div>
@@ -215,8 +200,7 @@ const Grape = () => {
             </Button>
           </div>
         </div>
-      </main>
-      
+      </section>
       <Footer />
     </div>
   );

@@ -1,60 +1,84 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import agrominGold from '@/assets/agromin-gold.png';
 import { Link } from 'react-router-dom';
+import { ProductCard } from '@/components/ProductCard';
+import agrominGold from '@/assets/agromin-gold.jpg';
 
 const SlowReleaseFertilizers = () => {
   const products = [
     {
-      name: "SRF Pastilles",
-      description: "Slow-release nitrogen pastilles for sustained nutrient availability.",
+      name: "Nutri SRF Pastilles",
+      description: "Slow-release nitrogen pastilles designed for sustained nutrient availability over an extended period, reducing leaching and volatilization.",
+      features: ["Controlled release technology", "Uniform pastille size", "Reduced nitrogen loss"],
+      benefits: ["Steady nutrient supply", "Improved nitrogen use efficiency", "Environmentally friendly"],
+      crops: "Turf, Landscape plants, and high-value Field crops.",
+      dosage: "10-20 kg per acre based on crop requirement.",
+      packSize: "10kg, 25kg, 50kg",
       image: agrominGold,
     },
     {
-      name: "Coated Urea",
-      description: "Polymer-coated urea for extended nitrogen release and reduced losses.",
+      name: "Nutri Coated Urea",
+      description: "Polymer-coated urea that provides extended nitrogen release, ensuring the plant receives a steady supply of nitrogen throughout its growth cycle.",
+      features: ["High-quality polymer coating", "Customizable release profiles", "Abrasion resistant"],
+      benefits: ["Reduces application frequency", "Minimizes nitrate leaching", "Better crop quality"],
+      crops: "Sugarcane, Paddy, and long-duration crops.",
+      dosage: "40-50 kg per acre.",
+      packSize: "25kg, 50kg",
       image: agrominGold,
     },
     {
-      name: "Time Release NPK",
-      description: "Balanced NPK granules with controlled release profile.",
+      name: "Nutri Time Release NPK",
+      description: "Balanced NPK granules with a sophisticated controlled release profile to provide complete nutrition at the right time.",
+      features: ["Balanced NPK ratio", "Predictable release rates", "Full nutrient spectrum"],
+      benefits: ["One-time application", "Optimal growth at all stages", "Labor cost savings"],
+      crops: "Nursery plants, Ornamental crops, and high-tech agriculture.",
+      dosage: "5-10 gm per plant or 50 kg per acre.",
+      packSize: "5kg, 10kg, 25kg",
       image: agrominGold,
     },
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/20">
+    <div className="min-h-screen bg-background">
       <Header />
-      <main className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Slow Release Fertilizers (Pastilles)
+      <main>
+        {/* Hero Section */}
+        <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src='src/assets/hero-2.jpg' 
+              alt="Slow Release Fertilizers Background"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
+          </div>
+          
+          <div className="container mx-auto px-4 relative z-10 text-center">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-lg">
+              Slow Release Fertilizers
             </h1>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Slow-release fertilizers (SRF) provide a steady supply of plant nutrients over an extended period of time. They contain plant nutrient(s) in a form that delays their initial availability and extends feeding time.
+            <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md leading-relaxed">
+              Steady, sustained nutrient availability for extended feeding and maximum efficiency.
             </p>
           </div>
+        </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="container mx-auto px-4 py-20">
+          <div className="space-y-16 mb-16">
             {products.map((product, index) => (
-              <Card key={index} className="h-full hover:shadow-lg transition-all duration-300">
-                <CardHeader>
-                  <div className="w-full h-48 mb-4 overflow-hidden rounded-lg bg-muted/10 flex items-center justify-center">
-                    <img 
-                      src={product.image} 
-                      alt={product.name}
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  <CardTitle className="text-xl">{product.name}</CardTitle>
-                </CardHeader>
-                <CardContent className="flex-1 flex flex-col">
-                  <p className="text-muted-foreground">{product.description}</p>
-                </CardContent>
-              </Card>
+              <ProductCard
+                key={index}
+                name={product.name}
+                description={product.description}
+                features={product.features}
+                benefits={product.benefits}
+                crops={product.crops}
+                dosage={product.dosage}
+                packSize={product.packSize}
+                image={product.image}
+                badge="SLOW RELEASE"
+              />
             ))}
           </div>
 
@@ -65,11 +89,11 @@ const SlowReleaseFertilizers = () => {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Optimize nutrient efficiency and reduce application frequency with tailored SRF programs for your crops.
             </p>
-            <a href="tel:1234567890">
+            <Link to="/contact-us">
               <Button size="lg" className="bg-orange hover:bg-orange/90 text-orange-foreground">
-                <Link to="/contact-us" className="block text-background/80 hover:text-background transition-colors">Get SRF Guidance</Link>
+                Get SRF Guidance
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </main>

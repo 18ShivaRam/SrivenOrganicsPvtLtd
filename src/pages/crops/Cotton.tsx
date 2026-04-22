@@ -1,5 +1,6 @@
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -12,7 +13,7 @@ const Cotton = () => {
       product: "Macrofert 20:20:20 5gm/lit",
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Helps in vegetative growth, formation of amino acids",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/nitrogene-1.jpg",
+      image: "/src/assets/crops/cotton/nitro.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -22,7 +23,7 @@ const Cotton = () => {
       product: "Vengrow 12:61:00 5gm/lit, Fertimax 00:52:34( 5-10gm/lit)",
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Root development, winter hardness",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/phosphorus-1.jpg",
+      image: "/src/assets/crops/cotton/phos.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -32,7 +33,7 @@ const Cotton = () => {
       product: "Fertimax 00:00:50 5gm/lit, Fertimax13:00:45( 5-10gm/lit), Fertisol 3-5gm/lit",
       soilDrip: "—",
       benefit: "Resistance to pests and diseases, opening and closing of stomata",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/potassium-1.jpg",
+      image: "/src/assets/crops/cotton/pota.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -42,7 +43,7 @@ const Cotton = () => {
       product: "Aquacal-3-4ml/lit, Calcium nitrate 5-10gm/lit, combical-3-5gm/lit, horticab 2-3ml/lit, crack gourd 2-3ml/lit",
       soilDrip: "—",
       benefit: "Cell formation, cell elongation, cell division",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/calcium-1.jpg",
+      image: "/src/assets/crops/cotton/calc.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -52,7 +53,7 @@ const Cotton = () => {
       product: "Magmix 4-5gm/lit, zinc mag 3-5ml/lit, Fertisol 3-5gm/lit",
       soilDrip: "Ferromag 5kg/acre",
       benefit: "Helps in photosynthesis, starch translocation",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/magnesium-2.jpg",
+      image: "/src/assets/crops/cotton/magn.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -62,7 +63,7 @@ const Cotton = () => {
       product: "Primasulf 3-4ml/lit, fertisol 5gm/lit",
       soilDrip: "—",
       benefit: "Improves special character in crop",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/sulphur-2.jpg",
+      image: "/src/assets/crops/cotton/sulp.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -72,7 +73,7 @@ const Cotton = () => {
       product: "Phosphocop 2-3ml/lit",
       soilDrip: "—",
       benefit: "Serves to intensify flavour and colour in vegetables and colour in flowers",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/dummyimg.jpg",
+      image: "/src/assets/crops/cotton/copp.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -82,7 +83,7 @@ const Cotton = () => {
       product: "Boron 20 1gm/lit, Potabor super-2-3gm/lit",
       soilDrip: "—",
       benefit: "Translocation of sugars and help in pollination",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/borron.jpg",
+      image: "/src/assets/crops/cotton/boro.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -92,7 +93,7 @@ const Cotton = () => {
       product: "Chelamin plus1-2gm/lit",
       soilDrip: "Chelamin gold 0.5kg/acre",
       benefit: "Helps in activation of enzymes",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/zinc-1.jpg",
+      image: "/src/assets/crops/cotton/zinc.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -102,58 +103,86 @@ const Cotton = () => {
       product: "Chelafer1-2gm/lit, Agrofer-1-2gm/lit",
       soilDrip: "Ferromag 5kg/acre, Ferromix-5kg/acre",
       benefit: "Helps in electron transport chain and helps in photosynthesis",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/11/iron-2.jpg",
+      image: "/src/assets/crops/cotton/iron.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/20">
+    <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Cotton
-            </h1>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Comprehensive cotton nutrition solutions for optimal fiber quality and yield.
-            </p>
-          </div>
+      {/* Hero Section */}
+      <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/crops/cotton/cotton.jpeg" 
+            alt="Cotton Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]" />
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10 text-center">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-lg">
+            Cotton Nutrition Solutions
+          </h1>
+          <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md">
+            Complete cotton nutrition solutions for healthy development and premium quality.
+          </p>
+        </div>
+      </section>
 
+      <section className="py-16 bg-gradient-to-b from-primary/5 to-transparent">
+        <div className="container mx-auto px-4">
           {/* Featured Product */}
-          <div className="mb-16">
-            <Card className="p-8 text-center">
-              <h2 className="text-3xl font-bold text-foreground mb-4">Majorsol Cotton</h2>
-              <p className="text-lg text-muted-foreground mb-6">
-                Majorsol cotton supplies needed phosphorus and potash in balanced proportion along with secondary & micronutrients. 
-                Enhances quality of lint and increases oil percentage in seed. Its application increases disease and pest resistance.
-              </p>
-              <div className="w-48 h-48 mx-auto mb-6">
-                <img 
-                  src="/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png" 
-                  alt="Majorsol Cotton"
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="bg-muted/20 rounded-lg p-4 mb-6">
-                <h3 className="font-semibold mb-2">Contents:</h3>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
-                  <div>Manganese as Mn: 1.0%</div>
-                  <div>Magnesium as Mg: 2.0%</div>
-                  <div>Zinc as Zn: 2.5%</div>
-                  <div>Sulphur as S: 8.0%</div>
-                  <div>Potassium as K2O: 18.0%</div>
-                  <div>Phosphorus as P2O5: 12.0%</div>
-                  <div>Calcium as Ca: 2.0%</div>
-                  <div>Copper as Cu: 1.0%</div>
-                  <div>Boron as B: 0.2%</div>
+          <div className="mb-20">
+            <Card className="overflow-hidden border-none shadow-2xl bg-white/80 backdrop-blur-md">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+                <div className="p-8 lg:p-12 flex flex-col bg-gradient-to-br from-primary/10 to-transparent">
+                  <h2 className="text-4xl font-extrabold text-primary mb-6">Majorsol Cotton</h2>
+                  <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                    Majorsol cotton provides balanced nutrition with high potassium content for healthy growth, 
+                    enhanced development, and superior quality.
+                  </p>
+                  
+                  <div className="bg-white/60 rounded-2xl p-6 shadow-inner border border-primary/10 mb-8">
+                    <h3 className="text-sm font-bold text-primary uppercase tracking-widest mb-4 flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-primary" />
+                      Nutrient Contents:
+                    </h3>
+                    <div className="grid grid-cols-2 gap-x-6 gap-y-3 text-sm font-semibold text-muted-foreground">
+ <div className="flex justify-between border-b border-primary/5 pb-1"><span>Nitrogen (N)</span> <span className="text-primary">12.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Phosphorus (P2O5)</span> <span className="text-primary">16.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Potassium (K2O)</span> <span className="text-primary">32.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Magnesium (Mg)</span> <span className="text-primary">2.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Zinc (Zn)</span> <span className="text-primary">2.5%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Iron (Fe)</span> <span className="text-primary">1.5%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Manganese (Mn)</span> <span className="text-primary">1.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Copper (Cu)</span> <span className="text-primary">1.0%</span></div>
+                      <div className="flex justify-between border-b border-primary/5 pb-1"><span>Sulphur (S)</span> <span className="text-primary">8.0%</span></div>
+
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center gap-3 mt-4">
+                    <span className="text-sm font-bold text-primary uppercase tracking-widest">Pack Size:</span>
+                    <div className="flex gap-2">
+                      <span className="px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full text-primary font-bold text-sm">5kg</span>
+                      <span className="px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full text-primary font-bold text-sm">10kg</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
+                  <div className="absolute inset-0 bg-primary/5" />
+                  <img 
+                    src="/src/assets/fertimax-hd.jpg" 
+                    alt="Majorsol Cotton"
+                    className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
+                  />
                 </div>
               </div>
-              <Button size="lg" className="bg-primary hover:bg-primary-dark">
-                Read More
-              </Button>
             </Card>
           </div>
           
@@ -164,54 +193,7 @@ const Cotton = () => {
             </h2>
             <div className="space-y-8">
               {deficiencies.map((deficiency, index) => (
-                <Card key={index} className="overflow-hidden">
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8">
-                    <div>
-                      <img 
-                        src={deficiency.image} 
-                        alt={deficiency.name}
-                        className="w-full h-64 object-cover rounded-lg mb-4"
-                      />
-                      <h3 className="text-xl font-bold text-foreground mb-4">{deficiency.name}</h3>
-                      <div className="space-y-3">
-                        <div>
-                          <strong className="text-foreground">Symptoms:</strong>
-                          <p className="text-muted-foreground">{deficiency.symptoms}</p>
-                        </div>
-                        <div>
-                          <strong className="text-foreground">Affect:</strong>
-                          <p className="text-muted-foreground">{deficiency.affect}</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <div className="w-32 h-32 mx-auto mb-4">
-                        <img 
-                          src={deficiency.productImage} 
-                          alt="Product"
-                          className="w-full h-full object-contain"
-                        />
-                      </div>
-                      <div className="space-y-3">
-                        <div>
-                          <strong className="text-foreground">Product:</strong>
-                          <p className="text-muted-foreground">{deficiency.product}</p>
-                        </div>
-                        <div>
-                          <strong className="text-foreground">Soil/Drip:</strong>
-                          <p className="text-muted-foreground">{deficiency.soilDrip}</p>
-                        </div>
-                        <div>
-                          <strong className="text-foreground">Benefit:</strong>
-                          <p className="text-muted-foreground">{deficiency.benefit}</p>
-                        </div>
-                      </div>
-                      <Button variant="outline" className="w-full mt-4">
-                        Get Solution
-                      </Button>
-                    </div>
-                  </div>
-                </Card>
+                <DeficiencyCard key={index} {...deficiency} />
               ))}
             </div>
           </div>
@@ -228,7 +210,7 @@ const Cotton = () => {
             </Button>
           </div>
         </div>
-      </main>
+      </section>
       
       <Footer />
     </div>

@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 // import logo from '@/assets/sriven-logo.png';
-import logo from '@/assets/sriven-logo.jpg';
+import logo from '@/assets/sriven-logo.png';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 export const Footer = () => {

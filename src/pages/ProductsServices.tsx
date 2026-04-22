@@ -10,135 +10,159 @@ const ProductsServices = () => {
       title: "Micronutrients",
       description: "Micronutrients consist of a fine blend of mineral elements comprising of Zinc (Zn), Copper (Cu), Manganese (Mn), Iron (Fe), Boron (B), Molybdenum (Mo).",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/micronutrients-1.jpg",
-      products: ["Vengrowmin Gold", "Nutri Zinc EDTA", "Nutri Iron EDTA", "Boron EDTA", "Manganese EDTA"],
+      products: ["Nutri Vengrowmin Gold", "Nutri Zinc EDTA", "Nutri Iron EDTA", "Nutri Boron EDTA", "Nutri Manganese EDTA"],
       route: "/products/micronutrients"
     },
     {
       title: "Water Soluble NPK",
       description: "A water-soluble fertilizer with an optimum combination of Nitrogen, Phosphorous, Potassium, and Sodium. It is readily soluble in water and is best for drip irrigation and foliar application.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/npk-1.jpg",
-      products: ["Fertimax HD", "Macrofert 20:20:20", "Plantex 19:19:19", "Potassium Sulphate"],
+      products: ["Nutri Fertimax HD", "Nutri Macrofert 20:20:20", "Nutri Plantex 19:19:19", "Nutri Potassium Sulphate"],
       route: "/products/water-soluble-npk"
     },
     {
       title: "Biostimulants ",
       description: "Checkout a range of highly productive Biostimulants  products that can be used for protecting complete farms and crops from all kinds of threats.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/plant-protection-1.jpg",
-      products: ["Mycin", "Bio Fungicide", "Bacterial Control", "Neem Protectant"],
+      products: ["Nutri Mycin", "Nutri Bio Fungicide", "Nutri Bacterial Control", "Nutri Neem Protectant"],
       route: "/products/plant-protection"
     },
     {
       title: "Organic/Bio Products",
       description: "Bioproducts are products that are made from biomass. The meaning of biomass is any type of organic material that is available on a renewable basis.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/organic-1.jpg",
-      products: ["Haasil", "Plant Strengthener", "Soil Pathogen Control", "Organic Insecticide"],
+      products: ["Nutri Haasil", "Nutri Plant Strengthener", "Nutri Soil Pathogen Control", "Nutri Organic Insecticide"],
       route: "/products/organic-bio-products"
     },
     {
       title: "Crop Specific",
       description: "Browse our Crop Specific organic products that are proven to boost the crop production and quality of crops farming.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/crop-specific-1.jpg",
-      products: ["Banana Special", "Cotton Special", "Grape Special", "Mango Special"],
+      products: ["Nutri Banana Special", "Nutri Cotton Special", "Nutri Grape Special", "Nutri Mango Special"],
       route: "/products/crop-specific"
     },
     {
       title: "Liquid Fertilizers",
       description: "High-density farming boosts crop yields without increasing the space required for planting. The technique is highly effective in various farming systems.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/high-density-1.jpg",
-      products: ["HD Fertilizers", "Concentrated NPK", "Nano Nutrients", "Precision Formulas"],
+      products: ["Nutri HD Fertilizers", "Nutri Concentrated NPK", "Nutri Nano Nutrients", "Nutri Precision Formulas"],
       route: "/products/liquid_fertilizers"
     },
     {
       title: "Aqua Culture & Animal Nutrition",
       description: "A range of nutritional and organic products for maintaining the Aquaculture for aqua farming and animal nutritional products to maintain animal health organically.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/aqua-1.jpg",
-      products: ["Fish Feed Supplements", "Pond Treatment", "Animal Health", "Aqua Probiotics"],
+      products: ["Nutri Fish Feed Supplements", "Nutri Pond Treatment", "Nutri Animal Health", "Nutri Aqua Probiotics"],
       route: "/products/aqua-culture"
     },
     {
       title: "Urban Products",
       description: "A range of Products for Urban Farming, ready to nourish Urban Gardens. We are proud to present our latest products, designed especially keeping in mind the need of Urban farming market.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/urban-1.jpg",
-      products: ["Garden Care Kits", "Indoor Plants", "Balcony Farming", "Terrace Garden"]
+      products: ["Nutri Garden Care Kits", "Nutri Indoor Plants", "Nutri Balcony Farming", "Nutri Terrace Garden"]
     },
     {
       title: "Slow Release Fertilizers (Pastilles)",
       description: "Slow-release fertilizers (SRF) provide a steady supply of plant nutrients over an extended period of time. They contain plant nutrient(s) (mostly nitrogen) in a form that delays their initial availability.",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/12/slow-release-1.jpg",
-      products: ["SRF Pastilles", "Coated Urea", "Extended Release", "Time Release NPK"]
+      products: ["Nutri SRF Pastilles", "Nutri Coated Urea", "Nutri Extended Release", "Nutri Time Release NPK"]
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/20">
+    <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="py-20">
-        <div className="container mx-auto px-4">
-          {/* Hero Section */}
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-              Our Range of Agricultural Products
+      <main>
+        {/* Hero Section */}
+        <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="https://www.ariesagro.com/wp-content/uploads/2022/12/micronutrients-1.jpg" 
+              alt="Agricultural Products Background"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 backdrop-blur-[3px]" />
+          </div>
+          
+          <div className="container mx-auto px-4 relative z-10 text-center">
+            <h1 className="text-4xl md:text-7xl font-bold text-white mb-8 drop-shadow-2xl">
+              Our Range of <span className="text-primary-light">Agricultural Products</span>
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Comprehensive solutions for modern agriculture with innovative products designed to enhance crop productivity, soil health, and sustainable farming practices.
+            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto drop-shadow-lg leading-relaxed">
+              Comprehensive solutions for modern agriculture with innovative products designed to enhance crop productivity and sustainable farming.
             </p>
           </div>
+        </section>
 
+        <div className="container mx-auto px-4 py-20">
           {/* Stats Section */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
-            <div className="text-center p-6 bg-primary/5 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">150</div>
-              <div className="text-sm text-muted-foreground">Brands</div>
-            </div>
-            <div className="text-center p-6 bg-primary/5 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">9M</div>
-              <div className="text-sm text-muted-foreground">Farmers</div>
-            </div>
-            <div className="text-center p-6 bg-primary/5 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">1K</div>
-              <div className="text-sm text-muted-foreground">Distributors</div>
-            </div>
-            <div className="text-center p-6 bg-primary/5 rounded-lg">
-              <div className="text-3xl font-bold text-primary mb-2">03</div>  
-              <div className="text-sm text-muted-foreground">Manufacturing Units</div>
-            </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-24 -mt-32 relative z-20">
+            {[
+              { value: "150+", label: "Brands", icon: "🏷️" },
+              { value: "9M+", label: "Farmers", icon: "👨‍🌾" },
+              { value: "1K+", label: "Distributors", icon: "🤝" },
+              { value: "03", label: "Manufacturing Units", icon: "🏭" }
+            ].map((stat, idx) => (
+              <div key={idx} className="bg-white/90 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border border-white/20 text-center transform transition-all duration-300 hover:-translate-y-2 hover:bg-white group">
+                <div className="text-4xl mb-4 group-hover:scale-125 transition-transform duration-300">{stat.icon}</div>
+                <div className="text-4xl font-black text-primary mb-2 tracking-tight">{stat.value}</div>
+                <div className="text-sm font-bold text-muted-foreground uppercase tracking-widest">{stat.label}</div>
+              </div>
+            ))}
           </div>
 
           {/* Product Categories */}
-          <div className="space-y-16">
+          <div className="space-y-32">
             {productCategories.map((category, index) => (
-              <div key={index} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>
-                <div className={index % 2 === 1 ? 'lg:col-start-2' : ''}>
-                  <h2 className="text-3xl font-bold text-foreground mb-4">
-                    {category.title}
-                  </h2>
-                  <p className="text-lg text-muted-foreground mb-6">
+              <div key={index} className={`grid grid-cols-1 lg:grid-cols-12 gap-16 items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
+                <div className={`lg:col-span-5 space-y-8 ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
+                  <div className="space-y-4">
+                    <h2 className="text-4xl md:text-5xl font-black text-foreground leading-tight">
+                      {category.title}
+                    </h2>
+                    <div className="h-2 w-24 bg-primary rounded-full" />
+                  </div>
+                  
+                  <p className="text-xl text-muted-foreground leading-relaxed font-medium">
                     {category.description}
                   </p>
-                  <div className="mb-6">
-                    <h3 className="font-semibold text-foreground mb-3">Featured Products:</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                  
+                  <div className="bg-primary/5 rounded-3xl p-8 border border-primary/10 shadow-inner">
+                    <h3 className="text-sm font-black text-primary uppercase tracking-[0.2em] mb-6 flex items-center gap-3">
+                      <span className="w-2 h-2 rounded-full bg-primary" />
+                      Featured Products
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {category.products.map((product, productIndex) => (
-                        <div key={productIndex} className="flex items-center space-x-2">
-                          <div className="w-2 h-2 bg-primary rounded-full"></div>
-                          <span className="text-muted-foreground">{product}</span>
+                        <div key={productIndex} className="flex items-center space-x-3 bg-white/50 p-3 rounded-xl border border-primary/5 group hover:border-primary/20 transition-colors">
+                          <span className="text-primary group-hover:scale-125 transition-transform">✨</span>
+                          <span className="text-foreground font-semibold text-sm">{product}</span>
                         </div>
                       ))}
                     </div>
                   </div>
+                  
                   <Link to={category.route}>
-                    <Button size="lg" className="bg-primary hover:bg-primary-dark">
-                      Learn More
+                    <Button size="lg" className="bg-primary hover:bg-primary-dark h-14 px-10 rounded-full shadow-lg transition-all hover:scale-105 group">
+                      Explore {category.title}
+                      <span className="ml-2 group-hover:translate-x-2 transition-transform">→</span>
                     </Button>
                   </Link>
                 </div>
-                <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
-                  <img
-                    src={category.image}
-                    alt={category.title}
-                    className="w-full h-auto rounded-2xl shadow-lg"
-                  />
+
+                <div className={`lg:col-span-7 relative group ${index % 2 === 1 ? 'lg:order-1' : ''}`}>
+                  <div className="absolute inset-0 bg-primary/20 rounded-[3rem] blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+                  <div className="relative overflow-hidden rounded-[3rem] shadow-2xl border-8 border-white group-hover:border-primary/10 transition-colors duration-700">
+                    <img
+                      src={category.image}
+                      alt={category.title}
+                      className="w-full h-[500px] object-cover transition-transform duration-1000 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex items-end p-12">
+                      <p className="text-white text-lg font-medium italic">Premium {category.title} Solutions</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
