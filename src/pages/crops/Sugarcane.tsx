@@ -15,7 +15,7 @@ const Sugarcane = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during tillering and grand growth phases.",
       benefit: "Enhances vegetative growth, improves tiller formation, increases cane yield and sugar content",
       image: "/src/assets/crops/sugarcane/nitro-1.jpg",
-      productImage: "/src/assets/nutrimag.jpg"
+      productImage: "/src/assets/Nutrimag.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
