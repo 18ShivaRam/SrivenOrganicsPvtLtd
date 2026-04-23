@@ -13,8 +13,8 @@ const Coffee = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during flush and growth periods.",
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during active growth stages.",
       benefit: "Enhances vegetative growth, improves flowering, and increases bean size",
-      image: "/src/assets/crops/coffee/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/coffee/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -23,8 +23,8 @@ const Coffee = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during early growth. Repeat after 15 days.",
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during root development.",
       benefit: "Promotes strong root systems, enhances energy transfer, and improves bean quality",
-      image: "/src/assets/crops/coffee/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/coffee/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -33,8 +33,8 @@ const Coffee = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during bean development stages.",
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during bean filling and maturity.",
       benefit: "Increases bean weight and quality, improves water use efficiency and disease resistance",
-      image: "/src/assets/crops/coffee/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/coffee/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -43,8 +43,8 @@ const Coffee = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus on older affected leaves.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat if symptoms persist.",
       benefit: "Restores chlorophyll levels, improves photosynthesis, and boosts plant vigor",
-      image: "/src/assets/crops/coffee/magn.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/coffee/magn.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -53,8 +53,8 @@ const Coffee = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during early growth and flowering.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative phases.",
       benefit: "Optimizes growth hormones, enhances bean development, and increases yields",
-      image: "/src/assets/crops/coffee/zinc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/coffee/zinc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Boron Deficiency",
@@ -63,8 +63,8 @@ const Coffee = () => {
       product: "Apply Fertimax at 1-2 gm/liter water during flowering and fruit set stages.",
       soilDrip: "Apply 2-4 kg Fertimax per acre through soil application during early flowering.",
       benefit: "Improves cell wall integrity, enhances fruit set, and ensures solid bean development",
-      image: "/src/assets/crops/coffee/boro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/coffee/boro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -136,7 +136,7 @@ const Coffee = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Coffee"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -165,3 +165,5 @@ const Coffee = () => {
 };
 
 export default Coffee;
+
+

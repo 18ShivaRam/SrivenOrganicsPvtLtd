@@ -14,8 +14,8 @@ const Wheat = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Repeat after 15-20 days during tillering and flowering.",
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during tillering and grain filling stages.",
       benefit: "Enhances vegetative growth, improves tillering, increases grain yield and protein content",
-      image: "/src/assets/crops/wheat/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/wheat/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,8 +24,8 @@ const Wheat = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during flowering and grain filling stages.",
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during flowering and grain development.",
       benefit: "Improves root development, enhances grain formation, increases grain filling and crop maturity",
-      image: "/src/assets/crops/wheat/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/wheat/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -34,8 +34,8 @@ const Wheat = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during stem elongation and grain filling stages.",
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during stem development and grain maturity.",
       benefit: "Improves grain quality, enhances stem strength, increases disease resistance and reduces lodging",
-      image: "/src/assets/crops/wheat/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/wheat/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -44,8 +44,8 @@ const Wheat = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Target young affected leaves during early morning application.",
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
-      image: "/src/assets/crops/wheat/iron.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/wheat/iron.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -54,8 +54,8 @@ const Wheat = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during early growth and flowering stages.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances grain development and increases yield",
-      image: "/src/assets/crops/wheat/zinc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/wheat/zinc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -64,8 +64,8 @@ const Wheat = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus on older affected leaves during application.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
-      image: "/src/assets/crops/wheat/magn.jpeg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/wheat/magn.jpeg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -138,7 +138,7 @@ const Wheat = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Wheat"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -167,3 +167,5 @@ const Wheat = () => {
 };
 
 export default Wheat;
+
+

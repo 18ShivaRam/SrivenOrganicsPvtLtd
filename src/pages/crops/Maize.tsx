@@ -13,8 +13,8 @@ const Maize = () => {
       product: "Foliar: Apply Urea @ 20g/L water at 4-6 leaf stage",
       soilDrip: "Soil: Apply Urea @ 120kg/ha in 2-3 splits during vegetative growth",
       benefit: "Promotes vigorous vegetative growth, improves grain filling and increases yield",
-      image: "/src/assets/crops/maize/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/maize/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -23,8 +23,8 @@ const Maize = () => {
       product: "Foliar: Apply DAP @ 20g/L water during early vegetative stage",
       soilDrip: "Soil: Apply SSP @ 60kg/ha as basal application before sowing",
       benefit: "Enhances root development, improves flowering and grain setting",
-      image: "/src/assets/crops/maize/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/maize/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -33,8 +33,8 @@ const Maize = () => {
       product: "Foliar: Apply SOP @ 15g/L water during grain filling stage",
       soilDrip: "Soil: Apply MOP @ 40kg/ha during knee-high stage",
       benefit: "Strengthens stalks, improves grain quality and disease resistance",
-      image: "/src/assets/crops/maize/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/maize/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -43,8 +43,8 @@ const Maize = () => {
       product: "Foliar: Apply ZnSO4 @ 5g/L water at 4-6 leaf stage",
       soilDrip: "Soil: Apply Zinc Sulphate @ 25kg/ha as basal application",
       benefit: "Promotes normal growth, improves ear formation and grain development",
-      image: "/src/assets/crops/maize/zinc.jpg", 
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/maize/zinc.jpg", 
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -53,8 +53,8 @@ const Maize = () => {
       product: "Foliar: Apply Ferrous Sulphate @ 5g/L water during vegetative growth",
       soilDrip: "Soil: Apply Iron Chelate @ 10kg/ha during active growth",
       benefit: "Restores green color to leaves and improves photosynthesis",
-      image: "/src/assets/crops/maize/iron.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/maize/iron.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -63,8 +63,8 @@ const Maize = () => {
       product: "Foliar: Apply MgSO4 @ 10g/L water during grain filling",
       soilDrip: "Soil: Apply Magnesium Sulphate @ 30kg/ha during vegetative growth",
       benefit: "Improves chlorophyll formation and grain filling",
-      image: "/src/assets/crops/maize/magn.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/maize/magn.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -137,7 +137,7 @@ const Maize = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Maize"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -166,3 +166,5 @@ const Maize = () => {
 };
 
 export default Maize;
+
+

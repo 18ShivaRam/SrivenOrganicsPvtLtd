@@ -13,8 +13,8 @@ const Cocoa = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Repeat after 15-20 days during flush periods.",
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during active growth and flowering.",
       benefit: "Enhances vegetative growth, improves flowering, increases pod set and bean quality",
-      image: "/src/assets/crops/cocoa/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cocoa/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -23,8 +23,8 @@ const Cocoa = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during flowering stage. Repeat after 15 days.",
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during pod development stages.",
       benefit: "Improves root development, enhances flowering, increases pod formation and bean phosphorus content",
-      image: "/src/assets/crops/cocoa/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cocoa/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -33,8 +33,8 @@ const Cocoa = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus application during pod development stage.",
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during pod development and maturity.",
       benefit: "Improves water uptake, enhances pod development, increases bean quality and disease resistance",
-      image: "/src/assets/crops/cocoa/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cocoa/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -43,8 +43,8 @@ const Cocoa = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus on older affected leaves during application.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if needed.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
-      image: "/src/assets/crops/cocoa/magn.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cocoa/magn.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -53,8 +53,8 @@ const Cocoa = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Target young affected leaves during early morning.",
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
-      image: "/src/assets/crops/cocoa/iron.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cocoa/iron.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -63,8 +63,8 @@ const Cocoa = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during early growth and flowering stages.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances pod development and increases bean formation",
-      image: "/src/assets/crops/cocoa/zinc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cocoa/zinc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -137,7 +137,7 @@ const Cocoa = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Cocoa"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -166,3 +166,5 @@ const Cocoa = () => {
 };
 
 export default Cocoa;
+
+

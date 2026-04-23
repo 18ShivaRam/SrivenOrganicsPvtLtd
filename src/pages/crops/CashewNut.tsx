@@ -14,8 +14,8 @@ const CashewNut = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Repeat after 15-20 days during flowering season.",
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during vegetative growth and flowering stages.",
       benefit: "Enhances vegetative growth, improves flowering, increases nut yield and kernel quality",
-      image: "/src/assets/crops/cashew-nut/nitro-11.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cashew-nut/nitro-11.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,8 +24,8 @@ const CashewNut = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during flowering and nut development stages.",
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during flowering and fruiting phases.",
       benefit: "Improves root development, enhances flowering, increases nut development and kernel quality",
-      image: "/src/assets/crops/cashew-nut/phos-6.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cashew-nut/phos-6.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -34,8 +34,8 @@ const CashewNut = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during nut development and maturity stages.",
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during nut development and harvest.",
       benefit: "Improves nut quality, enhances kernel weight, increases shelf life and disease resistance",
-      image: "/src/assets/crops/cashew-nut/pota-7.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cashew-nut/pota-7.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -44,8 +44,8 @@ const CashewNut = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Target young affected leaves during early morning application.",
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances tree health",
-      image: "/src/assets/crops/cashew-nut/iron-12.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cashew-nut/iron-12.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -54,8 +54,8 @@ const CashewNut = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during early growth and flowering stages.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances nut development and increases yield",
-      image: "/src/assets/crops/cashew-nut/zinc-9.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cashew-nut/zinc-9.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -64,8 +64,8 @@ const CashewNut = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus on older affected leaves during application.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall tree vigor",
-      image: "/src/assets/crops/cashew-nut/mag-5.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cashew-nut/mag-5.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -77,7 +77,7 @@ const CashewNut = () => {
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/src/assets/crops/cashew-nut/cashew-nut.JPEG" 
+            src="/assets/crops/cashew-nut/cashew-nut.JPEG" 
             alt="Cashew Nut Background"
             className="w-full h-full object-cover"
           />
@@ -138,7 +138,7 @@ const CashewNut = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Cashew Nut"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -167,3 +167,5 @@ const CashewNut = () => {
 };
 
 export default CashewNut;
+
+

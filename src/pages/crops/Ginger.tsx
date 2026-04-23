@@ -13,8 +13,8 @@ const Ginger = () => {
       product: "Foliar: Apply Urea @ 20g/L water during vegetative growth",
       soilDrip: "Soil: Apply Urea @ 100kg/ha in 3-4 splits during growing season",
       benefit: "Promotes healthy vegetative growth and improves rhizome development",
-      image: "/src/assets/crops/ginger/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/ginger/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -23,8 +23,8 @@ const Ginger = () => {
       product: "Foliar: Apply DAP @ 15g/L water during rhizome formation",
       soilDrip: "Soil: Apply SSP @ 75kg/ha as basal application",
       benefit: "Enhances rhizome development and improves quality",
-      image: "/src/assets/crops/ginger/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/ginger/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -33,8 +33,8 @@ const Ginger = () => {
       product: "Foliar: Apply SOP @ 15g/L water during rhizome enlargement",
       soilDrip: "Soil: Apply MOP @ 80kg/ha during rhizome development",
       benefit: "Improves rhizome quality, fiber content and storage life",
-      image: "/src/assets/crops/ginger/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/ginger/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -43,8 +43,8 @@ const Ginger = () => {
       product: "Foliar: Apply ZnSO4 @ 5g/L water during active growth",
       soilDrip: "Soil: Apply Zinc Sulphate @ 25kg/ha before planting",
       benefit: "Promotes normal growth and improves rhizome development",
-      image: "/src/assets/crops/ginger/nitro.jpg", 
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/ginger/nitro.jpg", 
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -53,8 +53,8 @@ const Ginger = () => {
       product: "Foliar: Apply MgSO4 @ 10g/L water during active growth",
       soilDrip: "Soil: Apply Magnesium Sulphate @ 50kg/ha during planting",
       benefit: "Improves chlorophyll formation and rhizome quality",
-      image: "/src/assets/crops/ginger/magn.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/ginger/magn.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Sulfur Deficiency",
@@ -63,8 +63,8 @@ const Ginger = () => {
       product: "Foliar: Apply Sulfur @ 5g/L water during rhizome development",
       soilDrip: "Soil: Apply Gypsum @ 150kg/ha before planting",
       benefit: "Improves rhizome quality and essential oil content",
-      image: "/src/assets/crops/ginger/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/ginger/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -137,7 +137,7 @@ const Ginger = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Ginger"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -166,3 +166,5 @@ const Ginger = () => {
 };
 
 export default Ginger;
+
+

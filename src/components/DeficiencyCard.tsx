@@ -121,3 +121,5 @@ export const DeficiencyCard: React.FC<DeficiencyCardProps> = ({
     </Card>
   );
 };
+
+

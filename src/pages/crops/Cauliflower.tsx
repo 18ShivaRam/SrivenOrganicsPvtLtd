@@ -13,8 +13,8 @@ const Cauliflower = () => {
       product: "Macrofert 20:20:20 5gm/lit",
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Promotes healthy foliage growth and proper curd formation",
-      image: "/src/assets/crops/cauliflower/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cauliflower/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorous Deficiency",
@@ -23,8 +23,8 @@ const Cauliflower = () => {
       product: "Vengrow 12:61:00 5gm/lit, Fertimax 00:52:34 5-10gm/lit",
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Enhances root development and early curd initiation",
-      image: "/src/assets/crops/cauliflower/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cauliflower/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -33,8 +33,8 @@ const Cauliflower = () => {
       product: "Fertimax 00:00:50 5gm/lit, Fertimax13:00:45 5-10gm/lit, Fertisol 3-5gm/lit",
       soilDrip: "Plantex 13:00:45 3kg/acre",
       benefit: "Improves curd quality, firmness and post-harvest life",
-      image: "/src/assets/crops/cauliflower/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cauliflower/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Calcium Deficiency",
@@ -43,8 +43,8 @@ const Cauliflower = () => {
       product: "Aquacal-3-4ml/lit, Calcium nitrate 5-10gm/lit, combical-3-5gm/lit",
       soilDrip: "combical 3 kg/acre",
       benefit: "Prevents hollow stem and improves curd quality",
-      image: "/src/assets/crops/cauliflower/calc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cauliflower/calc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Boron Deficiency",
@@ -53,8 +53,8 @@ const Cauliflower = () => {
       product: "Boron 20 1gm/lit, Potabor super-2-3gm/lit",
       soilDrip: "Boron-20 1 kg/acre",
       benefit: "Prevents hollow stem and ensures solid curd formation",
-      image: "/src/assets/crops/cauliflower/boro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cauliflower/boro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Molybdenum Deficiency",
@@ -63,8 +63,8 @@ const Cauliflower = () => {
       product: "Molybdenum fertilizer 1-2gm/lit",
       soilDrip: "Molybdenum soil application 100-200g/acre",
       benefit: "Essential for nitrogen metabolism and proper leaf development",
-      image: "/src/assets/crops/cauliflower/moly.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/cauliflower/moly.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -76,7 +76,7 @@ const Cauliflower = () => {
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/src/assets/crops/cauliflower/cauliflower.jpeg" 
+            src="/assets/crops/cauliflower/cauliflower.jpeg" 
             alt="Cauliflower Background"
             className="w-full h-full object-cover"
           />
@@ -137,7 +137,7 @@ const Cauliflower = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Cauliflower"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -166,3 +166,5 @@ const Cauliflower = () => {
 };
 
 export default Cauliflower;
+
+

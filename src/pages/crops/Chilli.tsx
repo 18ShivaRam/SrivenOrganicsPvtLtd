@@ -14,8 +14,8 @@ const Chilli = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Repeat after 15-20 days during flowering season.",
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during vegetative growth and flowering stages.",
       benefit: "Enhances vegetative growth, improves flowering, increases fruit set and capsaicin content",
-      image: "/src/assets/crops/chilli/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/chilli/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,8 +24,8 @@ const Chilli = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during flowering and fruit development stages.",
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during flowering and fruiting phases.",
       benefit: "Improves root development, enhances flowering, increases fruit development and quality",
-      image: "/src/assets/crops/chilli/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/chilli/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -34,8 +34,8 @@ const Chilli = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during fruit development and ripening stages.",
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during fruit development and maturity.",
       benefit: "Improves fruit quality, enhances pungency, increases shelf life and disease resistance",
-      image: "/src/assets/crops/chilli/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/chilli/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Calcium Deficiency",
@@ -44,8 +44,8 @@ const Chilli = () => {
       product: "Apply Fertimax at 3-4 gm/liter water during fruit development. Critical for preventing blossom end rot.",
       soilDrip: "Apply 10-15 kg Fertimax per acre through drip system during fruit development stages.",
       benefit: "Prevents blossom end rot, ensures proper fruit development, improves fruit quality and market value",
-      image: "/src/assets/crops/chilli/calc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/chilli/calc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -54,8 +54,8 @@ const Chilli = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Target young affected leaves during early morning application.",
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
-      image: "/src/assets/crops/chilli/iron.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/chilli/iron.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -64,8 +64,8 @@ const Chilli = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus on older affected leaves during application.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
-      image: "/src/assets/crops/chilli/magn.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/chilli/magn.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -138,7 +138,7 @@ const Chilli = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Chilli"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -167,3 +167,5 @@ const Chilli = () => {
 };
 
 export default Chilli;
+
+

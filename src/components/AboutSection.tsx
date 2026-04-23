@@ -43,3 +43,5 @@ export const AboutSection = () => {
     </section>
   );
 };
+
+

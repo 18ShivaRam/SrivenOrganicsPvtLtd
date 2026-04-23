@@ -16,7 +16,7 @@ const crops = [
     name: 'Sugarcane',
     slug: 'sugarcane',
     image:'/crops/sugarcane/sugarcane.jpg',
-    // image: 'src/assets/crops/sugarcane/sugarcane.jpg',
+    // image: '/assets/crops/sugarcane/sugarcane.jpg',
   },
   {
     name: 'Grape',
@@ -140,3 +140,5 @@ export const CropsSection = () => {
     </section>
   );
 };
+
+

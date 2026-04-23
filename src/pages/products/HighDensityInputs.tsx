@@ -57,8 +57,8 @@ const HighDensityInputs = () => {
         <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src='src/assets/hero-2.jpg' 
-              alt="Liquid Fertilizers Background"
+              src='/assets/hero-2.jpg'
+              alt="High Density Inputs Background"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
@@ -113,3 +113,5 @@ const HighDensityInputs = () => {
 };
 
 export default HighDensityInputs;
+
+

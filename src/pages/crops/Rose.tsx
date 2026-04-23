@@ -14,8 +14,8 @@ const Rose = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Repeat after 15-20 days during growing season.",
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during vegetative growth and flowering stages.",
       benefit: "Enhances vegetative growth, improves flowering, increases flower size and stem strength",
-      image: "/src/assets/crops/rose/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/rose/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,8 +24,8 @@ const Rose = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during flowering and bud development stages.",
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during flowering phases.",
       benefit: "Improves root development, enhances flowering, increases flower development and quality",
-      image: "/src/assets/crops/rose/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/rose/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -34,8 +34,8 @@ const Rose = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during bud formation and flowering stages.",
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during flower development and blooming.",
       benefit: "Improves flower quality, enhances color intensity, increases vase life and disease resistance",
-      image: "/src/assets/crops/rose/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/rose/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -44,8 +44,8 @@ const Rose = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Target young affected leaves during early morning application.",
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
-      image: "/src/assets/crops/rose/iron.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/rose/iron.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -54,8 +54,8 @@ const Rose = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus on older affected leaves during application.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
-      image: "/src/assets/crops/rose/magn.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/rose/magn.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Calcium Deficiency",
@@ -64,8 +64,8 @@ const Rose = () => {
       product: "Apply Fertimax at 3-4 gm/liter water during bud development. Critical for flower quality.",
       soilDrip: "Apply 10-15 kg Fertimax per acre through drip system during active growth and flowering.",
       benefit: "Ensures proper cell wall development, improves flower structure and enhances disease resistance",
-      image: "/src/assets/crops/rose/calc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/rose/calc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -138,7 +138,7 @@ const Rose = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Rose"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -167,3 +167,5 @@ const Rose = () => {
 };
 
 export default Rose;
+
+

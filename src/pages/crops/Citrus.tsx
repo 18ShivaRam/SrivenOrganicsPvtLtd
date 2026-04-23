@@ -13,8 +13,8 @@ const Citrus = () => {
       product: "Drip: Apply Fertimax Gold 19:19:19 @ 25g/plant every 15 days",
       soilDrip: "Soil: Apply Urea @ 100g/plant in 2 splits during growing season",
       benefit: "Promotes healthy vegetative growth, improves fruit size and quality",
-      image: "/src/assets/crops/citrus/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/citrus/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -23,8 +23,8 @@ const Citrus = () => {
       product: "Foliar: Apply DAP @ 10g/L water during flowering stage",
       soilDrip: "Soil: Apply SSP @ 150g/plant before flowering season",
       benefit: "Enhances root development, improves flowering and fruit setting",
-      image: "/src/assets/crops/citrus/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/citrus/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -33,8 +33,8 @@ const Citrus = () => {
       product: "Foliar: Apply SOP @ 15g/L water during fruit development",
       soilDrip: "Drip: Apply MOP @ 50g/plant during fruit development stage",
       benefit: "Improves fruit quality, juice content and disease resistance",
-      image: "/src/assets/crops/citrus/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/citrus/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -43,8 +43,8 @@ const Citrus = () => {
       product: "Foliar: Apply Ferrous Sulphate @ 5g/L water every 15 days",
       soilDrip: "Soil: Apply Iron Chelate @ 25g/plant during active growth",
       benefit: "Restores green color to leaves and improves photosynthesis",
-      image: "/src/assets/crops/citrus/iron.jpg", 
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/citrus/iron.jpg", 
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -53,8 +53,8 @@ const Citrus = () => {
       product: "Foliar: Apply ZnSO4 @ 5g/L water every 20 days",
       soilDrip: "Soil: Apply Zinc Sulphate @ 50g/plant before new flush",
       benefit: "Promotes normal leaf development and improves fruit size",
-      image: "/src/assets/crops/citrus/zinc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/citrus/zinc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -63,8 +63,8 @@ const Citrus = () => {
       product: "Foliar: Apply MgSO4 @ 10g/L water during active growth",
       soilDrip: "Soil: Apply Magnesium Sulphate @ 75g/plant annually",
       benefit: "Improves chlorophyll formation and photosynthesis efficiency",
-      image: "/src/assets/crops/citrus/magn.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/citrus/magn.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -137,7 +137,7 @@ const Citrus = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Citrus"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -166,3 +166,5 @@ const Citrus = () => {
 };
 
 export default Citrus;
+
+

@@ -14,8 +14,8 @@ const Sugarcane = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Repeat after 15-20 days during active growth periods.",
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during tillering and grand growth phases.",
       benefit: "Enhances vegetative growth, improves tiller formation, increases cane yield and sugar content",
-      image: "/src/assets/crops/sugarcane/nitro-1.jpg",
-      productImage: "/src/assets/Nutrimag.jpg"
+      image: "/assets/crops/sugarcane/nitro-1.jpg",
+      productImage: "/assets/Nutrimag.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,8 +24,8 @@ const Sugarcane = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during early growth and maturity stages.",
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during root development and maturity phases.",
       benefit: "Improves root development, enhances sugar formation, increases cane quality and maturity",
-      image: "/src/assets/crops/sugarcane/phos-1.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/sugarcane/phos-1.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -34,8 +34,8 @@ const Sugarcane = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during cane formation and maturity stages.",
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during cane development and maturity.",
       benefit: "Improves sugar content, enhances cane quality, increases disease resistance and stem strength",
-      image: "/src/assets/crops/sugarcane/pota-1.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/sugarcane/pota-1.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Calcium Deficiency",
@@ -44,8 +44,8 @@ const Sugarcane = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Target young affected leaves during early morning application.",
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
-      image: "/src/assets/crops/sugarcane/cal.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/sugarcane/cal.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Sulphur Deficiency",
@@ -54,8 +54,8 @@ const Sugarcane = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during early growth and tillering stages.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and cane formation phases.",
       benefit: "Improves growth hormone production, enhances cane development and increases yield",
-      image: "/src/assets/crops/sugarcane/sul.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/sugarcane/sul.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -64,8 +64,8 @@ const Sugarcane = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus on older affected leaves during application.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
-      image: "/src/assets/crops/sugarcane/mag.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/sugarcane/mag.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -137,7 +137,7 @@ const Sugarcane = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Sugarcane"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -166,3 +166,5 @@ const Sugarcane = () => {
 };
 
 export default Sugarcane;
+
+

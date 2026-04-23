@@ -13,7 +13,7 @@ const Grape = () => {
       product: "Macrofert 20:20:20 5gm/lit",
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Helps in vegetative growth, formation of amino acids",
-      image: "/src/assets/crops/grape/nitro.jpg",
+      image: "/assets/crops/grape/nitro.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -23,7 +23,7 @@ const Grape = () => {
       product: "Vengrow 12:61:00 5gm/lit",
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Maintain longterm productivity",
-      image: "/src/assets/crops/grape/phos.jpg",
+      image: "/assets/crops/grape/phos.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -33,7 +33,7 @@ const Grape = () => {
       product: "Fertimax13:00:45( 5-10gm/lit)",
       soilDrip: "Plantex 13:00:45 3kg/acre(drip)",
       benefit: "Ensures good, strong fruit set and increase sugar content in grape",
-      image: "/src/assets/crops/grape/pota.jpg",
+      image: "/assets/crops/grape/pota.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -43,7 +43,7 @@ const Grape = () => {
       product: "Aquacal-3-4ml/lit, combical-3-5gm/lit, horticab 2-3ml/lit",
       soilDrip: "combical 3 kg/acre or Plantex CN 3kg/acre",
       benefit: "Boosts new leaf and bud growth, ensures strong skin and minimise fruit disorder and diseases",
-      image: "/src/assets/crops/grape/calc.jpg",
+      image: "/assets/crops/grape/calc.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -63,7 +63,7 @@ const Grape = () => {
       product: "Primasulf 3-4ml/lit, fertisol 5gm/lit",
       soilDrip: "ferromag 3kg/1acre or fertisol 3kg/1acre",
       benefit: "Maximise photosynthetic activity, minimises diseases",
-      image: "/src/assets/crops/grape/sulp.jpg",
+      image: "/assets/crops/grape/sulp.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -73,7 +73,7 @@ const Grape = () => {
       product: "Boron 20 1gm/lit, Potabor super-2-3gm/lit",
       soilDrip: "Boron -20 1 kg/acre",
       benefit: "Ensures good shoot growth and strong fruit set, improve berry shape and size",
-      image: "/src/assets/crops/grape/boro.jpg",
+      image: "/assets/crops/grape/boro.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -83,7 +83,7 @@ const Grape = () => {
       product: "Chelamin plus1.5gm/lit or chelamin gold 0.5gm/lit",
       soilDrip: "Chelamin gold 0.5kg/acre",
       benefit: "Increases sucrose content in grapes and formation of healthy berries.",
-      image: "/src/assets/crops/grape/zinc.jpg",
+      image: "/assets/crops/grape/zinc.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -93,7 +93,7 @@ const Grape = () => {
       product: "Chelafer1.5gm/lit, agrofer-1.5gm/lit",
       soilDrip: "Ferromag 5kg/acre, Ferromix-5kg/acre",
       benefit: "Strengthening leaf development and vine productivity",
-      image: "/src/assets/crops/grape/iron.jpg",
+      image: "/assets/crops/grape/iron.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     }
   ];
@@ -167,7 +167,7 @@ const Grape = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Grape"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -207,3 +207,5 @@ const Grape = () => {
 };
 
 export default Grape;
+
+

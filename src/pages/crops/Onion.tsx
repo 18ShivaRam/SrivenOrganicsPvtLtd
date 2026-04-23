@@ -13,8 +13,8 @@ const Onion = () => {
       product: "Foliar: Apply Urea @ 20g/L water during vegetative growth",
       soilDrip: "Soil: Apply Urea @ 80kg/ha in 3-4 splits during growing season",
       benefit: "Promotes healthy vegetative growth and improves bulb size",
-      image: "/src/assets/crops/onion/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/onion/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -23,8 +23,8 @@ const Onion = () => {
       product: "Foliar: Apply DAP @ 15g/L water during bulb initiation",
       soilDrip: "Soil: Apply SSP @ 50kg/ha as basal application",
       benefit: "Enhances root development and improves bulb formation",
-      image: "/src/assets/crops/onion/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/onion/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -33,8 +33,8 @@ const Onion = () => {
       product: "Foliar: Apply SOP @ 15g/L water during bulb development",
       soilDrip: "Soil: Apply MOP @ 60kg/ha during bulb enlargement stage",
       benefit: "Improves bulb quality, storage life and disease resistance",
-      image: "/src/assets/crops/onion/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/onion/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Sulfur Deficiency",
@@ -43,8 +43,8 @@ const Onion = () => {
       product: "Foliar: Apply Sulfur @ 5g/L water during bulb development",
       soilDrip: "Soil: Apply Gypsum @ 200kg/ha before planting",
       benefit: "Improves bulb quality, pungency and flavor development",
-      image: "/src/assets/crops/onion/sulp.jpg", 
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/onion/sulp.jpg", 
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -53,8 +53,8 @@ const Onion = () => {
       product: "Foliar: Apply ZnSO4 @ 5g/L water during active growth",
       soilDrip: "Soil: Apply Zinc Sulphate @ 20kg/ha before planting",
       benefit: "Promotes normal growth and improves bulb development",
-      image: "/src/assets/crops/onion/zinc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/onion/zinc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -127,7 +127,7 @@ const Onion = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Onion"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -156,3 +156,5 @@ const Onion = () => {
 };
 
 export default Onion;
+
+

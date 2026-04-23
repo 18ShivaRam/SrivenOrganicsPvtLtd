@@ -14,8 +14,8 @@ const Paddy = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Repeat after 15-20 days during tillering and panicle initiation.",
       soilDrip: "Apply 5-8 kg Fertimax per acre through flooding irrigation during tillering and reproductive stages.",
       benefit: "Enhances tillering, improves grain yield, increases protein content and overall crop quality",
-      image: "/src/assets/crops/paddy/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/paddy/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,8 +24,8 @@ const Paddy = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during panicle initiation and grain filling stages.",
       soilDrip: "Apply 6-10 kg Fertimax per acre through flooding during reproductive and grain filling phases.",
       benefit: "Improves root development, enhances panicle formation, increases grain filling and test weight",
-      image: "/src/assets/crops/paddy/phos.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/paddy/phos.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -34,8 +34,8 @@ const Paddy = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during panicle development and grain filling stages.",
       soilDrip: "Apply 8-12 kg Fertimax per acre through flooding during grain development and maturity.",
       benefit: "Improves stem strength, reduces lodging, enhances grain quality and disease resistance",
-      image: "/src/assets/crops/paddy/pota.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/paddy/pota.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -44,8 +44,8 @@ const Paddy = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Target young affected leaves during early morning spray.",
       soilDrip: "Apply 5-7 kg Fertimax per acre through flooding. Ensure proper water management.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances crop vigor",
-      image: "/src/assets/crops/paddy/iron.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/paddy/iron.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -54,8 +54,8 @@ const Paddy = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during early growth and tillering stages.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through flooding during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances tillering and increases grain yield",
-      image: "/src/assets/crops/paddy/zinc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/paddy/zinc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -64,8 +64,8 @@ const Paddy = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus on older affected leaves during application.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through flooding. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances grain filling",
-      image: "/src/assets/crops/paddy/magn.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/paddy/magn.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -138,7 +138,7 @@ const Paddy = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Paddy"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -167,3 +167,5 @@ const Paddy = () => {
 };
 
 export default Paddy;
+
+

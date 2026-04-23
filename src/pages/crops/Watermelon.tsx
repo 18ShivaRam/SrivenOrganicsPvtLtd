@@ -13,8 +13,8 @@ const Watermelon = () => {
       product: "Foliar: Apply Urea @ 20g/L water during vegetative growth",
       soilDrip: "Soil: Apply Urea @ 100kg/ha in 3-4 splits during growing season",
       benefit: "Promotes healthy vine growth and improves fruit size",
-      image: "/src/assets/crops/watermelon/nitro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/watermelon/nitro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -23,8 +23,8 @@ const Watermelon = () => {
       product: "Foliar: Apply DAP @ 15g/L water during flowering stage",
       soilDrip: "Soil: Apply SSP @ 75kg/ha as basal application",
       benefit: "Enhances flowering, fruit set and root development",
-      image: "/src/assets/crops/watermelon/phos.jpeg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/watermelon/phos.jpeg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -33,8 +33,8 @@ const Watermelon = () => {
       product: "Foliar: Apply SOP @ 15g/L water during fruit development",
       soilDrip: "Soil: Apply MOP @ 80kg/ha during fruit enlargement",
       benefit: "Improves fruit quality, sweetness and disease resistance",
-      image: "/src/assets/crops/watermelon/pota.JPG",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/watermelon/pota.JPG",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Calcium Deficiency",
@@ -43,8 +43,8 @@ const Watermelon = () => {
       product: "Foliar: Apply Calcium Chloride @ 5g/L water during fruit development",
       soilDrip: "Soil: Apply Gypsum @ 200kg/ha before planting",
       benefit: "Prevents blossom end rot and improves fruit quality",
-      image: "/src/assets/crops/watermelon/calc.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/watermelon/calc.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -53,8 +53,8 @@ const Watermelon = () => {
       product: "Foliar: Apply MgSO4 @ 10g/L water during active growth",
       soilDrip: "Soil: Apply Magnesium Sulphate @ 50kg/ha during planting",
       benefit: "Improves chlorophyll formation and fruit development",
-      image: "/src/assets/crops/watermelon/magn.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/watermelon/magn.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Boron Deficiency",
@@ -63,8 +63,8 @@ const Watermelon = () => {
       product: "Foliar: Apply Borax @ 2g/L water during flowering and fruit development",
       soilDrip: "Soil: Apply Boron @ 5kg/ha before flowering",
       benefit: "Improves pollination, fruit set and internal fruit quality",
-      image: "/src/assets/crops/watermelon/boro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/watermelon/boro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -137,7 +137,7 @@ const Watermelon = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Watermelon"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -166,3 +166,5 @@ const Watermelon = () => {
 };
 
 export default Watermelon;
+
+

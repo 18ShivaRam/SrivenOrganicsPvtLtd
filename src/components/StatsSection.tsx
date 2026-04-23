@@ -46,3 +46,4 @@ export const StatsSection = () => {
     </section>
   );
 };
+

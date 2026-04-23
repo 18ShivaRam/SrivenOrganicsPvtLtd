@@ -13,7 +13,7 @@ const Cotton = () => {
       product: "Macrofert 20:20:20 5gm/lit",
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Helps in vegetative growth, formation of amino acids",
-      image: "/src/assets/crops/cotton/nitro.jpg",
+      image: "/assets/crops/cotton/nitro.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -23,7 +23,7 @@ const Cotton = () => {
       product: "Vengrow 12:61:00 5gm/lit, Fertimax 00:52:34( 5-10gm/lit)",
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Root development, winter hardness",
-      image: "/src/assets/crops/cotton/phos.jpg",
+      image: "/assets/crops/cotton/phos.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -33,7 +33,7 @@ const Cotton = () => {
       product: "Fertimax 00:00:50 5gm/lit, Fertimax13:00:45( 5-10gm/lit), Fertisol 3-5gm/lit",
       soilDrip: "—",
       benefit: "Resistance to pests and diseases, opening and closing of stomata",
-      image: "/src/assets/crops/cotton/pota.jpg",
+      image: "/assets/crops/cotton/pota.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -43,7 +43,7 @@ const Cotton = () => {
       product: "Aquacal-3-4ml/lit, Calcium nitrate 5-10gm/lit, combical-3-5gm/lit, horticab 2-3ml/lit, crack gourd 2-3ml/lit",
       soilDrip: "—",
       benefit: "Cell formation, cell elongation, cell division",
-      image: "/src/assets/crops/cotton/calc.jpg",
+      image: "/assets/crops/cotton/calc.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -53,7 +53,7 @@ const Cotton = () => {
       product: "Magmix 4-5gm/lit, zinc mag 3-5ml/lit, Fertisol 3-5gm/lit",
       soilDrip: "Ferromag 5kg/acre",
       benefit: "Helps in photosynthesis, starch translocation",
-      image: "/src/assets/crops/cotton/magn.jpg",
+      image: "/assets/crops/cotton/magn.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -63,7 +63,7 @@ const Cotton = () => {
       product: "Primasulf 3-4ml/lit, fertisol 5gm/lit",
       soilDrip: "—",
       benefit: "Improves special character in crop",
-      image: "/src/assets/crops/cotton/sulp.jpg",
+      image: "/assets/crops/cotton/sulp.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -73,7 +73,7 @@ const Cotton = () => {
       product: "Phosphocop 2-3ml/lit",
       soilDrip: "—",
       benefit: "Serves to intensify flavour and colour in vegetables and colour in flowers",
-      image: "/src/assets/crops/cotton/copp.jpg",
+      image: "/assets/crops/cotton/copp.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -83,7 +83,7 @@ const Cotton = () => {
       product: "Boron 20 1gm/lit, Potabor super-2-3gm/lit",
       soilDrip: "—",
       benefit: "Translocation of sugars and help in pollination",
-      image: "/src/assets/crops/cotton/boro.jpg",
+      image: "/assets/crops/cotton/boro.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -93,7 +93,7 @@ const Cotton = () => {
       product: "Chelamin plus1-2gm/lit",
       soilDrip: "Chelamin gold 0.5kg/acre",
       benefit: "Helps in activation of enzymes",
-      image: "/src/assets/crops/cotton/zinc.jpg",
+      image: "/assets/crops/cotton/zinc.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     },
     {
@@ -103,7 +103,7 @@ const Cotton = () => {
       product: "Chelafer1-2gm/lit, Agrofer-1-2gm/lit",
       soilDrip: "Ferromag 5kg/acre, Ferromix-5kg/acre",
       benefit: "Helps in electron transport chain and helps in photosynthesis",
-      image: "/src/assets/crops/cotton/iron.jpg",
+      image: "/assets/crops/cotton/iron.jpg",
       productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
     }
   ];
@@ -177,7 +177,7 @@ const Cotton = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Cotton"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -218,3 +218,5 @@ const Cotton = () => {
 };
 
 export default Cotton;
+
+

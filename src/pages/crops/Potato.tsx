@@ -13,8 +13,8 @@ const Potato = () => {
       product: "Macrofert 20:20:20 5gm/lit",
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Promotes vegetative growth and improves tuber development",
-      image: "/src/assets/crops/potato/nitro.png",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/potato/nitro.png",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorous Deficiency",
@@ -23,8 +23,8 @@ const Potato = () => {
       product: "Vengrow 12:61:00 5gm/lit, Fertimax 00:52:34 5-10gm/lit",
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Enhances root development and tuber formation",
-      image: "/src/assets/crops/potato/phos.png",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/potato/phos.png",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -33,8 +33,8 @@ const Potato = () => {
       product: "Fertimax 00:00:50 5gm/lit, Fertimax13:00:45 5-10gm/lit, Fertisol 3-5gm/lit",
       soilDrip: "Plantex 13:00:45 3kg/acre",
       benefit: "Improves tuber quality, starch content and storage life",
-      image: "/src/assets/crops/potato/pota.png",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/potato/pota.png",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Calcium Deficiency",
@@ -43,8 +43,8 @@ const Potato = () => {
       product: "Aquacal-3-4ml/lit, Calcium nitrate 5-10gm/lit, combical-3-5gm/lit, horticab 2-3ml/lit",
       soilDrip: "combical 3 kg/acre",
       benefit: "Prevents internal brown spot and improves tuber quality",
-      image: "/src/assets/crops/potato/calc.png",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/potato/calc.png",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -53,8 +53,8 @@ const Potato = () => {
       product: "Magmix 4-5gm/lit, zinc mag 3-5ml/lit, Fertisol 3-5gm/lit",
       soilDrip: "Ferromag 5kg/acre",
       benefit: "Enhances photosynthesis and chlorophyll formation",
-      image: "/src/assets/crops/potato/magn.jpeg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/potato/magn.jpeg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Sulphur Deficiency",
@@ -63,8 +63,8 @@ const Potato = () => {
       product: "Primasulf 3-4ml/lit, fertisol 5gm/lit",
       soilDrip: "fertisol 3kg/acre",
       benefit: "Improves protein synthesis and tuber quality",
-      image: "/src/assets/crops/potato/sulp.png",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/potato/sulp.png",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Boron Deficiency",
@@ -73,8 +73,8 @@ const Potato = () => {
       product: "Boron 20 1gm/lit, Potabor super-2-3gm/lit",
       soilDrip: "Boron-20 1 kg/acre",
       benefit: "Prevents hollow heart and improves tuber quality",
-      image: "/src/assets/crops/potato/boro.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/potato/boro.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -83,8 +83,8 @@ const Potato = () => {
       product: "Chelamin plus1-2gm/lit",
       soilDrip: "Chelamin gold 0.5kg/acre",
       benefit: "Promotes enzyme activation and plant growth",
-      image: "/src/assets/crops/potato/nitro.png",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/potato/nitro.png",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -93,8 +93,8 @@ const Potato = () => {
       product: "Chelafer1.5gm/lit, agrofer-1.5gm/lit",
       soilDrip: "Ferromag 5kg/acre, Ferromix-5kg/acre",
       benefit: "Improves chlorophyll synthesis and photosynthesis",
-      image: "/src/assets/crops/potato/iron.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/potato/iron.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -167,7 +167,7 @@ const Potato = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Potato"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -196,3 +196,5 @@ const Potato = () => {
 };
 
 export default Potato;
+
+

@@ -14,8 +14,8 @@ const Banana = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Repeat after 15-20 days during active growth periods.",
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during vegetative growth and flowering stages.",
       benefit: "Enhances vegetative growth, improves sucker formation, increases bunch size and fruit quality",
-      image: "/src/assets/crops/banana/nitrogen.png",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/banana/nitrogen.png",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,8 +24,8 @@ const Banana = () => {
       product: "Apply Fertimax at 2-3 gm/liter water during flowering stage. Repeat after 15 days.",
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during bunch development phases.",
       benefit: "Improves root development, enhances flowering, increases bunch formation and fruit phosphorus content",
-      image: "/src/assets/crops/banana/phosphorous-New.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/banana/phosphorous-New.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Potassium Deficiency",
@@ -34,8 +34,8 @@ const Banana = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during fruit development and ripening stages.",
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during fruit development and maturity.",
       benefit: "Improves fruit quality, enhances sweetness, increases shelf life and disease resistance",
-      image: "/src/assets/crops/banana/Potassium-new-1.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/banana/Potassium-new-1.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Magnesium Deficiency",
@@ -44,8 +44,8 @@ const Banana = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Focus on older affected leaves during application.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if needed.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
-      image: "/src/assets/crops/banana/magnesium-new.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/banana/magnesium-new.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Iron Deficiency",
@@ -54,8 +54,8 @@ const Banana = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Target young affected leaves during early morning.",
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
-      image: "/src/assets/crops/banana/iron-new.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/banana/iron-new.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     },
     {
       name: "Zinc Deficiency",
@@ -64,8 +64,8 @@ const Banana = () => {
       product: "Apply Fertimax at 2-3 gm/liter water. Critical during early growth and flowering stages.",
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances fruit development and increases bunch weight",
-      image: "/src/assets/crops/banana/zinc-new.jpg",
-      productImage: "/src/assets/fertimax-hd.jpg"
+      image: "/assets/crops/banana/zinc-new.jpg",
+      productImage: "/assets/fertimax-hd.jpg"
     }
   ];
 
@@ -138,7 +138,7 @@ const Banana = () => {
                 <div className="relative bg-white flex items-center justify-center p-6 lg:p-10">
                   <div className="absolute inset-0 bg-primary/5" />
                   <img 
-                    src="/src/assets/fertimax-hd.jpg" 
+                    src="/assets/fertimax-hd.jpg" 
                     alt="Majorsol Banana"
                     className="relative z-10 w-full max-w-[380px] h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.2)] transition-transform duration-500 hover:scale-105"
                   />
@@ -167,3 +167,5 @@ const Banana = () => {
 };
 
 export default Banana;
+
+
