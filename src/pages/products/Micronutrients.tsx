@@ -391,7 +391,7 @@ const Micronutrients = () => {
         <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src='src/assets/hero-5.jpg'
+              src='src/assets/hero-2.jpg'
               alt="Micronutrients Background"
               className="w-full h-full object-cover"
             />
