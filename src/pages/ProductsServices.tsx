@@ -23,9 +23,9 @@ const ProductsServices = () => {
     {
       title: "Biostimulants ",
       description: "Checkout a range of highly productive Biostimulants  products that can be used for protecting complete farms and crops from all kinds of threats.",
-      image: "https://www.ariesagro.com/wp-content/uploads/2022/12/plant-protection-1.jpg",
+      image: "https://www.ariesagro.com/wp-content/uploads/2022/12/biostimulants-1.jpg",
       products: ["Nutri Mycin", "Nutri Bio Fungicide", "Nutri Bacterial Control", "Nutri Neem Protectant"],
-      route: "/products/plant-protection"
+      route: "/products/biostimulants"
     },
     {
       title: "Organic/Bio Products",

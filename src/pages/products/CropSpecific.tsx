@@ -3,50 +3,89 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '@/components/ProductCard';
+import paddy from '@/assets/paddy.jpg';
+import groundnut from '@/assets/groundnut.jpg';
+import maize from '@/assets/maize.jpg';
+import cotton from '@/assets/cotton.jpg';
+import chilli from '@/assets/chilli.jpg';
+import citrus from '@/assets/citrus.jpg';
+import vegetable from '@/assets/vegetable.jpg';
 import agrominGold from '@/assets/agromin-gold.jpg';
+
+
 
 const CropSpecific = () => {
   const products = [
     {
-      name: "Banana Special",
+      name: "Paddy",
       description: "Tailored nutrient blend designed to meet the high potassium and micronutrient demands of banana plants for maximum yield and premium fruit quality.",
       features: ["High Potassium content", "Enriched with Boron and Zinc", "Quick absorption formula"],
       benefits: ["Bigger and heavier bunches", "Uniform fruit ripening", "Better resistance to wilt"],
       crops: "All varieties of Banana.",
       dosage: "5-10 gm per plant or 50 kg per acre.",
       packSize: "5kg, 10kg, 25kg",
-      image: agrominGold,
+      image: paddy,
+    },
+      {
+      name: "Groundnut",
+      description: "Tailored nutrient blend designed to meet the high potassium and micronutrient demands of banana plants for maximum yield and premium fruit quality.",
+      features: ["High Potassium content", "Enriched with Boron and Zinc", "Quick absorption formula"],
+      benefits: ["Bigger and heavier bunches", "Uniform fruit ripening", "Better resistance to wilt"],
+      crops: "All varieties of Banana.",
+      dosage: "5-10 gm per plant or 50 kg per acre.",
+      packSize: "5kg, 10kg, 25kg",
+      image: groundnut,
     },
     {
-      name: "Cotton Special",
+      name: "Maize",
+      description: "Tailored nutrient blend designed to meet the high potassium and micronutrient demands of banana plants for maximum yield and premium fruit quality.",
+      features: ["High Potassium content", "Enriched with Boron and Zinc", "Quick absorption formula"],
+      benefits: ["Bigger and heavier bunches", "Uniform fruit ripening", "Better resistance to wilt"],
+      crops: "All varieties of Banana.",
+      dosage: "5-10 gm per plant or 50 kg per acre.",
+      packSize: "5kg, 10kg, 25kg",
+      image: maize,
+    },
+    {
+      name: "Cotton",
       description: "Optimized nutrient formulation for cotton crops to enhance boll formation, reduce boll dropping, and improve fiber quality.",
       features: ["Balanced NPK + Mg", "Supports boll development", "Reduces red leaf disease"],
       benefits: ["Increased boll weight", "Higher ginning percentage", "Uniform boll opening"],
       crops: "Hybrid and BT Cotton varieties.",
       dosage: "5-10 kg per acre.",
       packSize: "5kg, 10kg, 25kg",
-      image: agrominGold,
+      image: cotton,
     },
     {
-      name: "Grape Special",
+      name: "Chilli",
       description: "Premium formulation designed specifically for vineyards to improve berry size, sweetness, and uniform ripening across the bunch.",
       features: ["Potassium and Magnesium rich", "Trace element enriched", "No-residue formula"],
       benefits: ["Enhanced berry crunch and size", "Improved sugar content (Brix)", "Longer shelf life for export"],
       crops: "Table grapes and Wine grapes.",
       dosage: "3-5 kg per acre through fertigation.",
       packSize: "1kg, 5kg, 10kg",
-      image: agrominGold,
+      image: chilli,
     },
     {
-      name: "Mango Special",
+      name: "Citrus",
       description: "Comprehensive nutritional support for mango orchards, promoting healthy flowering, better fruit set, and superior flavor development.",
       features: ["Rich in Calcium and Boron", "Supports carbohydrate transport", "Balanced micro-elements"],
       benefits: ["Reduces fruit drop", "Improved fruit color and aroma", "Steady orchard health"],
       crops: "All varieties of Mango.",
       dosage: "50-100 gm per tree based on age.",
       packSize: "1kg, 5kg, 10kg",
-      image: agrominGold,
+      image: citrus,
     },
+    {
+      name: "Vegetables",
+      description: "Tailored nutrient blend designed to meet the high potassium and micronutrient demands of banana plants for maximum yield and premium fruit quality.",
+      features: ["High Potassium content", "Enriched with Boron and Zinc", "Quick absorption formula"],
+      benefits: ["Bigger and heavier bunches", "Uniform fruit ripening", "Better resistance to wilt"],
+      crops: "All varieties of Banana.",
+      dosage: "5-10 gm per plant or 50 kg per acre.",
+      packSize: "5kg, 10kg, 25kg",
+      image: vegetable,
+    }
   ];
 
   return (

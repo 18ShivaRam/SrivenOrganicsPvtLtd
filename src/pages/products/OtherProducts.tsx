@@ -3,7 +3,7 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '@/components/ProductCard';
-import agrominGold from '@/assets/agromin-gold.jpg';
+import agrominGold from '@/assets/dummy.png';
 
 const OtherProducts = () => {
   const products = [
@@ -47,7 +47,7 @@ const OtherProducts = () => {
         <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://www.ariesagro.com/wp-content/uploads/2022/12/other-1.jpg" 
+              src="/assets/hero-2.jpg" 
               alt="Other Products Background"
               className="w-full h-full object-cover"
             />

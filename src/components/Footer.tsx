@@ -68,7 +68,7 @@ export const Footer = () => {
               <Link to="/products/micronutrients" className="block text-background/80 hover:text-background transition-colors">Micronutrients</Link>
               <Link to="/products/water-soluble-npk" className="block text-background/80 hover:text-background transition-colors">Water Soluble NPK</Link>
               <Link to="/products/organic-bio-products" className="block text-background/80 hover:text-background transition-colors">Organic Products</Link>
-              <Link to="/products/plant-protection" className="block text-background/80 hover:text-background transition-colors">Biostimulants </Link>
+              <Link to="/products/biostimulants" className="block text-background/80 hover:text-background transition-colors">Biostimulants </Link>
               <Link to="/products/urban-products" className="block text-background/80 hover:text-background transition-colors">Urban Products</Link>
             </div>
           </div>

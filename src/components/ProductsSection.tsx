@@ -41,7 +41,7 @@ const productCategories = [
   {
     title: "Biostimulants ",
     description: "Checkout a range of highly productive Biostimulants  products that can be used for protecting complete farms and crops from all kinds of threats.",
-    url: "/plant-protection"
+    url: "/biostimulants"
   },
   {
     title: "Slow Release Fertilizers (Pastilles)",

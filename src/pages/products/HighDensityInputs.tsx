@@ -4,49 +4,79 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '@/components/ProductCard';
 import agrominGold from '@/assets/agromin-gold.jpg';
+import npk888 from '@/assets/NPK888.jpg';
+import npk60018 from '@/assets/NPK60018.jpg';
+import npk111108 from '@/assets/NPK111108.jpg';
+import nutripro from '@/assets/NUTRIPRO.jpg';
+import borocal from '@/assets/BOROCAL.jpg';
+import articarbo from '@/assets/ARTICARBO.jpg';
+
+
+
 
 const HighDensityInputs = () => {
   const products = [
     {
-      name: "Nutri Concentrated NPK",
+      name: "NPK 8:8:8",
       description: "High-strength liquid NPK formulation designed for precision fertigation, providing immediate nutrient availability and easy handling.",
       features: ["Highly concentrated liquid", "Instant solubility", "Balanced nutrient ratios"],
       benefits: ["Rapid crop response", "Easy to automate in drip systems", "Uniform nutrient distribution"],
       crops: "High-value vegetables, Fruit crops, and Greenhouse farming.",
       dosage: "2-5 liters per acre through fertigation.",
       packSize: "1L, 5L, 20L",
-      image: agrominGold,
+      image: npk888,
     },
     {
-      name: "Nutri Nano Nutrients",
+      name: "NPK 6:00:18",
       description: "Cutting-edge nano-formulated nutrients that offer vastly enhanced uptake efficiency and penetration compared to traditional fertilizers.",
       features: ["Nano-particle technology", "High surface area for absorption", "Reduced dosage requirements"],
       benefits: ["Superior nutrient efficiency", "Minimal environmental impact", "Works even in stressful conditions"],
       crops: "All commercial and horticultural crops.",
       dosage: "1-2 ml per liter for foliar spray.",
       packSize: "100ml, 250ml, 500ml",
-      image: agrominGold,
+      image: npk60018,
     },
     {
-      name: "Nutri Calcium-Boron Liquid",
+      name: "NPK 11:11:08",
       description: "Synergistic liquid blend of Calcium and Boron to support critical reproductive stages, fruit set, and structural integrity.",
       features: ["Highly stable liquid complex", "Boron enriched for Ca mobility", "Safe for delicate flowers"],
       benefits: ["Prevents fruit cracking", "Improves fruit firmness", "Reduces flower drop"],
       crops: "Tomato, Chilli, Apple, Grapes, and Pomegranate.",
       dosage: "2-3 ml per liter of water.",
       packSize: "500ml, 1L, 5L",
-      image: agrominGold,
+      image: npk111108,
     },
     {
-      name: "Nutri Micronutrient Mix",
+      name: "NUTRI PRO",
       description: "A perfectly balanced liquid micronutrient blend designed for quick correction of hidden deficiencies through foliar application.",
       features: ["Full spectrum of trace elements", "Chelated for stability", "Wetting agent included"],
       benefits: ["Boosts overall plant metabolism", "Corrects multiple deficiencies", "Improves chlorophyll content"],
       crops: "All field and horticultural crops.",
       dosage: "2.5 ml per liter of water.",
       packSize: "250ml, 500ml, 1L, 5L",
-      image: agrominGold,
+      image: nutripro,
     },
+    {
+      name: "BOROCAL",
+      description: "A perfectly balanced liquid micronutrient blend designed for quick correction of hidden deficiencies through foliar application.",
+      features: ["Full spectrum of trace elements", "Chelated for stability", "Wetting agent included"],
+      benefits: ["Boosts overall plant metabolism", "Corrects multiple deficiencies", "Improves chlorophyll content"],
+      crops: "All field and horticultural crops.",
+      dosage: "2.5 ml per liter of water.",
+      packSize: "250ml, 500ml, 1L, 5L",
+      image: borocal,
+    },
+    {
+      name: "ARTICARBO",
+      description: "A perfectly balanced liquid micronutrient blend designed for quick correction of hidden deficiencies through foliar application.",
+      features: ["Full spectrum of trace elements", "Chelated for stability", "Wetting agent included"],
+      benefits: ["Boosts overall plant metabolism", "Corrects multiple deficiencies", "Improves chlorophyll content"],
+      crops: "All field and horticultural crops.",
+      dosage: "2.5 ml per liter of water.",
+      packSize: "250ml, 500ml, 1L, 5L",
+      image: articarbo,
+    },
+    
   ];
 
   return (

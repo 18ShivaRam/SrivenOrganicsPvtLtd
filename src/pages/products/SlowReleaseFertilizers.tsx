@@ -3,40 +3,55 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '@/components/ProductCard';
-import agrominGold from '@/assets/agromin-gold.jpg';
+import VENORGA_PROM from '@/assets/VENORGA_PROM.jpg';
+import VENORGA_CMS from '@/assets/VENORGA_CMS.jpg';
+import VENORGA_GREEN from '@/assets/VENORGA_GREEN.jpg';
+import VENORGA_POTASH from '@/assets/VENOGRA_POTASH_K.jpg';
+
+
 
 const SlowReleaseFertilizers = () => {
   const products = [
     {
-      name: "Nutri SRF Pastilles",
+      name: "VENORGA PROM",
       description: "Slow-release nitrogen pastilles designed for sustained nutrient availability over an extended period, reducing leaching and volatilization.",
       features: ["Controlled release technology", "Uniform pastille size", "Reduced nitrogen loss"],
       benefits: ["Steady nutrient supply", "Improved nitrogen use efficiency", "Environmentally friendly"],
       crops: "Turf, Landscape plants, and high-value Field crops.",
       dosage: "10-20 kg per acre based on crop requirement.",
       packSize: "10kg, 25kg, 50kg",
-      image: agrominGold,
+      image: VENORGA_PROM,
     },
     {
-      name: "Nutri Coated Urea",
+      name: "VENORGA GREEN",
       description: "Polymer-coated urea that provides extended nitrogen release, ensuring the plant receives a steady supply of nitrogen throughout its growth cycle.",
       features: ["High-quality polymer coating", "Customizable release profiles", "Abrasion resistant"],
       benefits: ["Reduces application frequency", "Minimizes nitrate leaching", "Better crop quality"],
       crops: "Sugarcane, Paddy, and long-duration crops.",
       dosage: "40-50 kg per acre.",
       packSize: "25kg, 50kg",
-      image: agrominGold,
+      image: VENORGA_GREEN,
     },
     {
-      name: "Nutri Time Release NPK",
+      name: "VENORGA CMS",
       description: "Balanced NPK granules with a sophisticated controlled release profile to provide complete nutrition at the right time.",
       features: ["Balanced NPK ratio", "Predictable release rates", "Full nutrient spectrum"],
       benefits: ["One-time application", "Optimal growth at all stages", "Labor cost savings"],
       crops: "Nursery plants, Ornamental crops, and high-tech agriculture.",
       dosage: "5-10 gm per plant or 50 kg per acre.",
       packSize: "5kg, 10kg, 25kg",
-      image: agrominGold,
+      image: VENORGA_CMS,  
     },
+     {
+      name: "VENORGA POTASH",
+      description: "Balanced NPK granules with a sophisticated controlled release profile to provide complete nutrition at the right time.",
+      features: ["Balanced NPK ratio", "Predictable release rates", "Full nutrient spectrum"],
+      benefits: ["One-time application", "Optimal growth at all stages", "Labor cost savings"],
+      crops: "Nursery plants, Ornamental crops, and high-tech agriculture.",
+      dosage: "5-10 gm per plant or 50 kg per acre.",
+      packSize: "5kg, 10kg, 25kg",
+      image: VENORGA_POTASH,  
+    }
   ];
 
   return (

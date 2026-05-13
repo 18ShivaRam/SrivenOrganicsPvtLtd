@@ -98,7 +98,7 @@ const App = () => (
           <Route path="/micronutrients" element={<Micronutrients />} />
           <Route path="/water-soluble-npk" element={<WaterSolubleNPK />} />
           <Route path="/organic-bio-products" element={<OrganicProducts />} />
-          <Route path="/plant-protection" element={<PlantProtection />} />
+          <Route path="/biostimulants" element={<PlantProtection />} />
           <Route path="/urban-products" element={<UrbanProducts />} />
           <Route path="/slow-release-fertilizers-pastilles" element={<SlowReleaseFertilizers />} />
           <Route path="/crop-specific" element={<CropSpecific />} />
@@ -111,13 +111,13 @@ const App = () => (
           <Route path="/products/micronutrients" element={<Micronutrients />} />
           <Route path="/products/water-soluble-npk" element={<WaterSolubleNPK />} />
           <Route path="/products/organic-bio-products" element={<OrganicProducts />} />
-          <Route path="/products/plant-protection" element={<PlantProtection />} />
+          <Route path="/products/biostimulants" element={<PlantProtection />} />
           <Route path="/products/urban-products" element={<UrbanProducts />} />
           <Route path="/products/slow-release-fertilizers-pastilles" element={<SlowReleaseFertilizers />} />
           <Route path="/products/crop-specific" element={<CropSpecific />} />
           <Route path="/products/liquid_fertilizers" element={<HighDensityInputs />} />
           <Route path="/products/hydromin-range" element={<HydrominRange />} />
-          <Route path="/products/aqua-culture" element={<AquaCulture />} />
+          {/* <Route path="/products/aqua-culture" element={<AquaCulture />} /> */}
           <Route path="/products/other-products" element={<OtherProducts />} />
           
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

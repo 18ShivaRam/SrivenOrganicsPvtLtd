@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 
 interface ProductCardProps {
   name: string;
-  description: string;
+  description?: string;
   features?: string[];
   benefits?: string[];
   crops?: string;
@@ -14,6 +14,7 @@ interface ProductCardProps {
   badge?: string;
   extraHeaderInfo?: React.ReactNode;
   contents?: string;
+  simple?: boolean;
 }
 
 export const ProductCard = ({
@@ -27,8 +28,34 @@ export const ProductCard = ({
   image,
   badge,
   extraHeaderInfo,
-  contents
+  contents,
+  simple = false
 }: ProductCardProps) => {
+  if (simple) {
+    return (
+      <Card className="overflow-hidden border-none shadow-xl bg-white/80 backdrop-blur-md hover:shadow-2xl transition-all duration-500">
+        <div className="p-8 flex flex-col items-center text-center">
+          <div className="relative group w-full max-w-sm aspect-square mb-6">
+            <img 
+              src={image} 
+              alt={name}
+              className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"
+            />
+            {badge && (
+              <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-primary text-[10px] font-black text-white px-4 py-1.5 rounded-full shadow-lg tracking-wider whitespace-nowrap">
+                {badge}
+              </div>
+            )}
+          </div>
+          <h2 className="text-2xl md:text-3xl font-black text-primary tracking-tight">
+            {name}
+          </h2>
+          <div className="h-1.5 w-16 bg-primary rounded-full mt-2" />
+        </div>
+      </Card>
+    );
+  }
+
   return (
     <Card className="overflow-hidden border-none shadow-xl bg-white/80 backdrop-blur-md hover:shadow-2xl transition-all duration-500">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">

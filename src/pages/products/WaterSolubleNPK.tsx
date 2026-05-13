@@ -7,6 +7,8 @@ import { ProductCard } from '@/components/ProductCard';
 import agrominGold from '@/assets/agromin-gold.jpg';
 import VENGROW19_19_19 from '@/assets/19_19_19.jpg';
 import VENGROW13_0_45 from '@/assets/13_00_45.jpg';
+import vengrowCN from '@/assets/vengrowCN.jpg';
+import dummy from '@/assets/dummy.png';
 
 const WaterSolubleNPK = () => {
   const products = [
@@ -50,10 +52,10 @@ const WaterSolubleNPK = () => {
       crops: "Greenhouse crops, high-value vegetables, and fruit orchards.",
       dosage: "Foliar Spray: 2 gm/liter of water. Fertigation: 2-4 kg/acre.",
       packSize: "1kg, 5kg, 10kg",
-      image: agrominGold,
+      image: dummy,
     },
     {
-      name: "Vengrow 13:0:45",
+      name: "Vengrow 13:00:45",
       npk: "13:0:45",
       description: "High potassium formula for fruit development and quality. It contains Potassium Nitrate which is an ideal source of Potassium and Nitrogen for finishing stages.",
       features: [
@@ -74,7 +76,7 @@ const WaterSolubleNPK = () => {
       image: VENGROW13_0_45,
     },
     {
-      name: "Vengrow 12:61:0",
+      name: "Vengrow 12:61:00",
       npk: "12:61:0",
       description: "High phosphorus for root development and flowering. Mono Ammonium Phosphorus (MAP) is the best source for phosphorus during early growth and flower initiation.",
       features: [
@@ -92,11 +94,11 @@ const WaterSolubleNPK = () => {
       crops: "Cotton, Groundnut, Pulse crops, and early stage vegetables.",
       dosage: "Foliar Spray: 2-3 gm/liter of water. Fertigation: 3-5 kg/acre.",
       packSize: "1kg, 5kg, 10kg",
-      image: agrominGold,
+      image: dummy,
     },
     {
-      name: "Vengrow 30:10:10",
-      npk: "30:10:10",
+      name: "Vengrow 00:00:50",
+      npk: "00:00:50",
       description: "High nitrogen for vigorous vegetative growth. Ideal for leafy vegetables and early crop stages where rapid foliage development is required.",
       features: [
         "High urea and nitrate nitrogen content",
@@ -113,11 +115,11 @@ const WaterSolubleNPK = () => {
       crops: "Tea, Coffee, Leafy vegetables, and early stage Sugarcane.",
       dosage: "Foliar Spray: 2 gm/liter of water. Fertigation: 2-3 kg/acre.",
       packSize: "1kg, 5kg",
-      image: agrominGold,
+      image: dummy,
     },
     {
-      name: "Vengrow 15:15:15",
-      npk: "15:15:15",
+      name: "Vengrow 28:28:00",
+      npk: "28:28:00",
       description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
       features: [
         "Enriched with TE (Trace Elements)",
@@ -134,11 +136,11 @@ const WaterSolubleNPK = () => {
       crops: "All crops, particularly useful for maintenance stages.",
       dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
       packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
+      image: dummy,
     },
     {
-      name: "Nutri Mn-CHEL",
-      npk: "15:15:15",
+      name: "Vengrow CN",
+      // npk: "",
       description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
       features: [
         "Enriched with TE (Trace Elements)",
@@ -155,11 +157,11 @@ const WaterSolubleNPK = () => {
       crops: "All crops, particularly useful for maintenance stages.",
       dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
       packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
+      image: vengrowCN,
     },
      {
-      name: "Nutri Agromin Gold",
-      npk: "15:15:15",
+      name: "Vengrow NPKS",
+      npk: "",
       description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
       features: [
         "Enriched with TE (Trace Elements)",
@@ -176,386 +178,386 @@ const WaterSolubleNPK = () => {
       crops: "All crops, particularly useful for maintenance stages.",
       dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
       packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
+      image: dummy,
     },
-     {
-      name: "Nutri Agromin Max Foliar Spray",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-     {
-      name: "Nutri Agromin SA",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-     {
-      name: "Nutri ProZinc",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-     {
-      name: "Nutri Agripro",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-     {
-      name: "Nutri Tracemin",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-     {
-      name: "Nutri Chelamin Gold",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-     {
-      name: "Nutri Calpro",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-     {
-      name: "Nutri Chelacop",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri Chelamag",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri Chelacal",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri Chelafer",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri Mobomin",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri Agromin Foliar Spray Liquid",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri ASA Max Granules",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri Agromin Soil+Powder",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri Aries Total",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri Tetrabor Lite",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
-      {
-      name: "Nutri Zn-sulf",
-      npk: "15:15:15",
-      description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
-      features: [
-        "Enriched with TE (Trace Elements)",
-        "Perfectly balanced nutrient ratio",
-        "Stable formulation for long storage",
-        "Highly compatible for mixing"
-      ],
-      benefits: [
-        "Prevents hidden micronutrient deficiencies",
-        "Ensures steady and balanced growth",
-        "Maintains soil and plant health",
-        "Cost-effective all-in-one solution"
-      ],
-      crops: "All crops, particularly useful for maintenance stages.",
-      dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
-      packSize: "1kg, 5kg, 10kg, 25kg",
-      image: agrominGold,
-    },
+    //  {
+    //   name: "Nutri Agromin Max Foliar Spray",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //  {
+    //   name: "Nutri Agromin SA",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //  {
+    //   name: "Nutri ProZinc",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //  {
+    //   name: "Nutri Agripro",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //  {
+    //   name: "Nutri Tracemin",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //  {
+    //   name: "Nutri Chelamin Gold",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //  {
+    //   name: "Nutri Calpro",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //  {
+    //   name: "Nutri Chelacop",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri Chelamag",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri Chelacal",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri Chelafer",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri Mobomin",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri Agromin Foliar Spray Liquid",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri ASA Max Granules",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri Agromin Soil+Powder",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri Aries Total",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri Tetrabor Lite",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
+    //   {
+    //   name: "Nutri Zn-sulf",
+    //   npk: "15:15:15",
+    //   description: "Balanced nutrition with micronutrients included. A versatile formula that provides all major and minor nutrients in one application.",
+    //   features: [
+    //     "Enriched with TE (Trace Elements)",
+    //     "Perfectly balanced nutrient ratio",
+    //     "Stable formulation for long storage",
+    //     "Highly compatible for mixing"
+    //   ],
+    //   benefits: [
+    //     "Prevents hidden micronutrient deficiencies",
+    //     "Ensures steady and balanced growth",
+    //     "Maintains soil and plant health",
+    //     "Cost-effective all-in-one solution"
+    //   ],
+    //   crops: "All crops, particularly useful for maintenance stages.",
+    //   dosage: "Foliar Spray: 3 gm/liter of water. Fertigation: 4-5 kg/acre.",
+    //   packSize: "1kg, 5kg, 10kg, 25kg",
+    //   image: agrominGold,
+    // },
   ];
 
   return (
@@ -648,10 +650,16 @@ const WaterSolubleNPK = () => {
                 image={product.image}
                 badge="VENGROW SERIES"
                 extraHeaderInfo={
-                  <div className="bg-primary/10 px-6 py-3 rounded-2xl border border-primary/20">
-                    <span className="text-2xl font-black text-primary tracking-tighter">{product.npk}</span>
-                    <span className="text-[10px] font-bold text-primary/60 block uppercase tracking-widest text-center mt-1">NPK Ratio</span>
-                  </div>
+                  product.npk?.trim() ? (
+          <div className="bg-primary/10 px-6 py-3 rounded-2xl border border-primary/20">
+            <span className="text-2xl font-black text-primary tracking-tighter">
+              {product.npk}
+            </span>
+            <span className="text-[10px] font-bold text-primary/60 block uppercase tracking-widest text-center mt-1">
+              NPK Ratio
+            </span>
+          </div>
+        ) : null
                 }
               />
             ))}

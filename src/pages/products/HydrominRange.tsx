@@ -3,40 +3,40 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '@/components/ProductCard';
-import agrominGold from '@/assets/agromin-gold.jpg';
+import dummy from '@/assets/dummy.png';  
 
 const HydrominRange = () => {
   const products = [
     {
-      name: "Nutri Hydromin 19:19:19",
+      name: "Nutri Dhan",
       description: "Fully water-soluble balanced NPK fertilizer enriched with essential micronutrients, providing a complete nutritional package for all crop stages.",
       features: ["Balanced NPK ratio", "100% water soluble", "Enriched with TE"],
       benefits: ["Promotes overall growth", "Increases yield potential", "Quick nutrient absorption"],
       crops: "All field crops, vegetables, and fruit orchards.",
       dosage: "3-5 kg per acre through fertigation.",
       packSize: "1kg, 5kg, 25kg",
-      image: agrominGold,
+      image: dummy,
     },
-    {
-      name: "Nutri Hydromin 12:61:00",
-      description: "High phosphorus water-soluble fertilizer, ideal for root establishment and early vegetative growth stages.",
-      features: ["High Phosphorus content", "Low pH formula", "Acidifying effect"],
-      benefits: ["Vigorous root growth", "Early flowering initiation", "Better energy transfer"],
-      crops: "Transplanted crops, Pulses, and Oilseeds.",
-      dosage: "2-4 kg per acre.",
-      packSize: "1kg, 5kg, 10kg",
-      image: agrominGold,
-    },
-    {
-      name: "Nutri Hydromin 00:52:34",
-      description: "High phosphorus and potassium formulation, perfect for the flowering and fruiting stages to ensure quality produce.",
-      features: ["Zero Nitrogen", "P & K rich", "Highest purity"],
-      benefits: ["Improved fruit set", "Better color and size", "Enhanced sugar content"],
-      crops: "Grapes, Pomegranate, Tomato, and Chilli.",
-      dosage: "4-5 kg per acre.",
-      packSize: "1kg, 5kg, 25kg",
-      image: agrominGold,
-    },
+    // {
+    //   name: "Nutri Hydromin 12:61:00",
+    //   description: "High phosphorus water-soluble fertilizer, ideal for root establishment and early vegetative growth stages.",
+    //   features: ["High Phosphorus content", "Low pH formula", "Acidifying effect"],
+    //   benefits: ["Vigorous root growth", "Early flowering initiation", "Better energy transfer"],
+    //   crops: "Transplanted crops, Pulses, and Oilseeds.",
+    //   dosage: "2-4 kg per acre.",
+    //   packSize: "1kg, 5kg, 10kg",
+    //   image: agrominGold,
+    // },
+    // {
+    //   name: "Nutri Hydromin 00:52:34",
+    //   description: "High phosphorus and potassium formulation, perfect for the flowering and fruiting stages to ensure quality produce.",
+    //   features: ["Zero Nitrogen", "P & K rich", "Highest purity"],
+    //   benefits: ["Improved fruit set", "Better color and size", "Enhanced sugar content"],
+    //   crops: "Grapes, Pomegranate, Tomato, and Chilli.",
+    //   dosage: "4-5 kg per acre.",
+    //   packSize: "1kg, 5kg, 25kg",
+    //   image: agrominGold,
+    // },
   ];
 
   return (

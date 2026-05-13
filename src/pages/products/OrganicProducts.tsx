@@ -3,69 +3,76 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '@/components/ProductCard';
-import agrominGold from '@/assets/agromin-gold.jpg';
+import VENORGA_CMB from '@/assets/VENORGA_CMB.jpg';
+import VENORGA_NPK from '@/assets/VENORGA_NPK.jpg';
+import VENORGA_MIX from '@/assets/VENORGA_MIX.jpg';
+import VENORGA_POTASH from '@/assets/VENORGA_POTASH.jpg';
+import VENORGA_SULPHUR from '@/assets/VENORGA_SULPHUR.jpg';
+import VENCURE from '@/assets/VENCURE.jpg';
+
+
 
 const OrganicProducts = () => {
   const products = [
     {
-      name: "Nutri Venorga Bio-Compost",
+      name: "VENORGA CMB",
       description: "Premium bio-compost accelerator that speeds up the decomposition of organic waste while enriching the final product with beneficial microbes.",
       features: ["Microbial enrichment", "Rapid action formula", "High carbon-to-nitrogen ratio"],
       benefits: ["Faster decomposition", "Rich in beneficial microbes", "Improves soil structure"],
       crops: "All agricultural crops and home gardens.",
       dosage: "1 kg per ton of organic waste.",
       packSize: "1kg, 5kg, 25kg",
-      image: agrominGold,
+      image: VENORGA_CMB,
     },
     {
-      name: "Nutri Organic Growth Promoter",
+      name: "VENORGA NPK",
       description: "Natural plant growth stimulant derived from high-quality seaweed extracts and organic nutrients for vigorous crop development.",
       features: ["100% organic seaweed base", "Rich in natural hormones", "Fast absorption"],
       benefits: ["Enhanced root development", "Stress resistance", "Natural growth hormones"],
       crops: "Fruits, Vegetables, and Flowers.",
       dosage: "2-3 ml per liter of water.",
       packSize: "250ml, 500ml, 1L",
-      image: agrominGold,
+      image: VENORGA_NPK,
     },
     {
-      name: "Nutri Mycorrhizal Inoculant",
+      name: "VENORGA MIX",
       description: "Highly effective beneficial fungi that form a symbiotic relationship with plant roots, significantly expanding the root surface area.",
       features: ["High spore count", "Multiple fungal strains", "Long shelf life"],
       benefits: ["Improved nutrient uptake", "Enhanced water absorption", "Disease resistance"],
       crops: "Cereals, Pulses, and Plantation crops.",
       dosage: "100-250 gm per acre.",
       packSize: "100gm, 250gm, 500gm",
-      image: agrominGold,
+      image: VENORGA_MIX,
     },
     {
-      name: "Nutri Organic Soil Conditioner",
+      name: "VENORGA POTASH",
       description: "Comprehensive soil health restorer that improves physical, chemical, and biological properties of the soil naturally.",
       features: ["Humic and Fulvic acid enriched", "Increases CEC", "pH buffering action"],
       benefits: ["Better soil structure", "Increased water retention", "Enhanced microbial activity"],
       crops: "All types of soils, especially degraded lands.",
       dosage: "5-10 kg per acre.",
       packSize: "5kg, 10kg, 25kg",
-      image: agrominGold,
+      image: VENORGA_POTASH,
     },
     {
-      name: "Nutri Natural Enzyme Complex",
+      name: "VENORGA SULPHUR",
       description: "Concentrated enzymatic formulation designed to break down complex nutrients in the soil for easier plant availability.",
       features: ["Multi-enzyme blend", "Bio-catalytic action", "Safe for all soil types"],
       benefits: ["Improved nutrient release", "Enhanced soil biology", "Better root zone health"],
       crops: "High-intensity farming and greenhouse crops.",
       dosage: "500 ml to 1 liter per acre.",
       packSize: "500ml, 1L",
-      image: agrominGold,
+      image: VENORGA_SULPHUR,
     },
     {
-      name: "Nutri Bio-Fertilizer Blend",
+      name: "VENCURE",
       description: "Synergistic combination of Nitrogen-fixing, Phosphorus-solubilizing, and Potassium-mobilizing bacteria for complete organic nutrition.",
       features: ["Triple-action bacteria", "Organic carrier based", "Eco-friendly"],
       benefits: ["Nitrogen fixation", "Phosphorus solubilization", "Growth promotion"],
       crops: "All crops, particularly useful for organic farming.",
       dosage: "2-4 kg per acre soil application.",
       packSize: "1kg, 5kg, 10kg",
-      image: agrominGold,
+      image: VENCURE,
     },
   ];
 

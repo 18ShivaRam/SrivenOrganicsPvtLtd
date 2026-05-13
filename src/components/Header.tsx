@@ -39,13 +39,13 @@ export const Header = () => {
                   <Link to="/micronutrients" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Micronutrients</Link>
                   <Link to="/water-soluble-npk" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Water Soluble NPK</Link>
                   <Link to="/organic-bio-products" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Organic/Bio Products</Link>
-                  <Link to="/plant-protection" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Biostimulants </Link>
+                  <Link to="/biostimulants" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Biostimulants </Link>
                   <Link to="/urban-products" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Urban Products</Link>
                   <Link to="/slow-release-fertilizers-pastilles" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Slow Release Fertilizers</Link>
                   <Link to="/crop-specific" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Crop Specific</Link>
                   <Link to="/liquid_fertilizers" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Liquid Fertilizers</Link>
                   <Link to="/hydromin-range" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Hydromin Range</Link>
-                  <Link to="/fishery-animal-nutrition" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Aqua Culture & Animal Nutrition</Link>
+                  {/* <Link to="/fishery-animal-nutrition" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Aqua Culture & Animal Nutrition</Link> */}
                   <Link to="/other-products" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Other Products</Link>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export const Header = () => {
                   <Link to="/micronutrients"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Micronutrients</Button></Link>
                   <Link to="/water-soluble-npk"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Water Soluble NPK</Button></Link>
                   <Link to="/organic-bio-products"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Organic/Bio Products</Button></Link>
-                  <Link to="/plant-protection"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Biostimulants </Button></Link>
+                  <Link to="/biostimulants"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Biostimulants </Button></Link>
                   <Link to="/urban-products"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Urban Products</Button></Link>
                   <Link to="/slow-release-fertilizers-pastilles"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Slow Release Fertilizers</Button></Link>
                   <Link to="/crop-specific"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Crop Specific</Button></Link>

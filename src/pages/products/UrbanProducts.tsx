@@ -3,50 +3,50 @@ import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ProductCard } from '@/components/ProductCard';
-import agrominGold from '@/assets/agromin-gold.jpg';
+import dummy from '@/assets/dummy.png';
 
 const UrbanProducts = () => {
   const products = [
     {
-      name: "Nutri Garden Care Kit",
+      name: "Chilli Kit",
       description: "A complete nutrient and care kit specifically curated for home gardens and balcony plants, providing everything needed for lush greenery.",
       features: ["All-in-one solution", "Easy-to-use packaging", "Safe for home use"],
       benefits: ["Promotes vibrant flowers", "Lush green foliage", "Complete nutrition"],
       crops: "Flowering plants, Ornamental shrubs, and indoor greens.",
       dosage: "As per instructions in the kit.",
       packSize: "Small, Medium, Large Kits",
-      image: agrominGold,
+      image: dummy,
     },
     {
-      name: "Nutri Indoor Plant Nutrients",
+      name: "Paddy Kit",
       description: "Specially formulated balanced nutrition for indoor plants, tailored to perform well in low-light and indoor humidity conditions.",
       features: ["No-odor formula", "Stain-free liquid", "Micro-nutrient enriched"],
       benefits: ["Prevents leaf yellowing", "Supports slow-release growth", "Healthy root systems"],
       crops: "Money plants, Snake plants, Peace lilies, and other indoor varieties.",
       dosage: "5 ml per liter of water once a month.",
       packSize: "100ml, 250ml, 500ml",
-      image: agrominGold,
+      image: dummy,
     },
     {
-      name: "Nutri Balcony Farming Kit",
+      name: "Cotton Kit",
       description: "Compact and efficient set designed for the urban dweller to cultivate fresh vegetables and herbs in limited balcony spaces.",
       features: ["Space-saving design", "Includes seeds and nutrients", "Beginner friendly"],
       benefits: ["Fresh organic produce", "Educational for kids", "Maximum yield in small pots"],
       crops: "Tomatoes, Chillies, Coriander, and Mint.",
       dosage: "Refer to farming guide included.",
       packSize: "Standard Balcony Kit",
-      image: agrominGold,
+      image: dummy,
     },
-    {
-      name: "Nutri Terrace Garden Soil Mix",
-      description: "Optimized substrate blend for terrace gardening and raised beds, providing excellent drainage and aeration for plant roots.",
-      features: ["Lightweight formula", "Weed-free substrate", "Pre-fertilized"],
-      benefits: ["Reduces terrace load", "Superior root aeration", "Retains moisture longer"],
-      crops: "All terrace garden vegetables and fruits.",
-      dosage: "Use as a complete potting medium.",
-      packSize: "5kg, 10kg, 20kg",
-      image: agrominGold,
-    },
+    // {
+    //   name: "Nutri Terrace Garden Soil Mix",
+    //   description: "Optimized substrate blend for terrace gardening and raised beds, providing excellent drainage and aeration for plant roots.",
+    //   features: ["Lightweight formula", "Weed-free substrate", "Pre-fertilized"],
+    //   benefits: ["Reduces terrace load", "Superior root aeration", "Retains moisture longer"],
+    //   crops: "All terrace garden vegetables and fruits.",
+    //   dosage: "Use as a complete potting medium.",
+    //   packSize: "5kg, 10kg, 20kg",
+    //   image: agrominGold,
+    // },
   ];
 
   return (
@@ -57,7 +57,7 @@ const UrbanProducts = () => {
         <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src="https://www.ariesagro.com/wp-content/uploads/2022/12/urban-1.jpg" 
+              src="/assets/hero-2.jpg" 
               alt="Urban Products Background"
               className="w-full h-full object-cover"
             />
