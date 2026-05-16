@@ -10,8 +10,8 @@ import five from '@/assets/awards/5.jpeg';
 import six from '@/assets/awards/6.jpeg';
 import seven from '@/assets/awards/7.jpeg';
 import eight from '@/assets/awards/8.jpeg';
-import ten from '@/assets/awards/10.jpeg';
-import eleven from '@/assets/awards/11.jpeg';
+// import ten from '@/assets/awards/10.jpeg';
+// import eleven from '@/assets/awards/11.jpeg';
 
 const AwardsAndRecognition = () => {
   const vibeImages = [
@@ -23,8 +23,8 @@ const AwardsAndRecognition = () => {
     six,
     seven,
     eight,
-    ten,
-    eleven,
+    // ten,
+    // eleven,
    
   ];
 
