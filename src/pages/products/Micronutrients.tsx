@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ProductCard } from '@/components/ProductCard';
 import agrominGold from '@/assets/agromin-gold.jpg';
-import NUTRI7PADDY from '@/assets/NutriZincEDTA.jpg';
+import NUTRI7PADDY from '@/assets/Nutri7.jpg';
 import NUTRIMAG from '@/assets/Nutrimag.jpg';
 import NUTRIZINC from '@/assets/nutrilink.jpg';
 import NUTRICOPPER from '@/assets/nutricopper.jpg';

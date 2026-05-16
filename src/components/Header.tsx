@@ -10,6 +10,7 @@ export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const [mobileCropsOpen, setMobileCropsOpen] = useState(false);
+  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
 
   return (
     <header className="bg-white border-b border-border sticky top-0 z-50 shadow-sm">
@@ -87,9 +88,18 @@ export const Header = () => {
                 </div>
               </div>
             </div>
-            <Link to="/about-us">
-              <Button variant="ghost">About Us</Button>
-            </Link>
+            <div className="relative group">
+              <Button variant="ghost" className="flex items-center">
+                About Us
+                <ChevronDown className="ml-1 h-4 w-4" />
+              </Button>
+              <div className="absolute top-full left-0 w-64 bg-white border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="p-2">
+                  <Link to="/about-us" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">About Us</Link>
+                  <Link to="/awards-and-recognition" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Awards & Recognition</Link>
+                </div>
+              </div>
+            </div>
             <Link to="/equipment">
               <Button variant="ghost">Equipment</Button>
             </Link>
@@ -152,7 +162,16 @@ export const Header = () => {
                   <Link to="/crops/mango"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Mango</Button></Link>
                 </CollapsibleContent>
               </Collapsible>
-              <Link to="/about-us"><Button variant="ghost" className="justify-start w-full px-3 py-2">About Us</Button></Link>
+              <Collapsible open={mobileAboutOpen} onOpenChange={setMobileAboutOpen}>
+                <CollapsibleTrigger className="flex items-center justify-between w-full px-3 py-2">
+                  <span>About Us</span>
+                  <ChevronDown className="h-4 w-4" />
+                </CollapsibleTrigger>
+                <CollapsibleContent className="ml-4 space-y-1">
+                  <Link to="/about-us"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">About Us</Button></Link>
+                  <Link to="/awards-and-recognition"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Awards & Recognition</Button></Link>
+                </CollapsibleContent>
+              </Collapsible>
               <Link to="/equipment"><Button variant="ghost" className="justify-start w-full px-3 py-2">Equipment</Button></Link>
               <Link to="/contact-us"><Button variant="ghost" className="justify-start w-full px-3 py-2">Contact Us</Button></Link>
             </div>

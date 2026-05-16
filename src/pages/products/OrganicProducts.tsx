@@ -21,7 +21,7 @@ const OrganicProducts = () => {
       benefits: ["Faster decomposition", "Rich in beneficial microbes", "Improves soil structure"],
       crops: "All agricultural crops and home gardens.",
       dosage: "1 kg per ton of organic waste.",
-      packSize: "1kg, 5kg, 25kg",
+      packSize: "250ml, 500ml, 1L",
       image: VENORGA_CMB,
     },
     {
@@ -41,7 +41,7 @@ const OrganicProducts = () => {
       benefits: ["Improved nutrient uptake", "Enhanced water absorption", "Disease resistance"],
       crops: "Cereals, Pulses, and Plantation crops.",
       dosage: "100-250 gm per acre.",
-      packSize: "100gm, 250gm, 500gm",
+      packSize: "250ml, 500ml, 1L",
       image: VENORGA_MIX,
     },
     {
@@ -51,7 +51,7 @@ const OrganicProducts = () => {
       benefits: ["Better soil structure", "Increased water retention", "Enhanced microbial activity"],
       crops: "All types of soils, especially degraded lands.",
       dosage: "5-10 kg per acre.",
-      packSize: "5kg, 10kg, 25kg",
+      packSize: "250ml, 500ml, 1L",
       image: VENORGA_POTASH,
     },
     {
@@ -61,7 +61,7 @@ const OrganicProducts = () => {
       benefits: ["Improved nutrient release", "Enhanced soil biology", "Better root zone health"],
       crops: "High-intensity farming and greenhouse crops.",
       dosage: "500 ml to 1 liter per acre.",
-      packSize: "500ml, 1L",
+      packSize: "250ml, 500ml, 1L",
       image: VENORGA_SULPHUR,
     },
     {
@@ -71,7 +71,7 @@ const OrganicProducts = () => {
       benefits: ["Nitrogen fixation", "Phosphorus solubilization", "Growth promotion"],
       crops: "All crops, particularly useful for organic farming.",
       dosage: "2-4 kg per acre soil application.",
-      packSize: "1kg, 5kg, 10kg",
+      packSize: "250ml, 500ml, 1L",
       image: VENCURE,
     },
   ];

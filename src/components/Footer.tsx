@@ -22,7 +22,7 @@ export const Footer = () => {
                     <div>
                       {/* <h3 className="font-semibold text-foreground mb-2">Phone</h3> */}
                       <p className="text-muted-foreground">
-                        +91-22-XXXX-XXXX<br />
+                        +919392785600<br />
                         {/* +91-22-XXXX-XXXX */}
                       </p>
                     </div>

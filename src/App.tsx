@@ -11,6 +11,7 @@ import Apps from "./pages/Apps";
 import Crops from "./pages/Crops";
 import ProductsServices from "./pages/ProductsServices";
 import AboutUs from "./pages/AboutUs";
+import AwardsAndRecognition from "./pages/AwardsAndRecognition";
 import Sugarcane from "./pages/crops/Sugarcane";
 import Grape from "./pages/crops/Grape";
 import Coffee from "./pages/crops/Coffee";
@@ -48,6 +49,7 @@ import AquaCulture from "./pages/products/AquaCulture";
 import OtherProducts from "./pages/products/OtherProducts";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
+import { FloatingBrochure } from "./components/FloatingBrochure";
 
 const queryClient = new QueryClient();
 
@@ -62,6 +64,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
             <Route path="/company-overview" element={<CompanyOverview />} />
             <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/awards-and-recognition" element={<AwardsAndRecognition />} />
             <Route path="/products-services" element={<ProductsServices />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/equipment" element={<Equipment />} />
@@ -123,6 +126,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <FloatingBrochure />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
