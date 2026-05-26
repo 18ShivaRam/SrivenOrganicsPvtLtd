@@ -3,6 +3,8 @@ import { Footer } from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import aboutCompany from '@/assets/about-company.jpg';
+import foundersHalf from '@/assets/founders/half.jpeg';
+import foundersFull from '@/assets/founders/full.jpeg';
 const AboutUs = () => {
   const milestones = [
     { year: "2016", title: "Foundation", description: "Sriven Organics was founded with small team at humble beginnings" },
@@ -76,9 +78,14 @@ const AboutUs = () => {
                 In 2016, we diversified into nutrients for plants. We conducted research on compounds that could deliver mineral nutrients to plants more efficiently. This research identified "Metal Chelates".
               </p>
               
-         
+              <div className="my-8">
+                <img
+                  src={foundersHalf}
+                  alt="Founders of Sriven Organics"
+                  className="w-full h-auto rounded-xl shadow-lg"
+                />
+              </div>
               
-            
             </div>
           </div>
         </div>
