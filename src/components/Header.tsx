@@ -96,12 +96,16 @@ export const Header = () => {
               <div className="absolute top-full left-0 w-64 bg-white border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="p-2">
                   <Link to="/about-us" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">About Us</Link>
+                  <Link to="/infrastructure" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Infrastructure</Link>
                   <Link to="/awards-and-recognition" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">Awards & Recognition</Link>
                 </div>
               </div>
             </div>
             <Link to="/equipment">
               <Button variant="ghost">Equipment</Button>
+            </Link>
+            <Link to="/career">
+              <Button variant="ghost">Career</Button>
             </Link>
             <Link to="/contact-us">
               <Button variant="ghost">Contact Us</Button>
@@ -169,10 +173,12 @@ export const Header = () => {
                 </CollapsibleTrigger>
                 <CollapsibleContent className="ml-4 space-y-1">
                   <Link to="/about-us"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">About Us</Button></Link>
+                  <Link to="/infrastructure"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Infrastructure</Button></Link>
                   <Link to="/awards-and-recognition"><Button variant="ghost" className="justify-start w-full px-3 py-2 text-sm">Awards & Recognition</Button></Link>
                 </CollapsibleContent>
               </Collapsible>
               <Link to="/equipment"><Button variant="ghost" className="justify-start w-full px-3 py-2">Equipment</Button></Link>
+              <Link to="/career"><Button variant="ghost" className="justify-start w-full px-3 py-2">Career</Button></Link>
               <Link to="/contact-us"><Button variant="ghost" className="justify-start w-full px-3 py-2">Contact Us</Button></Link>
             </div>
           </nav>

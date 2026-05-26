@@ -6,12 +6,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import CompanyOverview from "./pages/CompanyOverview";
 import ContactUs from "./pages/ContactUs";
+import Career from "./pages/Career";
 import Equipment from "./pages/Equipment";
 import Apps from "./pages/Apps";
 import Crops from "./pages/Crops";
 import ProductsServices from "./pages/ProductsServices";
 import AboutUs from "./pages/AboutUs";
 import AwardsAndRecognition from "./pages/AwardsAndRecognition";
+import Infrastructure from "./pages/Infrastructure";
 import Sugarcane from "./pages/crops/Sugarcane";
 import Grape from "./pages/crops/Grape";
 import Coffee from "./pages/crops/Coffee";
@@ -50,6 +52,7 @@ import OtherProducts from "./pages/products/OtherProducts";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import { FloatingBrochure } from "./components/FloatingBrochure";
+import { WhatsAppChatButton } from "./components/WhatsAppChatButton";
 
 const queryClient = new QueryClient();
 
@@ -65,8 +68,10 @@ const App = () => (
             <Route path="/company-overview" element={<CompanyOverview />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/awards-and-recognition" element={<AwardsAndRecognition />} />
+            <Route path="/infrastructure" element={<Infrastructure />} />
             <Route path="/products-services" element={<ProductsServices />} />
             <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/career" element={<Career />} />
             <Route path="/equipment" element={<Equipment />} />
             <Route path="/apps" element={<Apps />} />
             <Route path="/crops" element={<Crops />} />
@@ -127,6 +132,7 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
         <FloatingBrochure />
+        <WhatsAppChatButton />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

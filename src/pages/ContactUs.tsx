@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
 
 const ContactUs = () => {
@@ -28,41 +28,58 @@ const ContactUs = () => {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleEmailSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitMessage('');
 
     try {
-      // Create a mailto link to open email client
       const subject = encodeURIComponent(formData.subject || 'Contact Form Submission');
+      const fullName = `${formData.firstName} ${formData.lastName}`.trim();
       const body = encodeURIComponent(
-        `Name: ${formData.firstName} ${formData.lastName}\n` +
+        `Dear Sir/Madam,\n\n` +
+        `I hope you are doing well.\n\n` +
+        `My name is ${fullName}, and I am reaching out to ${formData.subject ? `regarding: ${formData.subject}` : 'inquire about your products and services'}. ${formData.message ? `\n\n${formData.message}\n` : ''}\n\n` +
+        `Please feel free to contact me using the details below for further discussion.\n\n` +
+        `Name: ${fullName}\n` +
         `Email: ${formData.email}\n` +
-        `Phone: ${formData.phone}\n` +
-        `Subject: ${formData.subject}\n\n` +
-        `Message:\n${formData.message}`
+        (formData.phone ? `Phone: ${formData.phone}\n` : '') +
+        `\nThank you for your time and assistance. I look forward to your response.\n\n` +
+        `Best regards,\n` +
+        `${fullName}`
       );
       
-      const mailtoLink = `mailto:shivam18758@gmail.com?subject=${subject}&body=${body}`;
+      const mailtoLink = `mailto:srivenorganicspvtltd@gmail.com?subject=${subject}&body=${body}`;
       window.location.href = mailtoLink;
       
       setSubmitMessage('Opening your email client... Please send the email to complete your inquiry.');
       
-      // Reset form
-      setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: ''
-      });
     } catch (error) {
       setSubmitMessage('There was an error processing your request. Please try again.');
     } finally {
       setIsSubmitting(false);
     }
+  };
+
+  const handleWhatsAppSubmit = () => {
+    const fullName = `${formData.firstName} ${formData.lastName}`.trim();
+    const message = encodeURIComponent(
+      `*Contact Form Submission*\n\n` +
+      `Dear Sir/Madam,\n\n` +
+      `I hope you are doing well.\n\n` +
+      `My name is ${fullName}, and I am reaching out to ${formData.subject ? `regarding: ${formData.subject}` : 'inquire about your products and services'}. ${formData.message ? `\n\n${formData.message}\n` : ''}\n\n` +
+      `Please feel free to contact me using the details below for further discussion.\n\n` +
+      `*Contact Details:*\n` +
+      `• Name: ${fullName}\n` +
+      `• Email: ${formData.email}\n` +
+      (formData.phone ? `• Phone: ${formData.phone}\n` : '') +
+      `\nThank you for your time and assistance. I look forward to your response.\n\n` +
+      `Best regards,\n` +
+      `${fullName}`
+    );
+    
+    const whatsappLink = `https://wa.me/919392785600?text=${message}`;
+    window.open(whatsappLink, '_blank');
   };
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/20">
@@ -86,7 +103,7 @@ const ContactUs = () => {
                 <CardTitle>Send us a Message</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleEmailSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <Label htmlFor="firstName">First Name</Label>
@@ -155,13 +172,24 @@ const ContactUs = () => {
                       <p className="text-sm text-primary">{submitMessage}</p>
                     </div>
                   )}
-                  <Button 
-                    type="submit" 
-                    className="w-full bg-primary hover:bg-primary-dark"
-                    disabled={isSubmitting}
-                  >
-                    {isSubmitting ? 'Processing...' : 'Send Message'}
-                  </Button>
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <Button 
+                      type="submit" 
+                      className="flex-1 bg-primary hover:bg-primary-dark"
+                      disabled={isSubmitting}
+                    >
+                      <Mail className="mr-2 h-4 w-4" />
+                      {isSubmitting ? 'Processing...' : 'Send via Email'}
+                    </Button>
+                    <Button 
+                      type="button"
+                      className="flex-1 bg-green-600 hover:bg-green-700"
+                      onClick={handleWhatsAppSubmit}
+                    >
+                      <MessageCircle className="mr-2 h-4 w-4" />
+                      Send via WhatsApp
+                    </Button>
+                  </div>
                 </form>
               </CardContent>
             </Card>
@@ -176,10 +204,15 @@ const ContactUs = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-2">Head Office</h3>
-                      <p className="text-muted-foreground">
-                        Sriven Organics Limited<br />
+                      <a
+                        href="https://www.google.com/maps/dir//Flat+no+502,+Sriven+Organics+Pvt+Ltd,+Classic+Arcade,+Plot+no.492,+Road+No.+3%2F2,+Mathrusree+Nagar,+Hafeezpet,+Hyderabad,+Telangana+500049/@17.4948645,78.3625025,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bcb93dda9d4a76f:0xc9a6d4ed85d6bf05!2m2!1d78.3672661!2d17.4948645?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        Sriven Organics Pvt Ltd<br />
                         Flat no 502, Classic Arcade, Plot no.492, Road No. 3/2, Mathrusree Nagar, Hafeezpet, Hyderabad, Telangana 500049
-                      </p>
+                      </a>
                     </div>
                   </div>
                 </CardContent>
