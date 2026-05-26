@@ -2,9 +2,10 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import aboutCompany from '@/assets/about-company.jpg';
-import foundersHalf from '@/assets/founders/half.jpeg';
-import foundersFull from '@/assets/founders/full.jpeg';
+import aboutCompany from '@/assets/founders/half.jpeg';
+import y from '@/assets/founders/y.jpeg';
+import k from '@/assets/founders/k.jpeg';
+import founder from '@/assets/founders/half.jpeg';
 const AboutUs = () => {
   const milestones = [
     { year: "2016", title: "Foundation", description: "Sriven Organics was founded with small team at humble beginnings" },
@@ -64,12 +65,12 @@ const AboutUs = () => {
           
           <main className="py-20">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
+          <div className="max-w-6xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-8 text-center">
               Company Overview
             </h1>
             
-            <div className="prose prose-lg max-w-none">
+            <div className="prose prose-lg max-w-4xl mx-auto mb-12">
               <p className="text-lg text-muted-foreground mb-6">
                 Sriven Organics Ltd. was founded by Mr. Yampati Vijaya Bhaskara Reddy  and Mr. Samba Siva Reddy in 2016. We are in the business of manufacturing of micronutrients and other customized nutritional products for plants and animals. We started our activity by manufacturing a small range of mineral feed additives for animals & birds and then diversified into mineral additives for agriculture use.
               </p>
@@ -77,15 +78,42 @@ const AboutUs = () => {
               <p className="text-lg text-muted-foreground mb-6">
                 In 2016, we diversified into nutrients for plants. We conducted research on compounds that could deliver mineral nutrients to plants more efficiently. This research identified "Metal Chelates".
               </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <Card className="p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <CardContent className="p-0">
+                  <div className="relative">
+                    <img
+                      src={y}
+                      alt="Mr. Yampati Vijaya Bhaskara Reddy"
+                      className="w-full h-auto rounded-xl shadow-lg"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl"></div>
+                  </div>
+                  <div className="mt-4 text-center">
+                    <h3 className="text-xl font-bold text-foreground">Mr. Yampati Vijaya Bhaskara Reddy</h3>
+                    {/* <p className="text-muted-foreground">Co-Founder</p> */}
+                  </div>
+                </CardContent>
+              </Card>
               
-              <div className="my-8">
-                <img
-                  src={foundersHalf}
-                  alt="Founders of Sriven Organics"
-                  className="w-full h-auto rounded-xl shadow-lg"
-                />
-              </div>
-              
+              <Card className="p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <CardContent className="p-0">
+                  <div className="relative">
+                    <img
+                      src={k}
+                      alt="Mr. Samba Siva Reddy"
+                      className="w-full h-auto rounded-xl shadow-lg"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-xl"></div>
+                  </div>
+                  <div className="mt-4 text-center">
+                    <h3 className="text-xl font-bold text-foreground">Mr. Samba Siva Reddy</h3>
+                    {/* <p className="text-muted-foreground">Co-Founder</p> */}
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
