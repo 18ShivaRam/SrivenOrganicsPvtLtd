@@ -5,6 +5,17 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
 const Mango = () => {
   const deficiencies = [
     {
@@ -15,7 +26,7 @@ const Mango = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during pre-flowering and fruit development.",
       benefit: "Enhances vegetative growth, improves flowering, increases fruit set and size",
       image: "/assets/crops/mango/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -25,7 +36,7 @@ const Mango = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during flowering and fruiting phases.",
       benefit: "Improves root development, enhances flowering, increases fruit development and quality",
       image: "/assets/crops/mango/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -35,7 +46,7 @@ const Mango = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during fruit development and maturity.",
       benefit: "Improves fruit quality, enhances sweetness, increases shelf life and disease resistance",
       image: "/assets/crops/mango/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Iron Deficiency",
@@ -45,7 +56,7 @@ const Mango = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances tree health",
       image: "/assets/crops/mango/iron.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Zinc Deficiency",
@@ -55,7 +66,7 @@ const Mango = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances fruit development and increases yield",
       image: "/assets/crops/mango/zinc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD 
     },
     {
       name: "Magnesium Deficiency",
@@ -65,7 +76,7 @@ const Mango = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall tree vigor",
       image: "/assets/crops/mango/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     }
   ];
 

@@ -4,6 +4,18 @@ import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
+
 const Onion = () => {
   const deficiencies = [
     {
@@ -14,7 +26,7 @@ const Onion = () => {
       soilDrip: "Soil: Apply Urea @ 80kg/ha in 3-4 splits during growing season",
       benefit: "Promotes healthy vegetative growth and improves bulb size",
       image: "/assets/crops/onion/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,7 +36,7 @@ const Onion = () => {
       soilDrip: "Soil: Apply SSP @ 50kg/ha as basal application",
       benefit: "Enhances root development and improves bulb formation",
       image: "/assets/crops/onion/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +46,7 @@ const Onion = () => {
       soilDrip: "Soil: Apply MOP @ 60kg/ha during bulb enlargement stage",
       benefit: "Improves bulb quality, storage life and disease resistance",
       image: "/assets/crops/onion/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Sulfur Deficiency",
@@ -44,7 +56,7 @@ const Onion = () => {
       soilDrip: "Soil: Apply Gypsum @ 200kg/ha before planting",
       benefit: "Improves bulb quality, pungency and flavor development",
       image: "/assets/crops/onion/sulp.jpg", 
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: sulpD
     },
     {
       name: "Zinc Deficiency",
@@ -54,7 +66,7 @@ const Onion = () => {
       soilDrip: "Soil: Apply Zinc Sulphate @ 20kg/ha before planting",
       benefit: "Promotes normal growth and improves bulb development",
       image: "/assets/crops/onion/zinc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     }
   ];
 

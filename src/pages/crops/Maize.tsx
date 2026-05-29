@@ -4,6 +4,17 @@ import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+  import nitroD from '@/assets/nitroD.jpg';
+  import phosD from '@/assets/phosD.jpg';
+  import potaD from '@/assets/potaD.jpg';
+  import calcD from '@/assets/calcD.jpg';
+  import magnD from '@/assets/magnD.jpg';
+  import ironD from '@/assets/dummy.png';
+  import sulpD from '@/assets/sulpD.jpg';
+  import coppD from '@/assets/coppD.jpg';
+  import boroD from '@/assets/boroD.jpg';
+  import zincD from '@/assets/zincD.jpg';
+
 const Maize = () => {
   const deficiencies = [
     {
@@ -14,7 +25,7 @@ const Maize = () => {
       soilDrip: "Soil: Apply Urea @ 120kg/ha in 2-3 splits during vegetative growth",
       benefit: "Promotes vigorous vegetative growth, improves grain filling and increases yield",
       image: "/assets/crops/maize/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,7 +35,7 @@ const Maize = () => {
       soilDrip: "Soil: Apply SSP @ 60kg/ha as basal application before sowing",
       benefit: "Enhances root development, improves flowering and grain setting",
       image: "/assets/crops/maize/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage:phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +45,7 @@ const Maize = () => {
       soilDrip: "Soil: Apply MOP @ 40kg/ha during knee-high stage",
       benefit: "Strengthens stalks, improves grain quality and disease resistance",
       image: "/assets/crops/maize/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Zinc Deficiency",
@@ -44,7 +55,7 @@ const Maize = () => {
       soilDrip: "Soil: Apply Zinc Sulphate @ 25kg/ha as basal application",
       benefit: "Promotes normal growth, improves ear formation and grain development",
       image: "/assets/crops/maize/zinc.jpg", 
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     },
     {
       name: "Iron Deficiency",
@@ -54,7 +65,7 @@ const Maize = () => {
       soilDrip: "Soil: Apply Iron Chelate @ 10kg/ha during active growth",
       benefit: "Restores green color to leaves and improves photosynthesis",
       image: "/assets/crops/maize/iron.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Magnesium Deficiency",
@@ -64,7 +75,7 @@ const Maize = () => {
       soilDrip: "Soil: Apply Magnesium Sulphate @ 30kg/ha during vegetative growth",
       benefit: "Improves chlorophyll formation and grain filling",
       image: "/assets/crops/maize/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD 
     }
   ];
 

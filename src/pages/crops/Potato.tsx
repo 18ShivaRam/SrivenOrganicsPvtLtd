@@ -4,6 +4,18 @@ import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
+
 const Potato = () => {
   const deficiencies = [
     {
@@ -14,7 +26,7 @@ const Potato = () => {
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Promotes vegetative growth and improves tuber development",
       image: "/assets/crops/potato/nitro.png",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorous Deficiency",
@@ -24,7 +36,7 @@ const Potato = () => {
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Enhances root development and tuber formation",
       image: "/assets/crops/potato/phos.png",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +46,7 @@ const Potato = () => {
       soilDrip: "Plantex 13:00:45 3kg/acre",
       benefit: "Improves tuber quality, starch content and storage life",
       image: "/assets/crops/potato/pota.png",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Calcium Deficiency",
@@ -44,7 +56,7 @@ const Potato = () => {
       soilDrip: "combical 3 kg/acre",
       benefit: "Prevents internal brown spot and improves tuber quality",
       image: "/assets/crops/potato/calc.png",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: calcD
     },
     {
       name: "Magnesium Deficiency",
@@ -54,7 +66,7 @@ const Potato = () => {
       soilDrip: "Ferromag 5kg/acre",
       benefit: "Enhances photosynthesis and chlorophyll formation",
       image: "/assets/crops/potato/magn.jpeg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     },
     {
       name: "Sulphur Deficiency",
@@ -64,7 +76,7 @@ const Potato = () => {
       soilDrip: "fertisol 3kg/acre",
       benefit: "Improves protein synthesis and tuber quality",
       image: "/assets/crops/potato/sulp.png",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: sulpD
     },
     {
       name: "Boron Deficiency",
@@ -74,7 +86,7 @@ const Potato = () => {
       soilDrip: "Boron-20 1 kg/acre",
       benefit: "Prevents hollow heart and improves tuber quality",
       image: "/assets/crops/potato/boro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: boroD
     },
     {
       name: "Zinc Deficiency",
@@ -84,7 +96,7 @@ const Potato = () => {
       soilDrip: "Chelamin gold 0.5kg/acre",
       benefit: "Promotes enzyme activation and plant growth",
       image: "/assets/crops/potato/nitro.png",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     },
     {
       name: "Iron Deficiency",
@@ -94,7 +106,7 @@ const Potato = () => {
       soilDrip: "Ferromag 5kg/acre, Ferromix-5kg/acre",
       benefit: "Improves chlorophyll synthesis and photosynthesis",
       image: "/assets/crops/potato/iron.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     }
   ];
 

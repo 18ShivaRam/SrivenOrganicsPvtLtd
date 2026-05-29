@@ -4,6 +4,18 @@ import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
+
 const Cocoa = () => {
   const deficiencies = [
     {
@@ -14,7 +26,7 @@ const Cocoa = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during active growth and flowering.",
       benefit: "Enhances vegetative growth, improves flowering, increases pod set and bean quality",
       image: "/assets/crops/cocoa/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,7 +36,7 @@ const Cocoa = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during pod development stages.",
       benefit: "Improves root development, enhances flowering, increases pod formation and bean phosphorus content",
       image: "/assets/crops/cocoa/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +46,7 @@ const Cocoa = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during pod development and maturity.",
       benefit: "Improves water uptake, enhances pod development, increases bean quality and disease resistance",
       image: "/assets/crops/cocoa/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Magnesium Deficiency",
@@ -44,7 +56,7 @@ const Cocoa = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if needed.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
       image: "/assets/crops/cocoa/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     },
     {
       name: "Iron Deficiency",
@@ -54,7 +66,7 @@ const Cocoa = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
       image: "/assets/crops/cocoa/iron.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Zinc Deficiency",
@@ -64,7 +76,7 @@ const Cocoa = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances pod development and increases bean formation",
       image: "/assets/crops/cocoa/zinc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     }
   ];
 

@@ -4,6 +4,20 @@ import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card } from '@/components/ui/card';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import molyD from '@/assets/molyD.jpg';
+import zincD from '@/assets/zincD.jpg';
+import { ZoomIn } from 'lucide-react';
+
+
 const Coffee = () => {
   const deficiencies = [
     {
@@ -14,7 +28,7 @@ const Coffee = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during active growth stages.",
       benefit: "Enhances vegetative growth, improves flowering, and increases bean size",
       image: "/assets/crops/coffee/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,7 +38,7 @@ const Coffee = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during root development.",
       benefit: "Promotes strong root systems, enhances energy transfer, and improves bean quality",
       image: "/assets/crops/coffee/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +48,7 @@ const Coffee = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during bean filling and maturity.",
       benefit: "Increases bean weight and quality, improves water use efficiency and disease resistance",
       image: "/assets/crops/coffee/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Magnesium Deficiency",
@@ -44,7 +58,7 @@ const Coffee = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat if symptoms persist.",
       benefit: "Restores chlorophyll levels, improves photosynthesis, and boosts plant vigor",
       image: "/assets/crops/coffee/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     },
     {
       name: "Zinc Deficiency",
@@ -54,7 +68,7 @@ const Coffee = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative phases.",
       benefit: "Optimizes growth hormones, enhances bean development, and increases yields",
       image: "/assets/crops/coffee/zinc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     },
     {
       name: "Boron Deficiency",
@@ -64,7 +78,7 @@ const Coffee = () => {
       soilDrip: "Apply 2-4 kg Fertimax per acre through soil application during early flowering.",
       benefit: "Improves cell wall integrity, enhances fruit set, and ensures solid bean development",
       image: "/assets/crops/coffee/boro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: boroD
     }
   ];
 

@@ -5,6 +5,18 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
+
 const CashewNut = () => {
   const deficiencies = [
     {
@@ -15,7 +27,7 @@ const CashewNut = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during vegetative growth and flowering stages.",
       benefit: "Enhances vegetative growth, improves flowering, increases nut yield and kernel quality",
       image: "/assets/crops/cashew-nut/nitro-11.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -25,7 +37,7 @@ const CashewNut = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during flowering and fruiting phases.",
       benefit: "Improves root development, enhances flowering, increases nut development and kernel quality",
       image: "/assets/crops/cashew-nut/phos-6.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -35,7 +47,7 @@ const CashewNut = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during nut development and harvest.",
       benefit: "Improves nut quality, enhances kernel weight, increases shelf life and disease resistance",
       image: "/assets/crops/cashew-nut/pota-7.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Iron Deficiency",
@@ -45,7 +57,7 @@ const CashewNut = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances tree health",
       image: "/assets/crops/cashew-nut/iron-12.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Zinc Deficiency",
@@ -55,7 +67,7 @@ const CashewNut = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances nut development and increases yield",
       image: "/assets/crops/cashew-nut/zinc-9.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     },
     {
       name: "Magnesium Deficiency",
@@ -65,7 +77,7 @@ const CashewNut = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall tree vigor",
       image: "/assets/crops/cashew-nut/mag-5.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     }
   ];
 

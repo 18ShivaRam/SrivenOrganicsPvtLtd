@@ -5,6 +5,19 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import molyD from '@/assets/molyD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
+
 const Paddy = () => {
   const deficiencies = [
     {
@@ -15,7 +28,7 @@ const Paddy = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through flooding irrigation during tillering and reproductive stages.",
       benefit: "Enhances tillering, improves grain yield, increases protein content and overall crop quality",
       image: "/assets/crops/paddy/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -25,7 +38,7 @@ const Paddy = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through flooding during reproductive and grain filling phases.",
       benefit: "Improves root development, enhances panicle formation, increases grain filling and test weight",
       image: "/assets/crops/paddy/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -35,7 +48,7 @@ const Paddy = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through flooding during grain development and maturity.",
       benefit: "Improves stem strength, reduces lodging, enhances grain quality and disease resistance",
       image: "/assets/crops/paddy/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Iron Deficiency",
@@ -45,7 +58,7 @@ const Paddy = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through flooding. Ensure proper water management.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances crop vigor",
       image: "/assets/crops/paddy/iron.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Zinc Deficiency",
@@ -55,7 +68,7 @@ const Paddy = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through flooding during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances tillering and increases grain yield",
       image: "/assets/crops/paddy/zinc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     },
     {
       name: "Magnesium Deficiency",
@@ -65,7 +78,7 @@ const Paddy = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through flooding. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances grain filling",
       image: "/assets/crops/paddy/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     }
   ];
 

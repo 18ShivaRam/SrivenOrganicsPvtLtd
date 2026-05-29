@@ -5,6 +5,17 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
 const Sugarcane = () => {
   const deficiencies = [
     {
@@ -15,7 +26,7 @@ const Sugarcane = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during tillering and grand growth phases.",
       benefit: "Enhances vegetative growth, improves tiller formation, increases cane yield and sugar content",
       image: "/assets/crops/sugarcane/nitro-1.jpg",
-      productImage: "/assets/Nutrimag.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -25,7 +36,7 @@ const Sugarcane = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during root development and maturity phases.",
       benefit: "Improves root development, enhances sugar formation, increases cane quality and maturity",
       image: "/assets/crops/sugarcane/phos-1.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -35,7 +46,7 @@ const Sugarcane = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during cane development and maturity.",
       benefit: "Improves sugar content, enhances cane quality, increases disease resistance and stem strength",
       image: "/assets/crops/sugarcane/pota-1.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Calcium Deficiency",
@@ -45,7 +56,7 @@ const Sugarcane = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
       image: "/assets/crops/sugarcane/cal.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: calcD
     },
     {
       name: "Sulphur Deficiency",
@@ -55,7 +66,7 @@ const Sugarcane = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and cane formation phases.",
       benefit: "Improves growth hormone production, enhances cane development and increases yield",
       image: "/assets/crops/sugarcane/sul.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: sulpD
     },
     {
       name: "Magnesium Deficiency",
@@ -65,7 +76,7 @@ const Sugarcane = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
       image: "/assets/crops/sugarcane/mag.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     }
   ];
 

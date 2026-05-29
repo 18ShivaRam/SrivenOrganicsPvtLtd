@@ -4,6 +4,16 @@ import { Button } from '@/components/ui/button';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
 
 const Wheat = () => {
   const deficiencies = [
@@ -15,7 +25,7 @@ const Wheat = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during tillering and grain filling stages.",
       benefit: "Enhances vegetative growth, improves tillering, increases grain yield and protein content",
       image: "/assets/crops/wheat/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -25,7 +35,7 @@ const Wheat = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during flowering and grain development.",
       benefit: "Improves root development, enhances grain formation, increases grain filling and crop maturity",
       image: "/assets/crops/wheat/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -35,7 +45,7 @@ const Wheat = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during stem development and grain maturity.",
       benefit: "Improves grain quality, enhances stem strength, increases disease resistance and reduces lodging",
       image: "/assets/crops/wheat/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Iron Deficiency",
@@ -45,7 +55,7 @@ const Wheat = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
       image: "/assets/crops/wheat/iron.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Zinc Deficiency",
@@ -55,7 +65,7 @@ const Wheat = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances grain development and increases yield",
       image: "/assets/crops/wheat/zinc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     },
     {
       name: "Magnesium Deficiency",
@@ -65,7 +75,7 @@ const Wheat = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
       image: "/assets/crops/wheat/magn.jpeg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     }
   ];
 

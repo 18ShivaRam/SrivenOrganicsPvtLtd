@@ -4,6 +4,18 @@ import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import molyD from '@/assets/molyD.jpg';
+
+
 const Cauliflower = () => {
   const deficiencies = [
     {
@@ -14,7 +26,7 @@ const Cauliflower = () => {
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Promotes healthy foliage growth and proper curd formation",
       image: "/assets/crops/cauliflower/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorous Deficiency",
@@ -24,7 +36,7 @@ const Cauliflower = () => {
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Enhances root development and early curd initiation",
       image: "/assets/crops/cauliflower/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +46,7 @@ const Cauliflower = () => {
       soilDrip: "Plantex 13:00:45 3kg/acre",
       benefit: "Improves curd quality, firmness and post-harvest life",
       image: "/assets/crops/cauliflower/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Calcium Deficiency",
@@ -44,7 +56,7 @@ const Cauliflower = () => {
       soilDrip: "combical 3 kg/acre",
       benefit: "Prevents hollow stem and improves curd quality",
       image: "/assets/crops/cauliflower/calc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: calcD
     },
     {
       name: "Boron Deficiency",
@@ -54,7 +66,7 @@ const Cauliflower = () => {
       soilDrip: "Boron-20 1 kg/acre",
       benefit: "Prevents hollow stem and ensures solid curd formation",
       image: "/assets/crops/cauliflower/boro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: boroD
     },
     {
       name: "Molybdenum Deficiency",
@@ -64,7 +76,7 @@ const Cauliflower = () => {
       soilDrip: "Molybdenum soil application 100-200g/acre",
       benefit: "Essential for nitrogen metabolism and proper leaf development",
       image: "/assets/crops/cauliflower/moly.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: molyD
     }
   ];
 

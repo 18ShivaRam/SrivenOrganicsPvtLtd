@@ -4,6 +4,17 @@ import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
 const Grape = () => {
   const deficiencies = [
     {
@@ -14,7 +25,7 @@ const Grape = () => {
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Helps in vegetative growth, formation of amino acids",
       image: "/assets/crops/grape/nitro.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: nitroD
     },
     {
       name: "Phosphorous Deficiency",
@@ -24,7 +35,7 @@ const Grape = () => {
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Maintain longterm productivity",
       image: "/assets/crops/grape/phos.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +45,7 @@ const Grape = () => {
       soilDrip: "Plantex 13:00:45 3kg/acre(drip)",
       benefit: "Ensures good, strong fruit set and increase sugar content in grape",
       image: "/assets/crops/grape/pota.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: potaD
     },
     {
       name: "Calcium Deficiency",
@@ -44,7 +55,7 @@ const Grape = () => {
       soilDrip: "combical 3 kg/acre or Plantex CN 3kg/acre",
       benefit: "Boosts new leaf and bud growth, ensures strong skin and minimise fruit disorder and diseases",
       image: "/assets/crops/grape/calc.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: calcD
     },
     {
       name: "Magnesium Deficiency",
@@ -54,7 +65,7 @@ const Grape = () => {
       soilDrip: "—",
       benefit: "Maximise photosynthetic activity, increase growth and berry development",
       image: "https://www.ariesagro.com/wp-content/uploads/2022/11/mag-11.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: magnD
     },
     {
       name: "Sulphur Deficiency",
@@ -64,7 +75,7 @@ const Grape = () => {
       soilDrip: "ferromag 3kg/1acre or fertisol 3kg/1acre",
       benefit: "Maximise photosynthetic activity, minimises diseases",
       image: "/assets/crops/grape/sulp.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: sulpD
     },
     {
       name: "Boron Deficiency",
@@ -74,7 +85,7 @@ const Grape = () => {
       soilDrip: "Boron -20 1 kg/acre",
       benefit: "Ensures good shoot growth and strong fruit set, improve berry shape and size",
       image: "/assets/crops/grape/boro.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: boroD
     },
     {
       name: "Zinc Deficiency",
@@ -84,7 +95,7 @@ const Grape = () => {
       soilDrip: "Chelamin gold 0.5kg/acre",
       benefit: "Increases sucrose content in grapes and formation of healthy berries.",
       image: "/assets/crops/grape/zinc.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: zincD
     },
     {
       name: "Iron Deficiency",
@@ -94,7 +105,7 @@ const Grape = () => {
       soilDrip: "Ferromag 5kg/acre, Ferromix-5kg/acre",
       benefit: "Strengthening leaf development and vine productivity",
       image: "/assets/crops/grape/iron.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: ironD
     }
   ];
 

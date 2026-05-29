@@ -4,6 +4,14 @@ import { Button } from '@/components/ui/button';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+
+
 
 const Chilli = () => {
   const deficiencies = [
@@ -15,7 +23,7 @@ const Chilli = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during vegetative growth and flowering stages.",
       benefit: "Enhances vegetative growth, improves flowering, increases fruit set and capsaicin content",
       image: "/assets/crops/chilli/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -25,7 +33,7 @@ const Chilli = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during flowering and fruiting phases.",
       benefit: "Improves root development, enhances flowering, increases fruit development and quality",
       image: "/assets/crops/chilli/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -35,7 +43,7 @@ const Chilli = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during fruit development and maturity.",
       benefit: "Improves fruit quality, enhances pungency, increases shelf life and disease resistance",
       image: "/assets/crops/chilli/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Calcium Deficiency",
@@ -45,7 +53,7 @@ const Chilli = () => {
       soilDrip: "Apply 10-15 kg Fertimax per acre through drip system during fruit development stages.",
       benefit: "Prevents blossom end rot, ensures proper fruit development, improves fruit quality and market value",
       image: "/assets/crops/chilli/calc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: calcD
     },
     {
       name: "Iron Deficiency",
@@ -55,7 +63,7 @@ const Chilli = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
       image: "/assets/crops/chilli/iron.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Magnesium Deficiency",
@@ -65,7 +73,7 @@ const Chilli = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
       image: "/assets/crops/chilli/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     }
   ];
 

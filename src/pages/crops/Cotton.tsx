@@ -3,6 +3,17 @@ import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
 
 const Cotton = () => {
   const deficiencies = [
@@ -14,7 +25,7 @@ const Cotton = () => {
       soilDrip: "Plantex 20:20:20 5kg/acre",
       benefit: "Helps in vegetative growth, formation of amino acids",
       image: "/assets/crops/cotton/nitro.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: nitroD
     },
     {
       name: "Phosphorous Deficiency",
@@ -24,7 +35,7 @@ const Cotton = () => {
       soilDrip: "Plantex 12:61:00 5kg/acre",
       benefit: "Root development, winter hardness",
       image: "/assets/crops/cotton/phos.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +45,7 @@ const Cotton = () => {
       soilDrip: "—",
       benefit: "Resistance to pests and diseases, opening and closing of stomata",
       image: "/assets/crops/cotton/pota.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: potaD
     },
     {
       name: "Calcium Deficiency",
@@ -44,7 +55,7 @@ const Cotton = () => {
       soilDrip: "—",
       benefit: "Cell formation, cell elongation, cell division",
       image: "/assets/crops/cotton/calc.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: calcD
     },
     {
       name: "Magnesium Deficiency",
@@ -54,7 +65,7 @@ const Cotton = () => {
       soilDrip: "Ferromag 5kg/acre",
       benefit: "Helps in photosynthesis, starch translocation",
       image: "/assets/crops/cotton/magn.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage:magnD
     },
     {
       name: "Sulphur Deficiency",
@@ -64,7 +75,7 @@ const Cotton = () => {
       soilDrip: "—",
       benefit: "Improves special character in crop",
       image: "/assets/crops/cotton/sulp.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: sulpD
     },
     {
       name: "Copper Deficiency",
@@ -74,7 +85,7 @@ const Cotton = () => {
       soilDrip: "—",
       benefit: "Serves to intensify flavour and colour in vegetables and colour in flowers",
       image: "/assets/crops/cotton/copp.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: coppD
     },
     {
       name: "Boron Deficiency",
@@ -84,7 +95,7 @@ const Cotton = () => {
       soilDrip: "—",
       benefit: "Translocation of sugars and help in pollination",
       image: "/assets/crops/cotton/boro.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: boroD
     },
     {
       name: "Zinc Deficiency",
@@ -94,7 +105,7 @@ const Cotton = () => {
       soilDrip: "Chelamin gold 0.5kg/acre",
       benefit: "Helps in activation of enzymes",
       image: "/assets/crops/cotton/zinc.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: zincD
     },
     {
       name: "Iron Deficiency",
@@ -104,7 +115,7 @@ const Cotton = () => {
       soilDrip: "Ferromag 5kg/acre, Ferromix-5kg/acre",
       benefit: "Helps in electron transport chain and helps in photosynthesis",
       image: "/assets/crops/cotton/iron.jpg",
-      productImage: "/lovable-uploads/d9876557-3b2b-4e06-ae5c-6db1383150e1.png"
+      productImage: ironD
     }
   ];
 

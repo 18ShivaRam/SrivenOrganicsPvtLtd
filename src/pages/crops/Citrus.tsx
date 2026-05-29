@@ -4,6 +4,17 @@ import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
 const Citrus = () => {
   const deficiencies = [
     {
@@ -14,7 +25,7 @@ const Citrus = () => {
       soilDrip: "Soil: Apply Urea @ 100g/plant in 2 splits during growing season",
       benefit: "Promotes healthy vegetative growth, improves fruit size and quality",
       image: "/assets/crops/citrus/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,7 +35,7 @@ const Citrus = () => {
       soilDrip: "Soil: Apply SSP @ 150g/plant before flowering season",
       benefit: "Enhances root development, improves flowering and fruit setting",
       image: "/assets/crops/citrus/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +45,7 @@ const Citrus = () => {
       soilDrip: "Drip: Apply MOP @ 50g/plant during fruit development stage",
       benefit: "Improves fruit quality, juice content and disease resistance",
       image: "/assets/crops/citrus/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Iron Deficiency",
@@ -44,7 +55,7 @@ const Citrus = () => {
       soilDrip: "Soil: Apply Iron Chelate @ 25g/plant during active growth",
       benefit: "Restores green color to leaves and improves photosynthesis",
       image: "/assets/crops/citrus/iron.jpg", 
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Zinc Deficiency",
@@ -54,7 +65,7 @@ const Citrus = () => {
       soilDrip: "Soil: Apply Zinc Sulphate @ 50g/plant before new flush",
       benefit: "Promotes normal leaf development and improves fruit size",
       image: "/assets/crops/citrus/zinc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     },
     {
       name: "Magnesium Deficiency",
@@ -64,7 +75,7 @@ const Citrus = () => {
       soilDrip: "Soil: Apply Magnesium Sulphate @ 75g/plant annually",
       benefit: "Improves chlorophyll formation and photosynthesis efficiency",
       image: "/assets/crops/citrus/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     }
   ];
 

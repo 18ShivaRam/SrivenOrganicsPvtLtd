@@ -4,6 +4,18 @@ import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import molyD from '@/assets/molyD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
 const Watermelon = () => {
   const deficiencies = [
     {
@@ -14,7 +26,7 @@ const Watermelon = () => {
       soilDrip: "Soil: Apply Urea @ 100kg/ha in 3-4 splits during growing season",
       benefit: "Promotes healthy vine growth and improves fruit size",
       image: "/assets/crops/watermelon/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,7 +36,7 @@ const Watermelon = () => {
       soilDrip: "Soil: Apply SSP @ 75kg/ha as basal application",
       benefit: "Enhances flowering, fruit set and root development",
       image: "/assets/crops/watermelon/phos.jpeg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +46,7 @@ const Watermelon = () => {
       soilDrip: "Soil: Apply MOP @ 80kg/ha during fruit enlargement",
       benefit: "Improves fruit quality, sweetness and disease resistance",
       image: "/assets/crops/watermelon/pota.JPG",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Calcium Deficiency",
@@ -44,7 +56,7 @@ const Watermelon = () => {
       soilDrip: "Soil: Apply Gypsum @ 200kg/ha before planting",
       benefit: "Prevents blossom end rot and improves fruit quality",
       image: "/assets/crops/watermelon/calc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: calcD
     },
     {
       name: "Magnesium Deficiency",
@@ -54,7 +66,7 @@ const Watermelon = () => {
       soilDrip: "Soil: Apply Magnesium Sulphate @ 50kg/ha during planting",
       benefit: "Improves chlorophyll formation and fruit development",
       image: "/assets/crops/watermelon/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     },
     {
       name: "Boron Deficiency",
@@ -64,7 +76,7 @@ const Watermelon = () => {
       soilDrip: "Soil: Apply Boron @ 5kg/ha before flowering",
       benefit: "Improves pollination, fruit set and internal fruit quality",
       image: "/assets/crops/watermelon/boro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: boroD
     }
   ];
 

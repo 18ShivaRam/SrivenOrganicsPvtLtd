@@ -5,6 +5,18 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import molyD from '@/assets/molyD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
 const Rose = () => {
   const deficiencies = [
     {
@@ -15,7 +27,7 @@ const Rose = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during vegetative growth and flowering stages.",
       benefit: "Enhances vegetative growth, improves flowering, increases flower size and stem strength",
       image: "/assets/crops/rose/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -25,7 +37,7 @@ const Rose = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during flowering phases.",
       benefit: "Improves root development, enhances flowering, increases flower development and quality",
       image: "/assets/crops/rose/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -35,7 +47,7 @@ const Rose = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during flower development and blooming.",
       benefit: "Improves flower quality, enhances color intensity, increases vase life and disease resistance",
       image: "/assets/crops/rose/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Iron Deficiency",
@@ -45,7 +57,7 @@ const Rose = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
       image: "/assets/crops/rose/iron.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Magnesium Deficiency",
@@ -55,7 +67,7 @@ const Rose = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
       image: "/assets/crops/rose/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     },
     {
       name: "Calcium Deficiency",
@@ -65,7 +77,7 @@ const Rose = () => {
       soilDrip: "Apply 10-15 kg Fertimax per acre through drip system during active growth and flowering.",
       benefit: "Ensures proper cell wall development, improves flower structure and enhances disease resistance",
       image: "/assets/crops/rose/calc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: calcD
     }
   ];
 

@@ -4,6 +4,17 @@ import { DeficiencyCard } from '@/components/DeficiencyCard';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
 const Ginger = () => {
   const deficiencies = [
     {
@@ -14,7 +25,7 @@ const Ginger = () => {
       soilDrip: "Soil: Apply Urea @ 100kg/ha in 3-4 splits during growing season",
       benefit: "Promotes healthy vegetative growth and improves rhizome development",
       image: "/assets/crops/ginger/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -24,7 +35,7 @@ const Ginger = () => {
       soilDrip: "Soil: Apply SSP @ 75kg/ha as basal application",
       benefit: "Enhances rhizome development and improves quality",
       image: "/assets/crops/ginger/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -34,7 +45,7 @@ const Ginger = () => {
       soilDrip: "Soil: Apply MOP @ 80kg/ha during rhizome development",
       benefit: "Improves rhizome quality, fiber content and storage life",
       image: "/assets/crops/ginger/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Zinc Deficiency",
@@ -44,7 +55,7 @@ const Ginger = () => {
       soilDrip: "Soil: Apply Zinc Sulphate @ 25kg/ha before planting",
       benefit: "Promotes normal growth and improves rhizome development",
       image: "/assets/crops/ginger/nitro.jpg", 
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     },
     {
       name: "Magnesium Deficiency",
@@ -54,7 +65,7 @@ const Ginger = () => {
       soilDrip: "Soil: Apply Magnesium Sulphate @ 50kg/ha during planting",
       benefit: "Improves chlorophyll formation and rhizome quality",
       image: "/assets/crops/ginger/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     },
     {
       name: "Sulfur Deficiency",
@@ -64,7 +75,7 @@ const Ginger = () => {
       soilDrip: "Soil: Apply Gypsum @ 150kg/ha before planting",
       benefit: "Improves rhizome quality and essential oil content",
       image: "/assets/crops/ginger/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: sulpD
     }
   ];
 

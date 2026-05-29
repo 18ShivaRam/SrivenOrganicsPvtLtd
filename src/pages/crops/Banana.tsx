@@ -4,6 +4,16 @@ import { Button } from '@/components/ui/button';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import zincD from '@/assets/zincD.jpg';
 
 const Banana = () => {
   const deficiencies = [
@@ -15,7 +25,7 @@ const Banana = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation during vegetative growth and flowering stages.",
       benefit: "Enhances vegetative growth, improves sucker formation, increases bunch size and fruit quality",
       image: "/assets/crops/banana/nitrogen.png",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -25,7 +35,7 @@ const Banana = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application during bunch development phases.",
       benefit: "Improves root development, enhances flowering, increases bunch formation and fruit phosphorus content",
       image: "/assets/crops/banana/phosphorous-New.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -35,7 +45,7 @@ const Banana = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during fruit development and maturity.",
       benefit: "Improves fruit quality, enhances sweetness, increases shelf life and disease resistance",
       image: "/assets/crops/banana/Potassium-new-1.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Magnesium Deficiency",
@@ -45,7 +55,7 @@ const Banana = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if needed.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
       image: "/assets/crops/banana/magnesium-new.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     },
     {
       name: "Iron Deficiency",
@@ -55,7 +65,7 @@ const Banana = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Maintain proper soil pH levels.",
       benefit: "Restores chlorophyll in young leaves, improves photosynthesis and enhances plant health",
       image: "/assets/crops/banana/iron-new.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     },
     {
       name: "Zinc Deficiency",
@@ -65,7 +75,7 @@ const Banana = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation during vegetative and reproductive phases.",
       benefit: "Improves growth hormone production, enhances fruit development and increases bunch weight",
       image: "/assets/crops/banana/zinc-new.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: zincD
     }
   ];
 

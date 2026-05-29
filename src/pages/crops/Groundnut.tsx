@@ -5,6 +5,18 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { DeficiencyCard } from '@/components/DeficiencyCard';
 
+import nitroD from '@/assets/nitroD.jpg';
+import phosD from '@/assets/phosD.jpg';
+import potaD from '@/assets/potaD.jpg';
+import calcD from '@/assets/calcD.jpg';
+import magnD from '@/assets/magnD.jpg';
+import ironD from '@/assets/dummy.png';
+import sulpD from '@/assets/sulpD.jpg';
+import coppD from '@/assets/coppD.jpg';
+import boroD from '@/assets/boroD.jpg';
+import molyD from '@/assets/molyD.jpg';
+import zincD from '@/assets/zincD.jpg';
+
 const Groundnut = () => {
   const deficiencies = [
     {
@@ -15,7 +27,7 @@ const Groundnut = () => {
       soilDrip: "Apply 5-8 kg Fertimax per acre through drip irrigation at flowering and pod development stages.",
       benefit: "Enhances vegetative growth, improves nodulation, increases pod formation and kernel protein content",
       image: "/assets/crops/grape/nitro.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: nitroD
     },
     {
       name: "Phosphorus Deficiency", 
@@ -25,7 +37,7 @@ const Groundnut = () => {
       soilDrip: "Apply 6-10 kg Fertimax per acre through soil application or drip system during pod development.",
       benefit: "Improves root development, enhances flowering, increases pod set and kernel phosphorus content",
       image: "/assets/crops/grape/phos.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: phosD
     },
     {
       name: "Potassium Deficiency",
@@ -35,7 +47,7 @@ const Groundnut = () => {
       soilDrip: "Apply 8-12 kg Fertimax per acre through drip irrigation during pod development and maturity stages.",
       benefit: "Improves water uptake, enhances pod filling, increases oil content and kernel quality",
       image: "/assets/crops/grape/pota.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: potaD
     },
     {
       name: "Calcium Deficiency",
@@ -45,7 +57,7 @@ const Groundnut = () => {
       soilDrip: "Apply 10-15 kg Fertimax per acre through drip system. Essential during pod development stage.",
       benefit: "Ensures proper pod development, reduces empty pods, improves kernel formation and shell quality",
       image: "/assets/crops/grape/calc.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: calcD
     },
     {
       name: "Magnesium Deficiency",
@@ -55,7 +67,7 @@ const Groundnut = () => {
       soilDrip: "Apply 6-8 kg Fertimax per acre through drip irrigation. Repeat after 20 days if symptoms persist.",
       benefit: "Restores chlorophyll formation, improves photosynthesis and enhances overall plant vigor",
       image: "/assets/crops/grape/magn.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: magnD
     },
     {
       name: "Iron Deficiency",
@@ -65,7 +77,7 @@ const Groundnut = () => {
       soilDrip: "Apply 5-7 kg Fertimax per acre through drip system. Avoid alkaline soil conditions.",
       benefit: "Restores chlorophyll in young leaves, improves nitrogen fixation and enhances overall plant health",
       image: "/assets/crops/grape/iron.jpg",
-      productImage: "/assets/fertimax-hd.jpg"
+      productImage: ironD
     }
   ];
 
