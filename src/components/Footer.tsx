@@ -1,8 +1,9 @@
-import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 // import logo from '@/assets/sriven-logo.png';
 import logo from '@/assets/sriven-logo.png';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Download } from 'lucide-react';
+
+const YAMKAR_APK_URL = '/downloads/yamkar.apk';
 
 export const Footer = () => {
   return (
@@ -59,6 +60,19 @@ export const Footer = () => {
                       </p>
                     </div>
                   </div>
+                  <a
+                    href={YAMKAR_APK_URL}
+                    download="Yamkar.apk"
+                    aria-label="Download Yamkar App (Android)"
+                    className="flex items-start space-x-4 mt-4 text-left"
+                  >
+                    <span className="bg-primary/10 p-3 rounded-full">
+                      <Download className="h-3 w-3 text-primary" />
+                    </span>
+                    <span className="text-muted-foreground hover:text-primary transition-colors">
+                      Yamkar
+                    </span>
+                  </a>
           </div>
 
           {/* Products */}
