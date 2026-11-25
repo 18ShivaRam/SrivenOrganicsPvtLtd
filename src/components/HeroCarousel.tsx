@@ -11,31 +11,31 @@ import { Link } from 'react-router-dom';
 const slides = [
   {
     id: 1,
-    title: "Providing World's best to India & India's best to the world.",
+    title: "Bringing Global Agricultural Innovations to India and Taking Indian Agricultural Solutions to the World",
     subtitle: "Sriven Organics Ltd was founded by Mr. Yampati Vijaya Bhaskara Reddy  and Mr. Samba Siva Reddy in 2016.",
     image: hero1,
   },
   {
     id: 2,
-    title: "Manufacturing Specialty Crop Nutrients",
+    title: "Manufacturing Speciality Crop Nutrients",
     subtitle: "Leading the way in agricultural innovation and crop nutrition solutions.",
     image: hero2,
   },
   {
     id: 3,
-    title: "Serving Farmers Everywhere with 1000+ Distributors Across India",
+    title: "Empowering Farmers Through a Network of 1,000+ Distributors Across India",
     subtitle: "Building a strong network to reach every farmer in need.",
     image: hero3,
   },
   {
     id: 4,
-    title: "Building Leaders in Agriculture",
+    title: "Together with Farmers, Towards a Prosperous Future. Or Growing Together with Farmers",
     subtitle: "Empowering farmers with knowledge and cutting-edge solutions.",
     image: hero4,
   },
   {
     id: 5,
-    title: "Award Winning Marketing & Operations Team",
+    title: "Award-Winning Marketing and Operations Team",
     subtitle: "Recognized excellence in agricultural solutions and service.",
     image: hero5,
   },

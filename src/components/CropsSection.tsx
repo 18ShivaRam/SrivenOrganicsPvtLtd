@@ -82,8 +82,7 @@ export const CropsSection = () => {
             Crops We Nourish
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Sriven Organics is your trusted source for diverse crop nourishment products, <br/> 
-              such as chelates, micronutrients, and water-soluble fertilizers.
+          Sriven Organics offers a comprehensive range of speciality crop nutrition solutions including chelates, micronutrients, and water-soluble fertilizers and nutrients
           </p>
         </div>
 

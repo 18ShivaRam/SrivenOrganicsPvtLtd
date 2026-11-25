@@ -12,11 +12,12 @@ export const AboutSection = () => {
               About Sriven Organics Limited
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Leading the Agricultural Revolution Since 1969
+              Leading the Agricultural Revolution Since 2016
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Sriven Organics Ltd. was founded by Mr. Yampati Vijaya Bhaskara Reddy  and Mr. Samba Siva Reddy in 2016. We are in the business of manufacturing of micronutrients and other customized nutritional products for plants and animals. We started our activity by manufacturing a small range of mineral feed additives for animals & birds and then diversified into mineral additives for agriculture use.
+                Founded in 2016 by Mr. Yampati Vijaya Bhaskara Reddy and Mr. Samba Siva Reddy, Sriven Organics Pvt. Ltd. is engaged in the manufacturing of micronutrients and customised nutritional solutions for plants and animals.
+The company began its operations with a focused portfolio of mineral feed additives for animals and birds. Over time, we expanded our expertise into agricultural nutrition, diversifying our product portfolio to include mineral-based plant nutrients and customised crop nutrition solutions. Today, we continue to build on this foundation by delivering innovative and reliable nutritional products that contribute to healthier crops, improved agricultural productivity and sustainable farming.
               </p>
               <p>
                 In 1975, we diversified into nutrients for plants. We conducted research on compounds that could deliver mineral nutrients to plants more efficiently. This research identified "Metal Chelates".

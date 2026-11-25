@@ -108,7 +108,7 @@ const CropSpecific = () => {
               Crop Specific Solutions
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md leading-relaxed">
-              Tailored nutrient blends formulated to address the unique nutritional demands of individual crops.
+              Discover crop-specific nutritional solutions formulated to address the requirements of different crops and their growth stages
             </p>
           </div>
         </section>
